@@ -1,0 +1,23 @@
+.main_social_icons {
+  .social__icons {
+    position: fixed;
+    right: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .social-link {
+      color: white;
+    }
+  }
+
+  .whatsapp_icon {
+    position: fixed;
+    right: 100px;
+    bottom: 100px;
+
+    .social-link {
+      color: white;
+    }
+  }
+}

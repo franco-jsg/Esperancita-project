@@ -1,0 +1,38 @@
+.section_2 {
+    width: 100%;
+    background-color: #343a40;
+    color: white;
+
+
+    &__list {
+        display: flex;
+    }
+
+    &__videos {
+        width: 100%;
+        max-height: 520px;
+        position: relative;
+        display: flex;
+        gap: 10px;
+
+        .main_video {
+            width: 70%;
+            background-color: black;
+        }
+
+        .other_videos {
+            display: flex;
+            flex-direction: column;
+            overflow-y:scroll;
+            gap: 10px;
+            width: 30%;
+
+            .secondary_video {
+                width: 100%;
+                background-color: black;
+            }
+        }
+    }
+
+
+}
