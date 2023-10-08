@@ -1,19 +1,18 @@
 import video from '../../assets/videos/example.mp4';
+import Esperancita from "../../assets/svg/Group 20.svg";
 
 const Section_1 = () => {
   return (
     <section className="section_1">
-      <video autoPlay muted loop width="100%">
+      <video autoPlay muted loop>
         <source src={video} />
       </video>
       <div className="section_1__info container">
         <p className="section_1__text">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores
-          voluptate iusto saepe aperiam. Iure at, quam voluptas repellendus
-          aspernatur esse accusantium deleniti dolor minus. Nihil reiciendis
-          nostrum tempore perferendis nemo.
+          voluptate iusto saepe aperiam. 
         </p>
-        <img src="" alt="" className="section_1__img" />
+        <img src={Esperancita} alt="" className="section_1__img" />
       </div>
     </section>
   );

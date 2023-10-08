@@ -1,11 +1,13 @@
 import { Link } from "react-router-dom";
 
+import Logo from "../assets/svg/header/Group 2.svg"
+
 const Header = () => {
   return (
     <header className="header">
       <nav className="navbar container">
         <div className="navbar__brand">
-          <img src="" alt="" className="navbar__logo" />
+          <img src={Logo} alt="" className="navbar__logo" />
           <p>Fix it in post</p>
         </div>
         <ul className="navbar__list">

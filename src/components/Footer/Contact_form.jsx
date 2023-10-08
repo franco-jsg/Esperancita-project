@@ -20,7 +20,7 @@ const Contact_form = () => {
   return (
     <>
       <div className="contact__content">
-        <h3 className="contact__title">Contact us</h3>
+        <h4 className="contact__title">Contact us</h4>
 
         <form  onSubmit={sendEmail} className="contact__form">
           <div className="contact__form-div">

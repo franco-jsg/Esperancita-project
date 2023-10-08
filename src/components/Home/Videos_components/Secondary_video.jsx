@@ -1,18 +1,23 @@
-const Secondary_video = ({secondary_video}) => {
+
+const Secondary_video = ({secondary_video, LogoSecondary, CubeSecondary}) => {
   return (
     <div className="secondary_video">
       <video autoPlay muted loop width="100%">
         <source src={secondary_video} />
       </video>
-      <p>3D</p>
-      <div>----------</div>
-      <div>
-        <h3>Titulo del Video</h3>
-        <p></p>
-      </div>
-      <div>
-        <img src="" alt="" />
-        <p>2023</p>
+      <div className="secondary-video_text_container">
+        <p className="video-clasification">3D</p>
+        <img src={LogoSecondary} alt="" />
+
+        <h4 className="secondary_video__text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam,
+          maiores.
+        </h4>
+
+        <div className="secondary_video__year">
+          <img src={CubeSecondary} alt="" />
+          <p>2023</p>
+        </div>
       </div>
     </div>
   );

@@ -1,44 +1,28 @@
 .clients {
   width: 100%;
-  height: 200px;
+  height: 325px;
   background-color: black;
   display: flex;
   flex-direction: column;
+  padding-top: 75px;
 
   .slider {
-    height: 100px;
-    margin: auto;
-    position: relative;
+    height: 190px;
     width: 100%;
+    margin-bottom: 58px;
+    // margin: auto;
+    position: relative;
     display: grid;
     place-items: center;
     overflow: hidden;
   }
 
-  //   @mixin animate($animation, $duration, $method, $times) {
-  //     animation: $animation $duration $method $times;
-  //   }
-
-  //   @mixin keyframes($name) {
-  //     @keyframes #{$name} {
-  //       @content;
-  //     }
-  //   }
-
   .slide-track {
+    height: 100%;
     display: flex;
-    width: calc(100px * 18);
-    // @include keyframes() {
-    //   0% {
-    //     transform: translateX(0);
-    //   }
-
-    //   100% {
-    //     transform: translateX(calcl(-100px * 9));
-    //   }
-    // };
-    // @include animate(myscroll, 40s, linear, infinite)
-
+    width: calc(1640px * 18);
+    gap: 127px;
+    align-items: center;
     animation: scroll 40s linear infinite;
   }
 
@@ -58,7 +42,6 @@
 
   .slide {
     height: 100px;
-    width: 100px;
     display: flex;
     align-items: center;
     padding: 15px;

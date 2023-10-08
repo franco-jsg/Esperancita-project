@@ -1,6 +1,10 @@
-import img1 from "../assets/png/budget_781831.png"
-import img2 from "../assets/png/house_609803.png"
-import img3 from "../assets/png/planet-earth_1598431.png"
+import aeroMex from "../assets/svg/clients/aeromexico-logo.svg"
+import honda from "../assets/svg/clients/honda.svg"
+import nissan from "../assets/svg/clients/nissan-logo.svg"
+import oxxo from "../assets/svg/clients/oxxo.svg"
+import ram from "../assets/svg/clients/ram.svg"
+
+import Separator from "./Home/Separator";
 
 const Clients = () => {
   return (
@@ -10,64 +14,66 @@ const Clients = () => {
           <div className="slide-track">
             
             <div className="slide">
-              <img src={img1} alt="" />
+              <img src={aeroMex} alt="" />
             </div>
             <div className="slide">
-              <img src={img2} alt="" />
+              <img src={honda} alt="" />
             </div>
             <div className="slide">
-              <img src={img3} alt="" />
+              <img src={nissan} alt="" />
             </div>
             <div className="slide">
-              <img src={img1} alt="" />
+              <img src={oxxo} alt="" />
             </div>
             <div className="slide">
-              <img src={img2} alt="" />
+              <img src={ram} alt="" />
             </div>
             <div className="slide">
-              <img src={img3} alt="" />
+              <img src={aeroMex} alt="" />
             </div>
             <div className="slide">
-              <img src={img1} alt="" />
+              <img src={honda} alt="" />
             </div>
             <div className="slide">
-              <img src={img2} alt="" />
+              <img src={nissan} alt="" />
             </div>
             <div className="slide">
-              <img src={img3} alt="" />
+              <img src={oxxo} alt="" />
             </div>
+          
+            <div className="slide">
+              <img src={aeroMex} alt="" />
+            </div>
+            <div className="slide">
+              <img src={honda} alt="" />
+            </div>
+            <div className="slide">
+              <img src={nissan} alt="" />
+            </div>
+            <div className="slide">
+              <img src={oxxo} alt="" />
+            </div>
+            <div className="slide">
+              <img src={ram} alt="" />
+            </div>
+            <div className="slide">
+              <img src={aeroMex} alt="" />
+            </div>
+            <div className="slide">
+              <img src={honda} alt="" />
+            </div>
+            <div className="slide">
+              <img src={nissan} alt="" />
+            </div>
+            <div className="slide">
+              <img src={oxxo} alt="" />
+            </div>
+          
 
 
-            <div className="slide">
-              <img src={img1} alt="" />
-            </div>
-            <div className="slide">
-              <img src={img2} alt="" />
-            </div>
-            <div className="slide">
-              <img src={img3} alt="" />
-            </div>
-            <div className="slide">
-              <img src={img1} alt="" />
-            </div>
-            <div className="slide">
-              <img src={img2} alt="" />
-            </div>
-            <div className="slide">
-              <img src={img3} alt="" />
-            </div>
-            <div className="slide">
-              <img src={img1} alt="" />
-            </div>
-            <div className="slide">
-              <img src={img2} alt="" />
-            </div>
-            <div className="slide">
-              <img src={img3} alt="" />
-            </div>
           </div>
         </div>
-        <div>----------------------</div>
+        <Separator />
       </div>
     </section>
   );
