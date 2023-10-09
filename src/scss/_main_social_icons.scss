@@ -1,10 +1,12 @@
 .main_social_icons {
   .social__icons {
     position: fixed;
-    right: 100px;
+    right: 1vw;
+    top: 10vh;
     display: flex;
     flex-direction: column;
     gap: 10px;
+    z-index: 10;
 
     .social-link {
       color: white;
@@ -13,7 +15,7 @@
 
   .whatsapp_icon {
     position: fixed;
-    right: 100px;
+    right: 1vw;
     bottom: 100px;
 
     .social-link {

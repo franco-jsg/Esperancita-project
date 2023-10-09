@@ -4,7 +4,8 @@
   overflow-x: hidden;
 
   video {
-    height: 1080px;
+    width: 100vw;
+    height: auto;
   }
 
   &__info {
@@ -13,7 +14,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 105px 0 90px 0;
+    padding: 5vw;
   }
 
   &__text {
@@ -28,3 +29,21 @@
     align-self: self-end;
   }
 }
+
+@media screen and (max-width: 1300px) {
+  .section_1 {
+    &__text {
+      font-size: var(--h3-font-size);
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .section_1 {
+    &__text {
+      font-size: var(--h3-font-size);
+      line-height: inherit;
+    }
+  }
+}
+

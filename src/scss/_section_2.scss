@@ -21,22 +21,23 @@
   &__videos {
     width: 100%;
     max-height: 988px;
+    grid-gap: 32px;
     position: relative;
     display: flex;
     justify-content: space-between;
 
     .main_video {
-      max-width: 1063px;
       width: 100%;
       background-color: black;
       border-bottom: solid 15px white;
 
       video {
-        height: 598px;
+        height: auto;
       }
 
       &__text {
-        height: 145px;
+        height: fit-content;
+        font-size: var(--medium-font-size);
         font-family: var(--body-font-video);
         font-weight: var(--font-semi-bold);
         overflow-y: hidden;
@@ -81,6 +82,43 @@
           display: flex;
           gap: 10px;
           font-size: var(--tiny-font-size);
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .section_2 {
+    max-height: none;
+    height: 100%;
+    &__videos {
+      display: flex;
+      flex-flow: column;
+      height: 100%;
+      max-height: none;
+    }
+
+    .main_video {
+      margin-bottom: 64px;
+
+      &__text {
+        margin-bottom: 24px;
+      }
+    }
+    .other_videos {
+      display: flex;
+      flex-flow: column;
+      max-width: none;
+      width: 100%;
+      grid-gap: 64px;
+
+      .secondary_video {
+        height: auto;
+        &__text {
+          font-size: var(--medium-font-size);
+          height: auto;
+          margin-bottom: 24px
         }
       }
     }

@@ -7,10 +7,9 @@ const Section_1 = () => {
       <video autoPlay muted loop>
         <source src={video} />
       </video>
-      <div className="section_1__info container">
+      <div className="section_1__info">
         <p className="section_1__text">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores
-          voluptate iusto saepe aperiam. 
+          Somos un estudio de post-producción dedicado a la creación de efectos visuales. Nos especializamos en cleaning, mixed media y Vfx.
         </p>
         <img src={Esperancita} alt="" className="section_1__img" />
       </div>
