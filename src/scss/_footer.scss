@@ -69,3 +69,19 @@
   }
 
 }
+
+@media screen and (max-width: 1000px) {
+  .footer {
+    height: auto;
+    padding-bottom: 64px;
+    .section_footer {
+      display: flex;
+      flex-flow: column wrap;
+
+      .footer__info {
+        flex-flow: column;
+        grid-gap: 64px;
+      }
+    }
+  }
+}

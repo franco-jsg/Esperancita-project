@@ -9,7 +9,14 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-    
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 9vh;
+        z-index: 2000;
+        background: black;
+        box-shadow: 0 0 5px black;
     }
 
     .navbar__brand {
