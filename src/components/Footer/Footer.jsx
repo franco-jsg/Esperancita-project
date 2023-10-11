@@ -1,6 +1,9 @@
 import Contact_form from "./Contact_form";
 import Logo from "../../assets/svg/footer/footer1.svg";
-import Separator from "../../assets/svg/footer/footer2.svg"
+import Separator from "../../assets/svg/footer/footer2.svg";
+import Instagram from "../../assets/svg/socials/instagram.svg";
+import Youtube2 from "../../assets/svg/socials/youtube2.svg";
+import LinkedIn from "../../assets/svg/socials/linkedin.svg";
 
 const Footer = () => {
   return (
@@ -24,13 +27,13 @@ const Footer = () => {
               <p>Follow us:</p>
               <div className="social__icons">
                 <a href="https://instagram.com" className="social-link">
-                  <i class="bx bxl-instagram bx-sm"></i>
+                  <img src={Instagram} alt="" />
                 </a>
                 <a href="https://www.youtube.com" className="social-link">
-                  <i class="bx bxl-youtube bx-sm"></i>
+                  <img src={Youtube2} alt="" />
                 </a>
                 <a href="https://www.linkedin.com" className="social-link">
-                  <i class="bx bxl-linkedin bx-sm"></i>
+                  <img src={LinkedIn} alt="" />
                 </a>
               </div>
             </div>

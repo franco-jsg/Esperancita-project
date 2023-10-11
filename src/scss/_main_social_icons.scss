@@ -2,10 +2,11 @@
   .social__icons {
     position: fixed;
     right: 1vw;
-    top: 10vh;
+    top: 20vh;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    align-items: center;
+    gap: 45px;
     z-index: 10;
 
     .social-link {

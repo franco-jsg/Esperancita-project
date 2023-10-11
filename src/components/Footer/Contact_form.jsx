@@ -1,18 +1,19 @@
 import { useRef } from "react";
+import Arrow from "../../assets/svg/footer/arrow.svg"
 
 // const form = useRef();
 
 const sendEmail = (e) => {
   e.preventDefault();
 
-  console.log("Mail enviado!")
+  console.log("Mail enviado!");
 
-//   emailjs.sendForm(
-//     "service_nyafgyj",
-//     "template_shyy32s",
-//     form.current,
-//     "1io3oV6uKN71Ho0lS"
-//   );
+  //   emailjs.sendForm(
+  //     "service_nyafgyj",
+  //     "template_shyy32s",
+  //     form.current,
+  //     "1io3oV6uKN71Ho0lS"
+  //   );
   e.target.reset();
 };
 
@@ -22,39 +23,31 @@ const Contact_form = () => {
       <div className="contact__content">
         <h4 className="contact__title">Contact us</h4>
 
-        <form  onSubmit={sendEmail} className="contact__form">
+        <form onSubmit={sendEmail} className="contact__form">
           <div className="contact__form-div">
-            {/* <label className="contact__form-tag">Name</label> */}
             <input
               type="text"
               name="name"
-              className="contact__form-input"
               placeholder="name"
             />
           </div>
 
           <div className="contact__form-div">
-            {/* <label className="contact__form-tag">Email</label> */}
             <input
               type="email"
               name="email"
-              className="contact__form-input"
               placeholder="email"
             />
           </div>
 
-          <div className="contact__form-div contact__form-area">
-            {/* <label className="contact__form-tag">Message</label> */}
+          <div className="contact__form-div form-area">
             <textarea
               name="message"
-              className="contact__form-input"
               placeholder="message"
+              rows="1"
             ></textarea>
+            <button className=""><img src={Arrow} alt="" /></button>
           </div>
-
-          <button className="">
-            Send Message
-          </button>
         </form>
       </div>
     </>
