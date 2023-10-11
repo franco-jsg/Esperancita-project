@@ -7,18 +7,18 @@ const Main_social_icons = () => {
   return (
     <div className="main_social_icons">
       <div className="social__icons">
-        <a href="https://instagram.com" className="social-link">
+        <a href="https://instagram.com" target="_blank" className="social-link">
           <img src={Instagram} alt="Instagram link" />
         </a>
-        <a href="https://www.youtube.com" className="social-link">
+        <a href="https://www.youtube.com" target="_blank" className="social-link">
           <img src={YouTube1} alt="YouTube link" />
         </a>
-        <a href="https://www.linkedin.com" className="social-link">
+        <a href="https://www.linkedin.com" target="_blank" className="social-link">
           <img src={LinkedIn} alt="LinkedIn link" />
         </a>
       </div>
       <div className="whatsapp_icon">
-        <a href="https://www.whatsapp.com" className="social-link">
+        <a href="https://www.whatsapp.com" target="_blank" className="social-link">
           <img src={WhatsApp} alt="WhatsApp link" />
         </a>
       </div>

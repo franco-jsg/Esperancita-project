@@ -37,10 +37,12 @@
       textarea {
         border-color: transparent;
         font-size: var(--smaller-font-size);
+        font-weight: var(--font-light);
         width: 100%;
         background: none;
         resize: none;
         padding-bottom: 15px;
+        color: white;
       }
 
       .contact__form-div {

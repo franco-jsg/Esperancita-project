@@ -26,13 +26,13 @@ const Footer = () => {
             <div className="social__links">
               <p>Follow us:</p>
               <div className="social__icons">
-                <a href="https://instagram.com" className="social-link">
+                <a href="https://instagram.com" target="_blank" className="social-link">
                   <img src={Instagram} alt="" />
                 </a>
-                <a href="https://www.youtube.com" className="social-link">
+                <a href="https://www.youtube.com" target="_blank" className="social-link">
                   <img src={Youtube2} alt="" />
                 </a>
-                <a href="https://www.linkedin.com" className="social-link">
+                <a href="https://www.linkedin.com" target="_blank" className="social-link">
                   <img src={LinkedIn} alt="" />
                 </a>
               </div>
