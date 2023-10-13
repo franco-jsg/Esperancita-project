@@ -12,11 +12,14 @@
     display: flex;
     margin-top: 50px;
     padding-bottom: 36px;
+    gap: 20px;
 
     li {
       font-size: var(--normal-font-size);
+      
       button {
         background-color: transparent;
+        color: white;
       }
 
       .active-button {

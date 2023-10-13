@@ -13,9 +13,8 @@ import { useState } from "react";
 import List_button from "../List_button";
 
 const Section_2 = () => {
-  const [listItemState, setListItemState] = useState(true);
-
-
+  const listCategories = ["3D", "Simulacion", "Compo", "All"];
+  const [listItemState, setListItemState] = useState(listCategories[0]);
 
   return (
     <section className="section_2">
@@ -23,23 +22,18 @@ const Section_2 = () => {
         <h1 className="section_2__title">Work</h1>
         <Separator />
         <div>
-          {/* <ul className="section_2__list">
-            <li>3D </li>
-            <li>| Simulación </li>
-            <li>| Compo </li>
-            <li>| All</li>
-          </ul> */}
           <ul className="section_2__list">
-            <li>
-              <List_button
-                listItemState={listItemState}
-                setListItemSt={setListItemState}
-              />
-            </li>
-            <li>| Simulación </li>
-            <li>| Compo </li>
-            <li>| All</li>
+            {listCategories.map((item, index) => (
+              <li key={index}>
+                <List_button
+                  categoryName={item}
+                  listItemState={listItemState}
+                  setListItemState={setListItemState}
+                />
+              </li>
+            ))}
           </ul>
+
           <div className="section_2__videos">
             <Main_video main_video={main_video} Logo={Logo} Cube={Cube} />
             <div className="other_videos " dir="ltr">
