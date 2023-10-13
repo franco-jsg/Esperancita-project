@@ -88,6 +88,8 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-snap-type: y proximity;
+  scroll-padding-top: 72px; // stops the navbar to cover the sections titles
 }
 
 body,
@@ -102,6 +104,10 @@ textarea {
 body {
   // background-color: var(--body-color);
   color: var(--text-color);
+}
+
+section {
+  scroll-snap-align: start;
 }
 
 // h1,
@@ -154,6 +160,10 @@ button {
 
 .home_container {
   position: relative;
+
+  section {
+    scroll-snap-type: y mandatory;
+  }
 }
 
 .video_text_container {
@@ -190,3 +200,9 @@ button {
     align-self: flex-start;
   }
 }
+
+/* SCROLL-SNAP */
+
+// .mandatory-scroll-snapping {
+//   scroll-snap-type: y mandatory;
+// }

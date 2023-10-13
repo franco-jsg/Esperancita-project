@@ -15,6 +15,14 @@
 
     li {
       font-size: var(--normal-font-size);
+      button {
+        background-color: transparent;
+      }
+
+      .active-button {
+        width: 100%;
+        border-bottom: solid 3px white;
+      }
     }
   }
 
@@ -65,7 +73,7 @@
         video {
           height: 300px;
         }
-        
+
         .video-clasification {
           font-size: var(--smaller-font-size);
         }
@@ -75,7 +83,6 @@
           font-family: var(--body-font-video);
           font-weight: var(--font-semi-bold);
           overflow-y: hidden;
-
         }
 
         &__year {
@@ -118,7 +125,7 @@
         &__text {
           font-size: var(--medium-font-size);
           height: auto;
-          margin-bottom: 24px
+          margin-bottom: 24px;
         }
       }
     }
