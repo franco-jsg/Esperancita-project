@@ -1,6 +1,6 @@
 import Work_section_1 from "../components/Work/Work_section_1";
 
-const Work = () => {
+const Work_grid = () => {
   return (
     <section className="work">
       <div className=" container">
@@ -22,4 +22,4 @@ const Work = () => {
   );
 };
 
-export default Work;
+export default Work_grid;

@@ -12,12 +12,16 @@ import { useEffect, useState } from "react";
 import List_button from "../List_button";
 
 import Data from "../../data/info.json";
+import Work_section_1 from "../Work/Work_section_1";
 
 const Section_2 = () => {
   const listCategories = ["3d", "simulacion", "compo", "all"];
   const [listItemState, setListItemState] = useState(listCategories[0]);
 
-  const categoryActive = listItemState === "all" ? Data : Data.filter((item) => item.category === listItemState);
+  const categoryActive =
+    listItemState === "all"
+      ? Data
+      : Data.filter((item) => item.category === listItemState);
 
   useEffect(() => {}, [categoryActive]);
 
@@ -40,27 +44,33 @@ const Section_2 = () => {
           </ul>
 
           <div className="section_2__videos">
-            <Main_video
-              main_category={categoryActive[0].category}
-              main_desc={categoryActive[0].description}
-              main_year={categoryActive[0].year}
-              main_video={main_video}
-              Logo={Logo}
-              Cube={Cube}
-            />
-            <div className="other_videos ">
-              {categoryActive.map((video) => (
-                <Secondary_video
-                  key={video.id}
-                  secondary_category={video.category}
-                  secondary_desc={video.description}
-                  secondary_year={video.year}
-                  secondary_video={secondary_video_1}
-                  CubeSecondary={CubeSecondary}
-                  LogoSecondary={LogoSecondary}
+            {listItemState === "all" ? (
+              <Work_section_1 />
+            ) : (
+              <>
+                <Main_video
+                  main_category={categoryActive[0].category}
+                  main_desc={categoryActive[0].description}
+                  main_year={categoryActive[0].year}
+                  main_video={main_video}
+                  Logo={Logo}
+                  Cube={Cube}
                 />
-              ))}
-            </div>
+                <div className="other_videos ">
+                  {categoryActive.map((video) => (
+                    <Secondary_video
+                      key={video.id}
+                      secondary_category={video.category}
+                      secondary_desc={video.description}
+                      secondary_year={video.year}
+                      secondary_video={secondary_video_1}
+                      CubeSecondary={CubeSecondary}
+                      LogoSecondary={LogoSecondary}
+                    />
+                  ))}
+                </div>
+              </>
+            )}
           </div>
         </div>
       </div>
