@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Runner Fuego",
+        "id": 0,
+        "category": "3d",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, maiores.",
+        "year": "2023",
+        "video": "main_video"
+    },
+    {
+        "name": "Surfer Tierra",
+        "id": 1,
+        "category": "3d",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, maiores.",
+        "year": "2020",
+        "video": "Main_video"
+    },
+    {
+        "name": "Ciclon Hielo",
+        "id": 2,
+        "category": "simulacion",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, maiores.",
+        "year": "2022",
+        "video": "Main_video"
+    },
+    {
+        "name": "Blue Steel",
+        "id": 3,
+        "category": "3d",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, maiores.",
+        "year": "2021",
+        "video": "Main_video"
+    },
+    {
+        "name": "Blades of Destiny",
+        "id": 4,
+        "category": "compo",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, maiores.",
+        "year": "2019",
+        "video": "Main_video"
+    },
+    {
+        "name": "Shield Smash",
+        "id": 5,
+        "category": "simulacion",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, maiores.",
+        "year": "2023",
+        "video": "Main_video"
+    }
+]
