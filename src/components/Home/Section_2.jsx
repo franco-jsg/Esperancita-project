@@ -17,9 +17,7 @@ const Section_2 = () => {
   const listCategories = ["3d", "simulacion", "compo", "all"];
   const [listItemState, setListItemState] = useState(listCategories[0]);
 
-  const categoryActive = Data.filter((item) => item.category === listItemState);
-
-  console.log(categoryActive);
+  const categoryActive = listItemState === "all" ? Data : Data.filter((item) => item.category === listItemState);
 
   useEffect(() => {}, [categoryActive]);
 
@@ -62,21 +60,6 @@ const Section_2 = () => {
                   LogoSecondary={LogoSecondary}
                 />
               ))}
-              {/* <Secondary_video
-                secondary_video={secondary_video_1}
-                CubeSecondary={CubeSecondary}
-                LogoSecondary={LogoSecondary}
-              />
-              <Secondary_video
-                secondary_video={secondary_video_2}
-                CubeSecondary={CubeSecondary}
-                LogoSecondary={LogoSecondary}
-              />
-              <Secondary_video
-                secondary_video={secondary_video_2}
-                CubeSecondary={CubeSecondary}
-                LogoSecondary={LogoSecondary}
-              /> */}
             </div>
           </div>
         </div>
