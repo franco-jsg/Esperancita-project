@@ -4,7 +4,7 @@ import nissan from "../assets/svg/clients/nissan-logo.svg"
 import oxxo from "../assets/svg/clients/oxxo.svg"
 import ram from "../assets/svg/clients/ram.svg"
 
-import Separator from "./Home/Separator";
+import Separator from "./Home/Separator_1";
 
 const Clients = () => {
   return (
@@ -73,7 +73,6 @@ const Clients = () => {
 
           </div>
         </div>
-        <Separator />
       </div>
     </section>
   );

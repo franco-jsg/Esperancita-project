@@ -1,12 +1,13 @@
 .section_1 {
   width: 100%;
   background-color: black;
-  overflow-x: hidden;
+  margin-top: 71.45px;
 
   // scroll snap first test
   scroll-snap-type: x mandatory;
   max-height: 100vh;
-  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
   // scroll snap first test
 
   video {
@@ -49,6 +50,8 @@
   }
 }
 
+//RESPONSIVE
+
 @media screen and (max-width: 1300px) {
   .section_1 {
     &__text {
@@ -60,7 +63,7 @@
 @media screen and (max-width: 900px) {
   .section_1 {
     &__text {
-      font-size: var(--h3-font-size);
+      font-size: var(--medium-font-size);
       line-height: inherit;
     }
 
@@ -69,6 +72,39 @@
       height: auto;
       grid-gap: 64px;
     }
+
+    &__img {
+      scale: 0.8;
+      display: flex;
+      align-self: self-end;
+    }
   }
 }
 
+@media screen and (max-width: 720px) {
+  .section_1 {
+    &__text {
+      font-size: var(--normal-font-size);
+      line-height: inherit;
+    }
+    &__img {
+      scale: 0.65;
+      display: flex;
+      align-self: center;
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .section_1 {
+    &__text {
+      font-size: var(--small-font-size);
+      line-height: inherit;
+    }
+    &__img {
+      scale: 0.5;
+      display: flex;
+      align-self: center;
+    }
+  }
+}

@@ -3,7 +3,7 @@ import Secondary_video from "./Videos_components/Secondary_video";
 
 import main_video from "../../assets/videos/168811 (1080p).mp4";
 import secondary_video_1 from "../../assets/videos/runner_-_10809 (540p).mp4";
-import Separator from "./Separator";
+import Separator_1 from "./Separator_1";
 import Logo from "../../assets/svg/section2/section2-logo.svg";
 import Cube from "../../assets/svg/section2/section2-cube.svg";
 import LogoSecondary from "../../assets/svg/section2/section2-logo-secondary.svg";
@@ -29,7 +29,7 @@ const Section_2 = () => {
     <section className="section_2">
       <div className="container">
         <h1 className="section_2__title">Work</h1>
-        <Separator />
+        <Separator_1 />
         <div>
           <ul className="section_2__list">
             {listCategories.map((item, index) => (

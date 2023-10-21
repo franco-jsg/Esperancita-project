@@ -172,6 +172,8 @@
   }
 }
 
+//RESPONSIVE
+
 @media screen and (max-width: 1300px) {
   .work_s1 {
     grid-template-columns: repeat(2, 1fr);
@@ -274,4 +276,117 @@
       grid-row: 2/3;
     }
   }
+}
+
+
+@media screen and (max-width: 900px) {
+
+}
+
+@media screen and (max-width: 720px) {
+  .work_s1 {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+    .s1-v1 {
+      background-color: aquamarine;
+      grid-column: 1/2;
+      grid-row: 1/2;
+    }
+    .s1-v2 {
+      background-color: blueviolet;
+      grid-column: 1/2;
+      grid-row: 2/3;
+    }
+    .s1-v3 {
+      background-color: chartreuse;
+      grid-column: 1/2;
+      grid-row: 3/4;
+    }
+    .s1-v4 {
+      background-color: crimson;
+      grid-column: 1/2;
+      grid-row: 4/5;
+    }
+  }
+
+  .work_s2 {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5, 1fr);
+    gap: 10px;
+
+    .s2-v1 {
+      background-color: aquamarine;
+      grid-column: 1/2;
+      grid-row: 1/2;
+    }
+    .s2-v2 {
+      background-color: blueviolet;
+      grid-column: 1/2;
+      grid-row: 2/3;
+    }
+    .s2-v3 {
+      background-color: chartreuse;
+      grid-column: 1/2;
+      grid-row: 3/4;
+    }
+    .s2-v4 {
+      background-color: crimson;
+      grid-column: 1/2;
+      grid-row: 4/5;
+    }
+    .s2-v5 {
+      background-color: darkcyan;
+      grid-column: 1/2;
+      grid-row: 5/6;
+    }
+  }
+
+  .work_s3 {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+
+    .s3-v1 {
+      background-color: aquamarine;
+      grid-column: 1/2;
+      grid-row: 1/2;
+    }
+    .s3-v2 {
+      background-color: blueviolet;
+      grid-column: 1/2;
+      grid-row: 2/3;
+    }
+    .s3-v3 {
+      background-color: chartreuse;
+      grid-column: 1/2;
+      grid-row: 3/4;
+    }
+  }
+
+  .work_s4 {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+
+    .s4-v1 {
+      background-color: aquamarine;
+      grid-column: 1/2;
+      grid-row: 1/2;
+    }
+    .s4-v2 {
+      background-color: blueviolet;
+      grid-column: 1/2;
+      grid-row: 2/3;
+    }
+    .s4-v3 {
+      background-color: chartreuse;
+      grid-column: 1/2;
+      grid-row: 3/4;
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+
 }

@@ -9,6 +9,7 @@ const Home = () => {
       <Main_social_icons />
       <Section_1 />
       <Section_2 />
+      
 
     </div>
     </>
