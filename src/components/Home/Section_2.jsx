@@ -1,8 +1,8 @@
 import Main_video from "./Videos_components/Main_video";
 import Secondary_video from "./Videos_components/Secondary_video";
 
-import main_video from "../../assets/videos/168811 (1080p).mp4";
-import secondary_video_1 from "../../assets/videos/runner_-_10809 (540p).mp4";
+import main_video from "../../assets/videos/simulacion/Aeromexico_Beso_Master_40s_120523.mp4";
+import secondary_video_1 from "../../assets/videos/compo/Bancoppel 30s V1_R1_Luciernagas_Aprobada_23052022.mp4";
 import Separator_1 from "./Separator_1";
 import Logo from "../../assets/svg/section2/section2-logo.svg";
 import Cube from "../../assets/svg/section2/section2-cube.svg";

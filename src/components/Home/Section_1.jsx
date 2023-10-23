@@ -1,4 +1,4 @@
-import video from '../../assets/videos/example.mp4';
+import video from '../../assets/videos/reels/ESPERANCITA_REEL_2023_v12.mp4';
 import Esperancita from "../../assets/svg/Group 20.svg";
 
 const Section_1 = () => {
