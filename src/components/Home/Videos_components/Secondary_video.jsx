@@ -1,8 +1,14 @@
+import data from '../../../data/comerciales.js'
 
-const Secondary_video = ({secondary_category,secondary_desc,secondary_year,secondary_video, LogoSecondary, CubeSecondary}) => {
+const Secondary_video = ({video_id, secondary_category,secondary_desc,secondary_year,secondary_video, LogoSecondary, CubeSecondary, setMainVideo}) => {
+
+  function handleClick() {
+    setMainVideo(data[video_id])
+  }
+
   return (
     <div className="secondary_video">
-      <video autoPlay muted loop width="100%">
+      <video autoPlay muted loop width="100%" onClick={handleClick}>
         <source src={secondary_video} />
       </video>
       <div className="secondary-video_text_container">

@@ -4,6 +4,7 @@
 @import "section_2";
 @import "clients";
 @import "work";
+@import "about";
 @import "footer";
 
 /*GOOGLE FONTS*/
@@ -80,6 +81,7 @@ html {
   scroll-behavior: smooth;
   scroll-snap-type: y proximity;
   scroll-padding-top: 72px; // stops the navbar to cover the sections titles
+  overflow-x: hidden;
 }
 
 body,

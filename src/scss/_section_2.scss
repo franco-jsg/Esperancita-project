@@ -82,6 +82,10 @@
           max-height: 300px;
         }
 
+        video:hover {
+          cursor: pointer;
+        }
+
         .video-clasification {
           font-size: var(--smaller-font-size);
         }
@@ -171,7 +175,6 @@
       font-size: var(--h3-font-size);
     }
     &__list {
-  
       button {
         font-size: var(--small-font-size);
       }
@@ -222,7 +225,6 @@
       font-size: var(--h4-font-size);
     }
     &__list {
-  
       button {
         font-size: var(--smaller-font-size);
       }

@@ -1,5 +1,5 @@
 import main_video1 from "../../assets/videos/3d/1.SECRET_TVC_20_LIMPIAVIDRIOS_M.mp4";
-import main_video2 from "../../assets/videos/compo/1195e5f2-2fff-461b-99e4-0bb232920c72.mp4";
+import main_video2 from "../../assets/videos/compo/secret.mp4";
 import main_video3 from "../../assets/videos/compo/Bancoppel 30s V1_R1_Luciernagas_Aprobada_23052022.mp4";
 import main_video4 from "../../assets/videos/compo/DIDI CO RELANZAMIENTO DIDIMÁS LOOP RATCHET 16X9 V02.mp4";
 import main_video5 from "../../assets/videos/reels/ESPERANCITA_REEL_2023_v12.mp4";
