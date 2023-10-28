@@ -5,6 +5,9 @@
   background-color: #171717;
   display: flex;
   gap: 20px;
+  position: absolute;
+  margin-top: 100vh;
+  z-index: 2;
 
   .description__img {
     max-width: 500px;
@@ -12,7 +15,7 @@
   }
 
   .description__info {
-    border-top: solid white 10px ;
+    border-top: solid white 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -26,31 +29,31 @@
   }
 }
 
-.about__separator {
-  width: 100%;
-  padding: 0 0 0 5vw;
-  height: auto;
-  background-color: #171717;
-  display: flex;
+// .about__separator {
+//   width: 100%;
+//   padding: 0 0 0 5vw;
+//   height: auto;
+//   background-color: #171717;
+//   display: flex;
 
-  .separator_title {
-    border-bottom: solid white 12.5px;
-  }
+//   .separator_title {
+//     border-bottom: solid white 12.5px;
+//   }
 
-  .separator_svg {
-    left: -1px;
-    align-self: flex-end;
-    position: relative;
-  }
-  .separator_final-line {
-    width: 100%;
-    height: 25px;
-    left: -2px;
-    border-top: solid white 12.5px;
-    align-self: flex-end;
-    position: relative;
-  }
-}
+//   .separator_svg {
+//     left: -1px;
+//     align-self: flex-end;
+//     position: relative;
+//   }
+//   .separator_final-line {
+//     width: 100%;
+//     height: 25px;
+//     left: -2px;
+//     border-top: solid white 12.5px;
+//     align-self: flex-end;
+//     position: relative;
+//   }
+// }
 
 .about__services {
   width: 100%;
@@ -60,6 +63,9 @@
   display: flex;
   flex-direction: column;
   gap: 30px;
+  position: absolute;
+  margin-top: 207vh;
+  z-index: 2;
 
   .service {
     display: flex;
@@ -89,6 +95,63 @@
   }
 }
 
+.separator-container-about {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  padding: 2vh 0 2vh 5vw;
+  background-color: #171717;
+
+  .separator-box {
+    display: flex;
+  }
+
+  .separator-about-title {
+    font-family: var(--body-font-video);
+  }
+
+  .separator-1 {
+    align-self: flex-end;
+    position: relative;
+  }
+
+  .separator-2 {
+    align-self: flex-end;
+    position: relative;
+    left: -5px;
+  }
+
+  .separator-3 {
+    align-self: flex-start;
+    position: relative;
+    left: -10px;
+    visibility: hidden;
+  }
+}
+
+.separator_services {
+  position: absolute;
+  margin-top: 194vh;
+  z-index: 2;
+
+  //scroll snap first test
+  scroll-snap-type: x mandatory;
+  scroll-snap-align: start;
+  //scroll snap first test
+}
+
+.separator_clientes {
+  position: absolute;
+  margin-top: 285vh;
+  z-index: 2;
+
+  //scroll snap first test
+  scroll-snap-type: x mandatory;
+  scroll-snap-align: start;
+  //scroll snap first test
+}
+
 .about__clients {
   width: 100%;
   padding: 5vw;
@@ -97,6 +160,9 @@
   display: flex;
   flex-direction: column;
   gap: 50px;
+  position: absolute;
+  margin-top: 298vh;
+  z-index: 2;
 
   p {
     font-family: var(--body-font-video);

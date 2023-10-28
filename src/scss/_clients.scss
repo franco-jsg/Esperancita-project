@@ -4,7 +4,12 @@
   background-color: black;
   display: flex;
   flex-direction: column;
-  padding-top: 75px;
+  padding: 75px 5vw 0 5vw;
+
+  //scroll snap first test
+  scroll-snap-type: x mandatory;
+  scroll-snap-align: start;
+  //scroll snap first test
 
   .slider {
     height: 190px;
@@ -59,7 +64,7 @@
 
   .slider::before,
   .slider::after {
-    background: linear-gradient(to right,rgb(0 0 0) 0%,rgb(0 0 0 / 0%) 100%);
+    background: linear-gradient(to right, rgb(0 0 0) 0%, rgb(0 0 0 / 0%) 100%);
     content: "";
     height: 100%;
     position: absolute;
@@ -79,35 +84,46 @@
   }
 }
 
+.clients_home {
+  position: absolute;
+  top: 271vh;
+  z-index: 2;
+}
+
+.clients_about {
+  position: absolute;
+  top: 380vh;
+  z-index: 2;
+}
+
 //RESPONSIVE
 
 @media screen and (max-width: 1300px) {
-
 }
 
 @media screen and (max-width: 900px) {
   .clients {
     height: auto;
     padding-top: 50px;
-  
+
     .slider {
       height: 170px;
     }
-  
+
     .slide-track {
       width: calc(1640px * 18);
       gap: 60px;
     }
-  
+
     .slide {
       height: 100px;
       perspective: 50px;
     }
-  
+
     img {
       scale: 0.8;
     }
-  
+
     img:hover {
       transform: translateZ(10px);
     }
@@ -115,33 +131,31 @@
 }
 
 @media screen and (max-width: 720px) {
-
-
 }
 
 @media screen and (max-width: 375px) {
   .clients {
     height: auto;
     padding-top: 50px;
-  
+
     .slider {
       height: 120px;
     }
-  
+
     .slide-track {
       width: calc(500px * 18);
       gap: 20px;
     }
-  
+
     .slide {
       height: 100px;
       perspective: 50px;
     }
-  
+
     img {
       scale: 0.7;
     }
-  
+
     img:hover {
       transform: translateZ(7px);
     }

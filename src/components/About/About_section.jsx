@@ -1,7 +1,8 @@
 import clientes from "../../data/clientes";
 import exampleImage from "../../assets/img/lei-min-20200316103316.jpg";
 import Sep_service from "../../assets/svg/footer/footer2.svg";
-import Separator_about from "./Separator_about";
+import Separator_about_servicios from "./Separator_about_servicios";
+import Separator_about_clientes from "./Separator_about_clientes";
 
 const AboutSection = () => {
   return (
@@ -29,7 +30,7 @@ const AboutSection = () => {
           </p>
         </div>
       </section>
-      <Separator_about title={"Services"} />
+      <Separator_about_servicios />
       <section className="about__services">
         <div className="service">
           <p>Motion Graphic 2D & 3D</p>
@@ -67,7 +68,7 @@ const AboutSection = () => {
           <div className="service__separator_final-line"></div>
         </div>
       </section>
-      <Separator_about title={"Clients"} />
+      <Separator_about_clientes />
       <section className="about__clients">
         <p>Confían en nosotros las siguientes marcas:</p>
         <div className="clients__grid">

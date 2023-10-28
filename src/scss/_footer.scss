@@ -3,7 +3,8 @@
   height: 637px;
   background-color: black;
   color: white;
-  padding: 105px 0;
+  padding: 105px 5vw;
+
 
   .section_footer {
     display: flex;
@@ -88,6 +89,18 @@
       }
     }
   }
+}
+
+.footer_home {
+  position: absolute;
+  top: 310vh;
+  z-index: 2;
+}
+
+.footer_about {
+  position: absolute;
+  top: 421vh;
+  z-index: 2;
 }
 
 //RESPONSIVE

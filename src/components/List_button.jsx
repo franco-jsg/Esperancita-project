@@ -1,4 +1,13 @@
-const List_button = ({categoryName, listItemState, setListItemState }) => {
+import { useEsperancitaContext } from "../context/Context";
+
+const List_button = ({categoryName}) => {
+
+  const {
+    listItemState,
+    setListItemState
+
+  } = useEsperancitaContext()
+
   function handleClick() {
     setListItemState(categoryName);
   };
