@@ -1,7 +1,7 @@
 .main_social_icons {
   .social__icons {
     position: fixed;
-    right: 1vw;
+    right: 2vw;
     top: 20vh;
     display: flex;
     flex-direction: column;
@@ -11,7 +11,10 @@
 
     .social-link {
       color: white;
-
+      width: 32px;
+      img {
+        width: 32px;
+      }
     }
   }
 

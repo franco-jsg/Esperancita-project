@@ -17,12 +17,12 @@ const Home = () => {
 
   return (
     <>
+      <Section_1
+        // mainVideo={mainVideo.video}
+        // mainDescription={mainVideo.description}
+      />
+      <Main_social_icons />
       <div className="home_container">
-        <Main_social_icons />
-        <Section_1
-          // mainVideo={mainVideo.video}
-          // mainDescription={mainVideo.description}
-        />
         <Section_2 
         // mainVideo={mainVideo} setMainVideo={setMainVideo} 
         />

@@ -11,12 +11,14 @@ const Main_video = ({ Logo, Cube }) => {
   // },[main_video])
   return (
     <div className="main_video">
-      <video autoPlay muted loop width="100%">
-        <source src={categoryActive[0].video} />
-      </video>
+      <div className="video-container">
+        <video autoPlay muted loop width="100%">
+          <source src={categoryActive[0].video} />
+        </video>
+      </div>
       <div className="video_text_container">
         <p className="video-clasification">{categoryActive[0].category}</p>
-        <img src={Logo} alt="" />
+        <img className="video-logo" src={Logo} alt="" />
 
         <h3 className="main_video__text">
           {categoryActive[0].description}

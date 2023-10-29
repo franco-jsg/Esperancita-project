@@ -67,7 +67,7 @@
     background: linear-gradient(to right, rgb(0 0 0) 0%, rgb(0 0 0 / 0%) 100%);
     content: "";
     height: 100%;
-    position: absolute;
+    // position: absolute;
     width: 10%;
     z-index: 2;
   }
@@ -85,14 +85,14 @@
 }
 
 .clients_home {
-  position: absolute;
-  top: 271vh;
+  // position: absolute;
+  // top: 271vh;
   z-index: 2;
 }
 
 .clients_about {
-  position: absolute;
-  top: 380vh;
+  // position: absolute;
+  // top: 380vh;
   z-index: 2;
 }
 

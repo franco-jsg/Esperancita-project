@@ -4,7 +4,7 @@ import Esperancita from "../../assets/svg/Group 20.svg";
 import { useEffect } from "react";
 
 const Section_1 = () => {
-  const { mainComercial} = useEsperancitaContext();
+  const { mainComercial } = useEsperancitaContext();
 
   return (
     <>

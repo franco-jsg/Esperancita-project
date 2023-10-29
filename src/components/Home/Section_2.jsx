@@ -23,47 +23,50 @@ const Section_2 = () => {
 
   return (
     <>
-      <h1 className="section_2__title">Work</h1>
-      <Separator_1 />
-      <ul className="section_2__list" >
-        {listCategories.map((item, index) => (
-          <li key={index}>
-            <List_button
-              categoryName={item}
-            />
-          </li>
-        ))}
-      </ul>
+      <div className="section_2">
+        <h1 className="section_2__title">Work</h1>
+        <Separator_1 />
+        <ul className="section_2__list" >
+          {listCategories.map((item, index) => (
+            <li key={index}>
+              |
+              <List_button
+                categoryName={item}
+              />
+            </li>
+          ))}
+        </ul>
 
-      <div className="section_2__videos">
-        {listItemState === "All" ? (
-          <Work_section_1 />
-        ) : (
-          <>
-            <Main_video
-              // main_category={categoryActive[0].category}
-              // main_desc={categoryActive[0].description}
-              // main_year={categoryActive[0].year}
-              // main_video={categoryActive[0].video}
-              Logo={Logo}
-              Cube={Cube}
-            />
-            <div className="other_videos ">
-              {categoryActive.map((video) => (
-                <Secondary_video
-                  key={video.id}
-                  video_id={video.id}
-                  secondary_category={video.category}
-                  secondary_desc={video.description}
-                  secondary_year={video.year}
-                  secondary_video={video.video}
-                  CubeSecondary={CubeSecondary}
-                  LogoSecondary={LogoSecondary}
-                />
-              ))}
-            </div>
-          </>
-        )}
+        <div className="section_2__videos">
+          {listItemState === "All" ? (
+            <Work_section_1 />
+          ) : (
+            <>
+              <Main_video
+                // main_category={categoryActive[0].category}
+                // main_desc={categoryActive[0].description}
+                // main_year={categoryActive[0].year}
+                // main_video={categoryActive[0].video}
+                Logo={Logo}
+                Cube={Cube}
+              />
+              <div className="other_videos ">
+                {categoryActive.map((video) => (
+                  <Secondary_video
+                    key={video.id}
+                    video_id={video.id}
+                    secondary_category={video.category}
+                    secondary_desc={video.description}
+                    secondary_year={video.year}
+                    secondary_video={video.video}
+                    CubeSecondary={CubeSecondary}
+                    LogoSecondary={LogoSecondary}
+                  />
+                ))}
+              </div>
+            </>
+          )}
+        </div>
       </div>
     </>
   );

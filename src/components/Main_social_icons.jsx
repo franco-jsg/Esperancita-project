@@ -16,8 +16,6 @@ const Main_social_icons = () => {
         <a href="https://www.linkedin.com" target="_blank" className="social-link">
           <img src={LinkedIn} alt="LinkedIn link" />
         </a>
-      </div>
-      <div className="whatsapp_icon">
         <a href="https://www.whatsapp.com" target="_blank" className="social-link">
           <img src={WhatsApp} alt="WhatsApp link" />
         </a>

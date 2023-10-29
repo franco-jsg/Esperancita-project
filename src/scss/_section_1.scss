@@ -1,10 +1,16 @@
+.content {
+  z-index: 200;
+  position: absolute;
+  background: transparent;
+}
 .section_1__video {
   background-color: black;
   margin-top: 71.45px;
-  width: 100vw;
-  height: auto;
+  width: auto;
+  height: 100vh;
   position: fixed;
   top: 0;
+  z-index: -1;
 
   // scroll snap first test
   scroll-snap-type: x mandatory;
@@ -23,7 +29,7 @@
   flex-direction: column;
   justify-content: space-between;
   padding: 5vw;
-  position: absolute;
+  // position: absolute;
   margin-top: 100vh;
   z-index: 2;
   gap: 10px;
@@ -31,7 +37,7 @@
   //scroll snap first test
   scroll-snap-type: x mandatory;
   // height: 100vh;
-  min-height: 70vh;
+  // min-height: 70vh;
   overflow-y: scroll;
   overflow-x: hidden;
   scroll-snap-align: start;
@@ -74,10 +80,7 @@
 
 @media screen and (max-width: 900px) {
   .section_1__info {
-    margin-top: 70vh;
-    height: auto;
-    grid-gap: 30px;
-
+    gap: 64px
   }
   .section_1__text {
     font-size: var(--medium-font-size);
@@ -93,7 +96,9 @@
 
 @media screen and (max-width: 720px) {
   .section_1__info {
-    margin-top: 60vh;
+    margin-top: 100vh;
+    gap: 64px
+
   }
   .section_1__text {
     height: auto;
@@ -108,7 +113,7 @@
 
 @media screen and (max-width: 375px) {
   .section_1__info {
-    margin-top: 40vh;
+    margin-top: 100vh;
     grid-gap: 15px;
   }
   .section_1__text {
