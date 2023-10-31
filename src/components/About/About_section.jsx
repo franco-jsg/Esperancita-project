@@ -1,5 +1,5 @@
 import clientes from "../../data/clientes";
-import exampleImage from "../../assets/img/lei-min-20200316103316.jpg";
+import Picture from "../../assets/img/photo1698707185.jpeg";
 import Sep_service from "../../assets/svg/footer/footer2.svg";
 import Separator_about_servicios from "./Separator_about_servicios";
 import Separator_about_clientes from "./Separator_about_clientes";
@@ -8,25 +8,30 @@ const AboutSection = () => {
   return (
     <>
       <section className="about__description">
-        <img className="description__img" src={exampleImage} alt="" />
+        <img className="description__img" src={Picture} alt="" />
         <div className="description__info">
           <p className="info__text">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit animi
-            minus quidem officia sequi modi odio quis facilis, molestias veniam
-            temporibus, delectus, obcaecati unde cupiditate nihil amet
-            accusamus.
+            Hola, permítenos compartir un poco más sobre quiénes somos =).
           </p>
           <p className="info__text">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit animi
-            minus quidem officia sequi modi odio quis facilis, molestias veniam
-            temporibus, delectus, obcaecati unde cupiditate nihil amet
-            accusamus.
+            En el año 2020, después de adquirir una amplia experiencia como
+            compositor y supervisor de efectos visuales, Rodrigo Vivas fundó
+            Esperancita con el objetivo de crear un estudio que reflejara sus
+            sueños y valores: un ambiente laboral agradable, una actitud
+            positiva, una atmósfera cálida y un compromiso inquebrantable.
           </p>
           <p className="info__text">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit animi
-            minus quidem officia sequi modi odio quis facilis, molestias veniam
-            temporibus, delectus, obcaecati unde cupiditate nihil amet
-            accusamus.
+            En Esperancita, no solo nos esforzamos por producir efectos de alta
+            calidad, sino que también creemos firmemente en mantener un alto
+            estándar de calidad humana.
+          </p>
+          <p className="info__text">
+            Ofrecemos una amplia gama de servicios creativos e innovadores,
+            siempre teniendo en cuenta la visión de nuestros clientes. Nuestra
+            misión es llevar cada proyecto a un nivel de excelencia.
+          </p>
+          <p className="info__text">
+          Nuestros servicios principales incluyen: mixed media, 3D, 2D y simulación.
           </p>
         </div>
       </section>

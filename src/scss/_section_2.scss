@@ -84,9 +84,9 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
+    // display: flex;
+    // align-items: flex-start;
+    // justify-content: flex-start;
     padding-bottom: 16px;
 
     video {
@@ -95,10 +95,10 @@
     }
 
     .video_text_container {
-      align-self: flex-end;
-      position: relative;
       display: flex;
       flex-flow: column;
+      // align-self: flex-end;
+      position: relative;
     }
 
     .video-logo {
@@ -106,7 +106,7 @@
     }
 
     .main_video__text {
-      // height: fit-content;
+      height: 100px;
       font-size: var(--medium-font-size);
       font-family: var(--body-font-video);
       font-weight: var(--font-semi-bold);
@@ -115,21 +115,22 @@
       position: relative;
       margin-top: 16px;
     }
-    .main_video__text::after {
-      content: "";
-      // position: absolute;
-      left: 0;
-      bottom: 0;
-      width: 100%;
-      height: 50%;
-      background: linear-gradient(
-        to bottom,
-        rgba(0, 0, 0, 0) 0%,
-        rgba(0, 0, 0, 1) 100%
-      );
-    }
+    // .main_video__text::after {
+    //   content: "";
+    //   position: absolute;
+    //   left: 0;
+    //   bottom: 0;
+    //   width: 100%;
+    //   height: 50%;
+    //   background: linear-gradient(
+    //     to bottom,
+    //     rgba(0, 0, 0, 0) 0%,
+    //     rgba(0, 0, 0, 1) 100%
+    //   );
+    // }
     .main_video__text::-webkit-scrollbar {
       display: none;
+      pointer-events: none;
     }
 
     .main_video__year {
@@ -167,6 +168,13 @@
         display: flex;
         flex-direction: column;
         gap: 5px;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        
+      }
+
+      .secondary-video_text_container::-webkit-scrollbar {
+        display: none;
       }
 
       .secondary_video__logo {
@@ -195,6 +203,11 @@
         overflow: scroll;
       }
 
+      
+      &__text::-webkit-scrollbar {
+        display: none;
+      }
+
       &__year {
         display: flex;
         gap: 16px;
@@ -214,11 +227,11 @@
 }
 
 @media screen and (max-width: 1300px) {
-  .section_2__title {
-  }
+  // .section_2__title {
+  // }
 
-  .section_2__list {
-  }
+  // .section_2__list {
+  // }
 
 
   .section_2__videos {
@@ -263,115 +276,115 @@
   }
 }
 
-// @media screen and (max-width: 900px) {
-//   .section_2 {
-//     h1 {
-//       font-size: var(--h2-font-size);
-//     }
-//     .section_2__title {
-//       margin-bottom: 20px;
-//     }
-//   }
-// }
+@media screen and (max-width: 900px) {
+  .section_2 {
+    h1 {
+      font-size: var(--h2-font-size);
+    }
+    .section_2__title {
+      margin-bottom: 20px;
+    }
+  }
+}
 
-// @media screen and (max-width: 720px) {
-//   .section_2 {
-//     h1 {
-//       font-size: var(--h3-font-size);
-//     }
-//     &__list {
-//       button {
-//         font-size: var(--small-font-size);
-//       }
-//     }
-//     .main_video {
-//       .video-clasification {
-//         font-size: var(--small-font-size);
-//       }
+@media screen and (max-width: 720px) {
+  .section_2 {
+    h1 {
+      font-size: var(--h3-font-size);
+    }
+    &__list {
+      button {
+        font-size: var(--small-font-size);
+      }
+    }
+    .main_video {
+      .video-clasification {
+        font-size: var(--small-font-size);
+      }
 
-//       &__text {
-//         font-size: var(--normal-font-size);
-//       }
-//       &__year {
-//         font-size: var(--small-font-size);
+      &__text {
+        font-size: var(--normal-font-size);
+      }
+      &__year {
+        font-size: var(--small-font-size);
 
-//         img {
-//           scale: 0.8;
-//         }
-//       }
-//     }
+        img {
+          scale: 0.8;
+        }
+      }
+    }
 
-//     .other_videos {
-//       grid-gap: 50px;
+    .other_videos {
+      grid-gap: 50px;
 
-//       .secondary_video {
-//         .video-clasification {
-//           font-size: var(--small-font-size);
-//         }
+      .secondary_video {
+        .video-clasification {
+          font-size: var(--small-font-size);
+        }
 
-//         &__text {
-//           font-size: var(--normal-font-size);
-//         }
-//         &__year {
-//           font-size: var(--small-font-size);
+        &__text {
+          font-size: var(--normal-font-size);
+        }
+        &__year {
+          font-size: var(--small-font-size);
 
-//           img {
-//             scale: 1.7;
-//           }
-//         }
-//       }
-//     }
-//   }
-// }
+          img {
+            scale: 1.7;
+          }
+        }
+      }
+    }
+  }
+}
 
-// @media screen and (max-width: 375px) {
-//   .section_2 {
-//     h1 {
-//       font-size: var(--h4-font-size);
-//     }
-//     &__list {
-//       button {
-//         font-size: var(--smaller-font-size);
-//       }
-//     }
-//     .main_video {
-//       grid-gap: 15px;
-//       margin-bottom: 0px;
-//       .video-clasification {
-//         font-size: var(--smaller-font-size);
-//       }
+@media screen and (max-width: 375px) {
+  .section_2 {
+    h1 {
+      font-size: var(--h4-font-size);
+    }
+    &__list {
+      button {
+        font-size: var(--smaller-font-size);
+      }
+    }
+    .main_video {
+      grid-gap: 15px;
+      margin-bottom: 0px;
+      .video-clasification {
+        font-size: var(--smaller-font-size);
+      }
 
-//       &__text {
-//         font-size: var(--small-font-size);
-//       }
-//       &__year {
-//         font-size: var(--smaller-font-size);
+      &__text {
+        font-size: var(--small-font-size);
+      }
+      &__year {
+        font-size: var(--smaller-font-size);
 
-//         img {
-//           scale: 0.8;
-//         }
-//       }
-//     }
+        img {
+          scale: 0.8;
+        }
+      }
+    }
 
-//     .other_videos {
-//       grid-gap: 25px;
+    .other_videos {
+      grid-gap: 25px;
 
-//       .secondary_video {
-//         .video-clasification {
-//           font-size: var(--smaller-font-size);
-//         }
+      .secondary_video {
+        .video-clasification {
+          font-size: var(--smaller-font-size);
+        }
 
-//         &__text {
-//           font-size: var(--small-font-size);
-//         }
-//         &__year {
-//           font-size: var(--smaller-font-size);
+        &__text {
+          font-size: var(--small-font-size);
+        }
+        &__year {
+          font-size: var(--smaller-font-size);
 
-//           img {
-//             scale: 1.7;
-//           }
-//         }
-//       }
-//     }
-//   }
-// }
+          img {
+            scale: 1.7;
+          }
+        }
+      }
+    }
+  }
+}

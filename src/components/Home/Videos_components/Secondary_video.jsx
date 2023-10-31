@@ -1,24 +1,28 @@
-import { useEffect } from 'react';
-import { useEsperancitaContext } from '../../../context/Context.jsx';
-import comerciales from '../../../data/comerciales.js'
+import { useEffect } from "react";
+import { useEsperancitaContext } from "../../../context/Context.jsx";
+import comerciales from "../../../data/comerciales.js";
 
-const Secondary_video = ({video_id, secondary_category,secondary_desc,secondary_year,secondary_video, LogoSecondary, CubeSecondary}) => {
+const Secondary_video = ({
+  video_id,
+  secondary_category,
+  secondary_desc,
+  secondary_year,
+  secondary_video,
+  LogoSecondary,
+  CubeSecondary,
+}) => {
+  const { mainComercial, setMainComercial, listItemState } =
+    useEsperancitaContext();
 
-  const {
-    mainComercial,
-    setMainComercial,
-    listItemState
-  } = useEsperancitaContext()
-
-
-  
   function handleClick() {
-    setMainComercial(comerciales[video_id])
+    setMainComercial(comerciales[video_id]);
+
+    window.scrollTo(0, 0);
   }
-  const categoryFiltered = secondary_category.find((i) => i === listItemState)
+  const categoryFiltered = secondary_category.find((i) => i === listItemState);
 
   // useEffect(() => {
-    
+
   // },[mainComercial])
 
   return (
@@ -28,14 +32,12 @@ const Secondary_video = ({video_id, secondary_category,secondary_desc,secondary_
       </video>
       <div className="secondary-video_text_container">
         <p className="video-clasification">{categoryFiltered}</p>
-        <img src={LogoSecondary} className='secondary_video__logo' alt="" />
+        <img src={LogoSecondary} className="secondary_video__logo" alt="" />
 
-        <h4 className="secondary_video__text">
-          {secondary_desc}
-        </h4>
+        <h4 className="secondary_video__text">{secondary_desc}</h4>
 
         <div className="secondary_video__year">
-          <img src={CubeSecondary} className='secondary_video__cube' alt="" />
+          <img src={CubeSecondary} className="secondary_video__cube" alt="" />
           <p>{secondary_year}</p>
         </div>
       </div>
@@ -43,4 +45,4 @@ const Secondary_video = ({video_id, secondary_category,secondary_desc,secondary_
   );
 };
 
-export default Secondary_video
+export default Secondary_video;

@@ -6,9 +6,6 @@ const Main_video = ({ Logo, Cube }) => {
     categoryActive,
   } = useEsperancitaContext()
 
-  // useEffect(() => {
-  //   console.log(main_video)
-  // },[main_video])
   return (
     <div className="main_video">
       <div className="video-container">

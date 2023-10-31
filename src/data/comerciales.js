@@ -5,7 +5,7 @@ const data = [
     id: 0,
     category: ["3D"],
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, maiores.",
+      "",
     year: "2023",
     date: "15/05/2023",
     video: 'src/assets/videos/simulacion/Aeromexico_Beso_Master_40s_120523.mp4'
@@ -43,8 +43,8 @@ const data = [
   {
     name: "CHIREY",
     id: 4,
-    category: ["Simulación"],
-    description: "Matte Painting e integracion con live action",
+    category: ["Simulación", "3D"],
+    description: "Simulación / 3D / Matte Painting e integracion con live action",
     year: "2023",
     date: "21/09/2023",
     video: 'src/assets/videos/reels/ESPERANCITA_REEL_2023_v12.mp4',
@@ -54,7 +54,7 @@ const data = [
     id: 5,
     category: ["3D"],
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, maiores.",
+      "Background 3D",
     year: "2023",
     date: "17/02/2023",
     video: 'src/assets/videos/reels/ESPERANCITA_REEL_2023_v12.mp4',
@@ -62,8 +62,8 @@ const data = [
   {
     name: "MG",
     id: 6,
-    category: ["Simulación"],
-    description: "Motion graphics / Integracion con live action",
+    category: ["Simulación", "3D"],
+    description: "Simulacion / 3D / Motion graphics / Integracion con live action",
     year: "2023",
     date: "21/09/2023",
     video: 'src/assets/videos/reels/ESPERANCITA_REEL_2023_v12.mp4',
@@ -71,7 +71,7 @@ const data = [
   {
     name: "Total play",
     id: 7,
-    category: ["Simulación"],
+    category: ["Simulación", "3D"],
     description:
       "Simulacion de particulas / 3D / Motion graphics / e integracion con live action",
     year: "2023",
@@ -100,7 +100,7 @@ const data = [
     name: "BANCO AZTECA",
     id: 10,
     category: ["Compo"],
-    description: "Cleanings / transiciones / motion graphics",
+    description: "",
     year: "2022",
     date: "09/06/2022",
     video: 'src/assets/videos/reels/ESPERANCITA_REEL_2023_v12.mp4',
@@ -146,7 +146,7 @@ const data = [
     id: 15,
     category: ["Compo"],
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, maiores.",
+      " ",
     year: "2022",
     date: "24/04/2022",
     video: "src/assets/videos/simulacion/BELIGHT_020322_MASTER_20_COCO_CUADRADO.mp4",
@@ -164,7 +164,7 @@ const data = [
   {
     name: "Runners Fuego",
     id: 17,
-    category: ["3D"],
+    category: ["3D", "Compo"],
     description: "3D / motion graphics",
     year: "2022",
     date: "18/03/2022",
@@ -185,7 +185,7 @@ const data = [
     id: 19,
     category: ["Compo"],
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, maiores.",
+      " ",
     year: "2023",
     date: "13/09/2023",
     video: 'src/assets/videos/reels/ESPERANCITA_REEL_2023_v12.mp4',
@@ -195,7 +195,7 @@ const data = [
     id: 20,
     category: ["Compo"],
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, maiores.",
+      " ",
     year: "2023",
     date: "24/04/2022",
     video: "src/assets/videos/simulacion/BELIGHT_020322_MASTER_20_TORONJA_CUADRADO.mp4",
@@ -203,9 +203,9 @@ const data = [
   {
     name: "Water",
     id: 21,
-    category: ["Simulación"],
+    category: ["Simulación", "3D"],
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, maiores.",
+      "Simulacion de fluidos / 3D ",
     year: "XXXX",
     date: "XXXX",
     video: "src/assets/videos/simulacion/water-spring.mp4",
@@ -215,7 +215,7 @@ const data = [
     id: 22,
     category: ["3D","Compo"],
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, maiores.",
+      " ",
     year: "XXXX",
     date: "XXXX",
     video: "src/assets/videos/reels/REEL_PANTALLAS_v03.mp4",

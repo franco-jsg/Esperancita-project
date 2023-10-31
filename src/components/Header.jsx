@@ -7,7 +7,7 @@ const Header = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
     <header className="header">
-      <nav className="navbar container">
+      <nav className="navbar">
         <div className="navbar__brand">
           <Link to="/">
             <img src={Logo} alt="" className="navbar__logo" />

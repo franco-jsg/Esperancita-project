@@ -1,3 +1,5 @@
+import { useEffect,useRef} from "react";
+import { useEsperancitaContext } from "../../context/Context"
 import Contact_form from "./Contact_form";
 import Logo from "../../assets/svg/footer/footer1.svg";
 import Separator from "../../assets/svg/footer/footer2.svg";
@@ -6,8 +8,21 @@ import Youtube2 from "../../assets/svg/socials/youtube2.svg";
 import LinkedIn from "../../assets/svg/socials/linkedin.svg";
 
 const Footer_about = () => {
+  const { footerIsIntersecting, setFooterIsIntersecting} = useEsperancitaContext()
+
+  const ref = useRef(null);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(([entry]) => {
+      setFooterIsIntersecting(entry.isIntersecting), { rootMargin: "-150px 0px 0px 0px" };
+    });
+    console.log(footerIsIntersecting);
+    observer.observe(ref.current);
+    return () => observer.disconnect();
+  }, [footerIsIntersecting]);
+
   return (
-    <footer className="footer footer_about">
+    <footer className="footer footer_about" ref={ref}>
       <div className="section_footer">
         <img className="footer_logo" src={Logo} alt="logo" />
         <section className="footer__info">

@@ -8,6 +8,7 @@
     align-items: center;
     gap: 45px;
     z-index: 10;
+    animation: toggleIconsIn 1000ms;
 
     .social-link {
       color: white;
@@ -29,5 +30,21 @@
         width: 40px;
       }
     }
+  }
+}
+
+.main_social_icons__toggle {
+  display: none;
+
+}
+
+@keyframes toggleIconsIn{
+  from {
+    transform: translateX(10px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
   }
 }

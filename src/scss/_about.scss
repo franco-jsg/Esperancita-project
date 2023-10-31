@@ -11,6 +11,7 @@
 
   .description__img {
     max-width: 500px;
+    height: auto;
     border-bottom: solid white 10px;
   }
 
@@ -24,7 +25,7 @@
   .info__text {
     line-height: 50px;
     font-family: var(--body-font-video);
-    font-size: var(--medium-font-size);
+    font-size: var(--normal-font-size);
     font-weight: var(--font-light);
   }
 }
@@ -57,14 +58,14 @@
 
 .about__services {
   width: 100%;
-  padding: 5vh 0 5vh 5vw;
+  padding: 5vh 0 16vh 5vw;
   height: auto;
   background-color: #171717;
   display: flex;
   flex-direction: column;
   gap: 30px;
-  position: absolute;
-  margin-top: 207vh;
+  // position: absolute;
+  // margin-top: 207vh;
   z-index: 2;
 
   .service {
@@ -132,7 +133,7 @@
 
 .separator_services {
   position: absolute;
-  margin-top: 194vh;
+  // margin-top: 194vh;
   z-index: 2;
 
   //scroll snap first test
@@ -143,7 +144,7 @@
 
 .separator_clientes {
   position: absolute;
-  margin-top: 285vh;
+  // margin-top: 285vh;
   z-index: 2;
 
   //scroll snap first test
@@ -154,14 +155,14 @@
 
 .about__clients {
   width: 100%;
-  padding: 5vw;
+  padding: 16vh 5vw;
   height: auto;
   background-color: #171717;
   display: flex;
   flex-direction: column;
   gap: 50px;
-  position: absolute;
-  margin-top: 298vh;
+  // position: absolute;
+  // margin-top: 298vh;
   z-index: 2;
 
   p {
