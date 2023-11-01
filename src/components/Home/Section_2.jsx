@@ -18,7 +18,6 @@ const Section_2 = () => {
   } = useEsperancitaContext()
 
   useEffect(() => {
-    console.log(categoryActive);
   }, [categoryActive]);
 
   return (
@@ -37,16 +36,14 @@ const Section_2 = () => {
           ))}
         </ul>
 
-        <div className="section_2__videos">
+
           {listItemState === "All" ? (
-            <Work_section_1 />
+            <div className="section_2__all_videos">
+              <Work_section_1 />
+            </div>
           ) : (
-            <>
+            <div className="section_2__videos">
               <Main_video
-                // main_category={categoryActive[0].category}
-                // main_desc={categoryActive[0].description}
-                // main_year={categoryActive[0].year}
-                // main_video={categoryActive[0].video}
                 Logo={Logo}
                 Cube={Cube}
               />
@@ -64,9 +61,9 @@ const Section_2 = () => {
                   />
                 ))}
               </div>
-            </>
+            </div>
           )}
-        </div>
+
       </div>
     </>
   );

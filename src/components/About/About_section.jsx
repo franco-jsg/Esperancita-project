@@ -11,9 +11,6 @@ const AboutSection = () => {
         <img className="description__img" src={Picture} alt="" />
         <div className="description__info">
           <p className="info__text">
-            Hola, permítenos compartir un poco más sobre quiénes somos =).
-          </p>
-          <p className="info__text">
             En el año 2020, después de adquirir una amplia experiencia como
             compositor y supervisor de efectos visuales, Rodrigo Vivas fundó
             Esperancita con el objetivo de crear un estudio que reflejara sus
@@ -77,30 +74,28 @@ const AboutSection = () => {
       <section className="about__clients">
         <p>Confían en nosotros las siguientes marcas:</p>
         <div className="clients__grid">
-          <div className="clients__row">
-            <img src={clientes[0].logo} alt="" />
-            <img src={clientes[1].logo} alt="" />
-            <img src={clientes[2].logo} alt="" />
-            <img src={clientes[3].logo} alt="" />
-            <img src={clientes[4].logo} alt="" />
-            <img src={clientes[0].logo} alt="" />
-          </div>
-          <div className="clients__row">
-            <img src={clientes[0].logo} alt="" />
-            <img src={clientes[1].logo} alt="" />
-            <img src={clientes[2].logo} alt="" />
-            <img src={clientes[3].logo} alt="" />
-            <img src={clientes[4].logo} alt="" />
-            <img src={clientes[0].logo} alt="" />
-          </div>
-          <div className="clients__row">
-            <img src={clientes[0].logo} alt="" />
-            <img src={clientes[1].logo} alt="" />
-            <img src={clientes[2].logo} alt="" />
-            <img src={clientes[3].logo} alt="" />
-            <img src={clientes[4].logo} alt="" />
-            <img src={clientes[0].logo} alt="" />
-          </div>
+
+            <img src={clientes[0].logo} className="clients-grid-item" alt="" />
+            <img src={clientes[1].logo} className="clients-grid-item" alt="" />
+            <img src={clientes[2].logo} className="clients-grid-item" alt="" />
+            <img src={clientes[3].logo} className="clients-grid-item" alt="" />
+            <img src={clientes[4].logo} className="clients-grid-item" alt="" />
+            <img src={clientes[0].logo} className="clients-grid-item" alt="" />
+
+            <img src={clientes[0].logo} className="clients-grid-item" alt="" />
+            <img src={clientes[1].logo} className="clients-grid-item" alt="" />
+            <img src={clientes[2].logo} className="clients-grid-item" alt="" />
+            <img src={clientes[3].logo} className="clients-grid-item" alt="" />
+            <img src={clientes[4].logo} className="clients-grid-item" alt="" />
+            <img src={clientes[0].logo} className="clients-grid-item" alt="" />
+
+            <img src={clientes[0].logo} className="clients-grid-item" alt="" />
+            <img src={clientes[1].logo} className="clients-grid-item" alt="" />
+            <img src={clientes[2].logo} className="clients-grid-item" alt="" />
+            <img src={clientes[3].logo} className="clients-grid-item" alt="" />
+            <img src={clientes[4].logo} className="clients-grid-item" alt="" />
+            <img src={clientes[0].logo} className="clients-grid-item" alt="" />
+
         </div>
       </section>
     </>

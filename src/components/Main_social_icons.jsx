@@ -17,7 +17,6 @@ const Main_social_icons = () => {
     } else {
       ref.current.classList.remove("main_social_icons__toggle");
     }
-    console.log(footerIsIntersecting);
   }, [footerIsIntersecting]);
   return (
     <div className="main_social_icons" ref={ref}>

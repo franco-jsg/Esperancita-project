@@ -13,7 +13,6 @@ const Separator_about_servicios = () => {
       setIsIntersecting(entry.isIntersecting),
         { rootMargin: "-300px 0px 300px 0px" };
     });
-    console.log(isIntersecting);
     observer.observe(ref.current);
     return () => observer.disconnect();
   }, [isIntersecting]);
@@ -24,7 +23,6 @@ const Separator_about_servicios = () => {
     } else {
       ref.current.classList.remove("separator-3__expand");
     }
-    console.log(ref.current);
   }, [isIntersecting]);
   return (
     <div className="separator-container-about separator_services">

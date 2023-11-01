@@ -21,9 +21,9 @@ const Secondary_video = ({
   }
   const categoryFiltered = secondary_category.find((i) => i === listItemState);
 
-  // useEffect(() => {
+  useEffect(() => {
 
-  // },[mainComercial])
+  },[mainComercial])
 
   return (
     <div className="secondary_video">

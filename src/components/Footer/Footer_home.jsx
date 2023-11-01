@@ -16,7 +16,6 @@ const Footer_home = () => {
     const observer = new IntersectionObserver(([entry]) => {
       setFooterIsIntersecting(entry.isIntersecting), { rootMargin: "-150px 0px 0px 0px" };
     });
-    console.log(footerIsIntersecting);
     observer.observe(ref.current);
     return () => observer.disconnect();
   }, [footerIsIntersecting]);
