@@ -1,10 +1,13 @@
-import { Link } from "react-router-dom";
-
-import Logo from "../assets/svg/header/Group 2.svg";
 import { useState } from "react";
+import { Link } from "react-router-dom";
+import Logo from "../assets/svg/header/Group 2.svg";
+import { useEsperancitaContext } from "../context/Context";
+
 
 const Header = () => {
+  const {lenguage, setLenguage} = useEsperancitaContext()
   const [toggleMenu, setToggleMenu] = useState(false);
+
   return (
     <header className="header">
       <nav className="navbar">
@@ -22,9 +25,24 @@ const Header = () => {
             <Link to="/about" className="navbar__list__item">
               About
             </Link>
-            <Link to="/en" className="navbar__list__item">
+            {/* <Link to="/en" className="navbar__list__item">
               ES/EN
-            </Link>
+            </Link> */}
+            <div className="navbar__list__lenguage">
+              <button
+                className={lenguage === "ES" ? "lenguage_active" : null}
+                onClick={() => setLenguage("ES")}
+              >
+                ES
+              </button>
+              /
+              <button
+                className={lenguage === "EN" ? "lenguage_active" : null}
+                onClick={() => setLenguage("EN")}
+              >
+                EN
+              </button>
+            </div>
           </ul>
           <i
             class="bx bxs-x-circle bx-md navbar__close"

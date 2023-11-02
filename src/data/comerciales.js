@@ -5,7 +5,7 @@ const data = [
     id: 0,
     category: ["3D"],
     description:
-      "",
+      "lorem",
     year: "2023",
     date: "15/05/2023",
     video: 'src/assets/videos/simulacion/Aeromexico_Beso_Master_40s_120523.mp4'

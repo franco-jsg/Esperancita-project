@@ -38,6 +38,22 @@
     color: white;
   }
 
+  .navbar__list__lenguage {
+    display: flex;
+    gap: 5px;
+
+    button {
+      background-color: transparent;
+      color: white;
+      font-size: var(--small-font-size);
+    }
+
+    .lenguage_active {
+      width: 100%;
+      border-bottom: solid 3px white;
+    }
+  }
+
   .navbar__toggle,
   .navbar__close {
     display: none;
@@ -89,7 +105,6 @@
   }
 
   .navbar {
-
     .navbar__close {
       display: block;
       position: absolute;
@@ -104,7 +119,6 @@
       cursor: pointer;
     }
   }
-
 }
 
 @media screen and (max-width: 375px) {

@@ -9,6 +9,7 @@ export const ContextProvider = ({ children }) => {
   const [listItemState, setListItemState] = useState(listCategories[0]);
   const [socialIncons, setSocialIcons] = useState(false);
   const [footerIsIntersecting, setFooterIsIntersecting] = useState(false);
+  const [lenguage, setLenguage] = useState("ES");
 
   const categoryActive =
     listItemState === "All"
@@ -33,6 +34,8 @@ export const ContextProvider = ({ children }) => {
         setSocialIcons,
         footerIsIntersecting,
         setFooterIsIntersecting,
+        lenguage,
+        setLenguage
       }}
     >
       {children}

@@ -28,7 +28,6 @@ const Section_2 = () => {
         <ul className="section_2__list" >
           {listCategories.map((item, index) => (
             <li key={index}>
-              |
               <List_button
                 categoryName={item}
               />
