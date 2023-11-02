@@ -404,7 +404,7 @@
     height: 45vh;
 
     .description__img {
-      max-width: 300px;
+      max-width: 250px;
       height: auto;
     }
 
@@ -473,16 +473,16 @@
 
 @media screen and (max-width: 375px) {
   .about__description {
-    height: 50vh;
+    height: 35vh;
 
     .description__img {
-      max-width: 400px;
+      max-width: 200px;
       height: auto;
     }
 
     .info__text {
       line-height: 20px;
-      font-size: var(--smaller-font-size);
+      font-size: var(--tiny-font-size);
     }
   }
 
