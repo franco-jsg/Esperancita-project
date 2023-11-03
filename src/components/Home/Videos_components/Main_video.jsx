@@ -1,9 +1,10 @@
 import { useEffect } from "react";
 import { useEsperancitaContext } from "../../../context/Context";
 
-const Main_video = ({ Logo, Cube }) => {
+const Main_video = ({ Logo, Cube}) => {
   const {
     categoryActive,
+    lenguage
   } = useEsperancitaContext()
 
   useEffect(() => {
@@ -22,7 +23,8 @@ const Main_video = ({ Logo, Cube }) => {
         <img className="video-logo" src={Logo} alt="" />
 
         <h3 className="main_video__text">
-          {categoryActive[0].description}
+          {/* {categoryActive[0].description} */}
+          {lenguage ==="ES" ? categoryActive[0].description[0] : categoryActive[0].description[1]}
         </h3>
 
         <div className="main_video__year">

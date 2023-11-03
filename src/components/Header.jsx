@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Logo from "../assets/svg/header/Group 2.svg";
 import { useEsperancitaContext } from "../context/Context";
@@ -21,22 +21,17 @@ const Header = () => {
               <img src={Logo} alt="" className="navbar__logo" />
             </Link>
           )}
-          {/* <p>Fix it in post</p> */}
-          {lenguage === "ES" ? (
-            <p>{comerciales[0].description.ES}</p>
-          ) : (
-            <p>{comerciales[0].description.EN}</p>
-          )}
+          <p>Fix it in post</p>
         </div>
         <div className={toggleMenu ? "navbar__menu show-menu" : "navbar__menu"}>
           <ul className="navbar__list">
             {lenguage === "ES" ? (
               <>
                 <Link to="/work" className="navbar__list__item">
-                  Work
+                  Trabajo
                 </Link>
                 <Link to="/about" className="navbar__list__item">
-                  About
+                  Quienes somos
                 </Link>
               </>
             ) : (

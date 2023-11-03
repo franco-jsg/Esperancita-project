@@ -1,4 +1,3 @@
-
 import Arrow from "../../assets/svg/footer/arrow.svg"
 
 const sendEmail = (e) => {
@@ -15,18 +14,18 @@ const sendEmail = (e) => {
   e.target.reset();
 };
 
-const Contact_form = () => {
+const Contact_formulario = () => {
   return (
     <>
       <div className="contact__content">
-        <h4 className="contact__title">Contact us</h4>
+        <h4 className="contact__title">Contactanos</h4>
 
         <form onSubmit={sendEmail} className="contact__form">
           <div className="contact__form-div">
             <input
               type="text"
               name="name"
-              placeholder="name"
+              placeholder="nombre"
             />
           </div>
 
@@ -41,7 +40,7 @@ const Contact_form = () => {
           <div className="contact__form-div form-area">
             <textarea
               name="message"
-              placeholder="message"
+              placeholder="mensaje"
               rows="1"
             ></textarea>
             <button className=""><img src={Arrow} alt="" /></button>
@@ -52,4 +51,4 @@ const Contact_form = () => {
   );
 };
 
-export default Contact_form;
+export default Contact_formulario;

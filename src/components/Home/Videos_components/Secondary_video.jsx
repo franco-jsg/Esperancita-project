@@ -10,8 +10,9 @@ const Secondary_video = ({
   secondary_video,
   LogoSecondary,
   CubeSecondary,
+
 }) => {
-  const { mainComercial, setMainComercial, listItemState } =
+  const { mainComercial, setMainComercial, listItemState,  lenguage } =
     useEsperancitaContext();
 
   function handleClick() {
@@ -21,9 +22,7 @@ const Secondary_video = ({
   }
   const categoryFiltered = secondary_category.find((i) => i === listItemState);
 
-  useEffect(() => {
-
-  },[mainComercial])
+  useEffect(() => {}, [mainComercial, lenguage]);
 
   return (
     <div className="secondary_video">
@@ -34,7 +33,9 @@ const Secondary_video = ({
         <p className="video-clasification">{categoryFiltered}</p>
         <img src={LogoSecondary} className="secondary_video__logo" alt="" />
 
-        <h4 className="secondary_video__text">{secondary_desc}</h4>
+        <h4 className="secondary_video__text">
+          {lenguage ==="ES" ? secondary_desc[0] : secondary_desc[1]}
+        </h4>
 
         <div className="secondary_video__year">
           <img src={CubeSecondary} className="secondary_video__cube" alt="" />

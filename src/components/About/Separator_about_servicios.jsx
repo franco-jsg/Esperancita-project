@@ -3,8 +3,10 @@ import { useState, useEffect, useRef } from "react";
 import Sep1 from "../../assets/svg/Separator/separator1.svg";
 import Sep2 from "../../assets/svg/Separator/separator2.svg";
 import Sep3 from "../../assets/svg/Separator/separator3.svg";
+import { useEsperancitaContext } from "../../context/Context";
 
 const Separator_about_servicios = () => {
+  const { lenguage } = useEsperancitaContext()
   const [isIntersecting, setIsIntersecting] = useState(false);
   const ref = useRef(null);
 
@@ -26,7 +28,7 @@ const Separator_about_servicios = () => {
   }, [isIntersecting]);
   return (
     <div className="separator-container-about separator_services">
-      <h3 className="separator-about-title">Servicios</h3>
+      <h3 className="separator-about-title">{ lenguage === "ES" ? "Servicios" : "Services" }</h3>
       <div className="separator-box">
         <img src={Sep1} alt="" className="separator-1" />
         <img src={Sep2} alt="" className="separator-2" />

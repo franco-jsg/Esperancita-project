@@ -4,7 +4,7 @@ import comerciales from "../data/comerciales";
 export const EsperancitaContext = createContext();
 
 export const ContextProvider = ({ children }) => {
-  const [mainComercial, setMainComercial] = useState(comerciales[1]);
+  const [mainComercial, setMainComercial] = useState(comerciales[0]);
   const listCategories = ["3D", "Simulación", "Compo", "All"];
   const [listItemState, setListItemState] = useState(listCategories[0]);
   const [socialIncons, setSocialIcons] = useState(false);
@@ -19,7 +19,7 @@ export const ContextProvider = ({ children }) => {
             item.category.find((i) => i === listItemState) === listItemState
         );
 
-  useEffect(() => {}, [mainComercial]);
+  useEffect(() => {}, [mainComercial, lenguage]);
 
   return (
     <EsperancitaContext.Provider

@@ -2,8 +2,8 @@ import { useEffect } from "react";
 import { useEsperancitaContext } from "../../context/Context";
 import comerciales from '../../data/comerciales'
 
-const Work_video = ({main_video, video_id}) => {
-  const { mainComercial, setMainComercial } =
+const Work_video = ({main_video, video_id, video_description}) => {
+  const { mainComercial, setMainComercial, lenguage } =
   useEsperancitaContext();
 
 function handleClick() {
@@ -20,7 +20,7 @@ useEffect(() => {
       <video autoPlay muted loop width="100%">
         <source src={main_video}/>
       </video>
-      <p className="work__video-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, error.</p>
+      <p className="work__video-text">{ lenguage === "ES" ? (video_description[0]) : (video_description[1]) }</p>
     </div>
   );
 };

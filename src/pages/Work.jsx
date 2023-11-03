@@ -8,7 +8,7 @@ import Separator_1 from "../components/Home/Separator_1";
 import { useEsperancitaContext } from "../context/Context";
 
 const Work = () => {
-  const { mainComercial } = useEsperancitaContext();
+  const { mainComercial, lenguage } = useEsperancitaContext();
   return (
     <>
       <div className="work_container">
@@ -17,7 +17,7 @@ const Work = () => {
           <source src={mainComercial.video} />
         </video>
         <div className="section_work">
-          <h1 className="section_work__title">Work</h1>
+          <h1 className="section_work__title">{lenguage === "ES" ? "TRABAJOS" : "WORK"}</h1>
           <Separator_1 />
           <div className="section_2__all_videos">
             <Work_section_1 />
