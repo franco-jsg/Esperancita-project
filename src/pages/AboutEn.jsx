@@ -7,7 +7,7 @@ import Clients_about from "../components/Clients_about";
 import Separator_2_about from "../components/About/Separator_2_about";
 
 
-const About = () => {
+const AboutEn = () => {
   const {mainComercial} = useEsperancitaContext()
 
   return (
@@ -26,4 +26,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AboutEn;

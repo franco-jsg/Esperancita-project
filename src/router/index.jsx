@@ -3,6 +3,7 @@ import Home from "../pages/Home";
 import About from "../pages/About";
 import Layout from "../layout/Layout";
 import En from "../pages/En";
+import AboutEn from "../pages/AboutEn";
 
 export const router = createBrowserRouter([
   {
@@ -24,6 +25,14 @@ export const router = createBrowserRouter([
       {
         path: "/en",
         element: <En />,
+      },
+      {
+        path: "/en/work",
+        element: <En />,
+      },
+      {
+        path: "/en/about",
+        element: <AboutEn />,
       },
     ],
   },
