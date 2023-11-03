@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import Logo from "../assets/svg/header/Group 2.svg";
 import { useEsperancitaContext } from "../context/Context";
+import comerciales from "../data/comerciales";
 
 const Header = () => {
   const { lenguage, setLenguage } = useEsperancitaContext();
@@ -20,7 +21,12 @@ const Header = () => {
               <img src={Logo} alt="" className="navbar__logo" />
             </Link>
           )}
-          <p>Fix it in post</p>
+          {/* <p>Fix it in post</p> */}
+          {lenguage === "ES" ? (
+            <p>{comerciales[0].description.ES}</p>
+          ) : (
+            <p>{comerciales[0].description.EN}</p>
+          )}
         </div>
         <div className={toggleMenu ? "navbar__menu show-menu" : "navbar__menu"}>
           <ul className="navbar__list">

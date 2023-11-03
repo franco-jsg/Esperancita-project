@@ -105,6 +105,12 @@
   }
 
   .navbar {
+    .navbar__list__lenguage {
+      button {
+        font-size: var(--tiny-font-size);
+
+      }
+    }
     .navbar__close {
       display: block;
       position: absolute;

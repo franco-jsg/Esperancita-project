@@ -1,3 +1,16 @@
+.section_work {
+  position: relative;
+}
+.section_work__title {
+  width: 100%;
+  background-color: #171717;
+  // position: absolute;
+  // top: 162vh;
+  z-index: 2;
+  padding: 12vh 5vw 2vh 5vw;
+  // margin-bottom: 50px;
+}
+
 .work__video {
   position: relative;
   cursor: pointer;

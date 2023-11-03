@@ -384,8 +384,13 @@
       font-size: var(--h3-font-size);
     }
     &__list {
-      button {
-        font-size: var(--small-font-size);
+      li {
+        padding-right: 10px;
+        button {
+          font-size: var(--smaller-font-size);
+          margin-left: 0;
+        }
+
       }
     }
     .main_video {
@@ -440,8 +445,13 @@
       font-size: var(--h4-font-size);
     }
     &__list {
-      button {
-        font-size: var(--smaller-font-size);
+      li {
+        padding-right: 10px;
+        button {
+          font-size: var(--smaller-font-size);
+          margin-left: 10px;
+        }
+
       }
     }
     .main_video {
