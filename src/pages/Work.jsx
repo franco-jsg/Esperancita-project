@@ -17,7 +17,7 @@ const Work = () => {
           <source src={mainComercial.video} />
         </video>
         <div className="section_work">
-          <h1 className="section_work__title">{lenguage === "ES" ? "TRABAJOS" : "WORK"}</h1>
+          <h1 className="section_work__title">{lenguage === "ES" ? "Trabajos" : "Work"}</h1>
           <Separator_1 />
           <div className="section_2__all_videos">
             <Work_section_1 />
