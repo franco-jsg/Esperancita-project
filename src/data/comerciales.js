@@ -13,6 +13,17 @@ import WaterSpring from "../assets/videos/simulacion/water-spring.mp4";
 
 const data = [
   {
+    name: "Reels pantallas",
+    id: 22,
+    category: ["3D", "Compo"],
+    // description: "Reels pantallas",
+    description: ["Reels pantallas", "Reels screens"],
+    year: "2023",
+    date: "24/04/2022",
+    // video: "src/assets/videos/reels/REEL_PANTALLAS_v03.mp4",
+    video: Pantallas,
+  },
+  {
     name: "Aeromexico Beso",
     id: 0,
     category: ["3D"],
@@ -305,17 +316,6 @@ const data = [
     date: "24/04/2022",
     // video: "src/assets/videos/simulacion/water-spring.mp4",
     video: WaterSpring,
-  },
-  {
-    name: "Reels pantallas",
-    id: 22,
-    category: ["3D", "Compo"],
-    // description: "Reels pantallas",
-    description: ["Reels pantallas", "Reels screens"],
-    year: "2023",
-    date: "24/04/2022",
-    // video: "src/assets/videos/reels/REEL_PANTALLAS_v03.mp4",
-    video: Pantallas,
   },
 ];
 

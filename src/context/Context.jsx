@@ -9,12 +9,13 @@ export const ContextProvider = ({ children }) => {
   const [listItemState, setListItemState] = useState(listCategories[0]);
   const [socialIncons, setSocialIcons] = useState(false);
   const [footerIsIntersecting, setFooterIsIntersecting] = useState(false);
+  const [videoIsIntersecting, setVideoIsIntersecting] = useState(false);
   const [lenguage, setLenguage] = useState("EN");
 
   const categoryActive =
     listItemState === "All"
-      ? comerciales
-      : comerciales.filter(
+      ? comerciales.slice(1)
+      : comerciales.slice(1).filter(
           (item) =>
             item.category.find((i) => i === listItemState) === listItemState
         );
@@ -33,7 +34,9 @@ export const ContextProvider = ({ children }) => {
         socialIncons,
         setSocialIcons,
         footerIsIntersecting,
+        videoIsIntersecting,
         setFooterIsIntersecting,
+        setVideoIsIntersecting,
         lenguage,
         setLenguage
       }}

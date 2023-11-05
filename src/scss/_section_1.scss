@@ -22,7 +22,12 @@
   overflow-x: hidden;
   scroll-snap-align: start;
   scroll-margin-top: 10px;
+  transition: filter 0.5s ease-in-out;
   // scroll snap first test
+
+  &.blur {
+    filter: blur(10px)
+  }
 }
 
 .section_1__info {
@@ -43,7 +48,8 @@
   // min-height: 70vh;
   overflow-y: scroll;
   overflow-x: hidden;
-  scroll-snap-align: start;
+  scroll-snap-align: end;
+  box-shadow: 0 0 24px rgba(0,0,0,1);
   //scroll snap first test
 }
 
@@ -80,6 +86,9 @@
   .section_1__text {
     font-size: var(--h3-font-size);
   }
+  .section_1__img {
+    max-width: 300px;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -92,9 +101,9 @@
   }
 
   .section_1__img {
-    scale: 0.8;
     display: flex;
     align-self: self-end;
+    max-width: 300px;
   }
 }
 

@@ -19,8 +19,6 @@ const AboutEn = () => {
         </video>
         <AboutSection />
       </div>
-      <Clients_about />
-      <Separator_2_about />
       <Footer_about />
     </>
   );
