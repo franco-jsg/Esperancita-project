@@ -24,11 +24,6 @@
   gap: 8px;
   align-items: center;
 
-  //scroll snap first test
-  scroll-snap-type: x mandatory;
-  scroll-snap-align: start;
-  scroll-margin-top: 48px;
-  //scroll snap first test
 
   li {
     display: flex;
@@ -114,7 +109,7 @@
 
     .video-container {
       // height: 20vh;
-      max-height: 70%;
+      max-height: 60%;
       // overflow: hidden;
     }
 
@@ -138,7 +133,6 @@
     }
 
     .main_video__text {
-      height: 80px;
       width: 100%;
       font-size: var(--normalfont-size);
       font-family: var(--body-font-video);
@@ -262,7 +256,7 @@
     content: "";
     position: absolute;
     right: 4.5vw;
-    bottom: 4vh;
+    bottom: 3vh;
     width: 31vw;
     height: 100px;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgb(23, 23, 23) 100%);
@@ -287,7 +281,7 @@
 
   .section_2__videos {
 
-    max-height: 80vh;
+    max-height: 90vh;
     grid-gap: 32px;
     flex-flow: column;
     height: 100%;
@@ -325,7 +319,6 @@
       // }
   
       .main_video__text {
-        height: 80px;
 
         font-size: var(--normalfont-size);
 
