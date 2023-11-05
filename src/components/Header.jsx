@@ -31,7 +31,7 @@ const Header = () => {
                   Trabajo
                 </Link>
                 <Link to="/about" className="navbar__list__item">
-                  Quienes somos
+                  Acerca
                 </Link>
               </>
             ) : (

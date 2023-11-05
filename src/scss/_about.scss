@@ -11,7 +11,6 @@
   z-index: 2;
 
   .description__img {
-    max-width: 40%;
     height: 100%;
     border-bottom: solid white 10px;
   }
@@ -21,9 +20,9 @@
     border-top: solid white 10px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     overflow-y: scroll;
-    gap: 25px;
+    gap: 24px;
+    padding-top: 48px;
   }
   .description__info::-webkit-scrollbar {
     display: none;
@@ -65,6 +64,7 @@
 
 .about__services {
   width: 100%;
+  scroll-margin-top: 48px;
   padding: 16vh 0 16vh 5vw;
   height: auto;
   background-color: #171717;
@@ -221,8 +221,7 @@
     height: 70vh;
 
     .description__img {
-      max-width: 400px;
-      height: auto;
+        height: auto;
     }
 
     .description__info {

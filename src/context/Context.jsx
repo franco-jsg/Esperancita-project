@@ -9,7 +9,7 @@ export const ContextProvider = ({ children }) => {
   const [listItemState, setListItemState] = useState(listCategories[0]);
   const [socialIncons, setSocialIcons] = useState(false);
   const [footerIsIntersecting, setFooterIsIntersecting] = useState(false);
-  const [lenguage, setLenguage] = useState("ES");
+  const [lenguage, setLenguage] = useState("EN");
 
   const categoryActive =
     listItemState === "All"
