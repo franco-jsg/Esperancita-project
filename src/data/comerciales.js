@@ -10,21 +10,15 @@ import BelightToronja from "../assets/videos/simulacion/BELIGHT_020322_MASTER_20
 import Honda from "../assets/videos/simulacion/El_legado_Honda.mp4";
 import Nissan from "../assets/videos/simulacion/Nissan.mp4";
 import WaterSpring from "../assets/videos/simulacion/water-spring.mp4";
+import Mundet from "../assets/videos/compo/04 - Sidral Mundet Director's Cut_1.mp4";
+import OXXO from "../assets/videos/3d/Oxxo_TARJETAS _M.mp4"
+import Runners from "../assets/videos/3d/Runners_Fuego_20.mov"
+import Fargo from "../assets/videos/3d/MASTER FARGO 20s 16.9.mp4"
+import Whirpool from "../assets/videos/3d/Whirpool_60s_12012022_Inglés Master.mp4"
+import RAM from "../assets/videos/3d/RAM_DC_MASTER.mp4"
+import TOTALPLAY from "../assets/videos/3d/TOTAL_PLAY_UNIVERSO_MASTER_06_07_23.mp4"
 
 
-const reel = [
-  {
-    name: "Reel",
-    id: 23,
-    category: [],
-    // description: "Reels pantallas",
-    description: ["Reels pantallas", "Reels screens"],
-    year: "2023",
-    date: "24/04/2022",
-    // video: "src/assets/videos/reels/REEL_PANTALLAS_v03.mp4",
-    video: Esperancita,
-  },
-]
 const data = [
   {
     name: "Reel",
@@ -60,9 +54,10 @@ const data = [
       "Generamos e integramos en la escena las piernas del Demogorgon.Llevamos a cabo transiciones suaves, cleans y particulas en el ambiente.",
       "We generate and integrate the legs of the Demogorgon into the scene. We carry out smooth transitions, cleans and particles in the environment.",
     ],
+    year: "2022",
     date: "24/05/2022",
     // video: "src/assets/videos/reels/ESPERANCITA_REEL_2023_v12.mp4",
-    video: Pantallas,
+    video: OXXO,
   },
   {
     name: "Nissan Kicks",
@@ -95,21 +90,21 @@ const data = [
     // video: "src/assets/videos/simulacion/El_legado_Honda.mp4",
     video: Honda,
   },
-  {
-    name: "CHIREY",
-    id: 4,
-    category: ["Simulación", "3D"],
-    // description:
-    //   "Simulación / 3D / Matte Painting e integracion con live action",
-    description: [
-      "Simulación / 3D / Matte Painting e integracion con live action",
-      "Simulation / 3D / Matte Painting and integration with live action",
-    ],
-    year: "2023",
-    date: "21/09/2023",
-    // video: "src/assets/videos/reels/ESPERANCITA_REEL_2023_v12.mp4",
-    video: Pantallas,
-  },
+  // {
+  //   name: "CHIREY",
+  //   id: 4,
+  //   category: ["Simulación", "3D"],
+  //   // description:
+  //   //   "Simulación / 3D / Matte Painting e integracion con live action",
+  //   description: [
+  //     "Simulación / 3D / Matte Painting e integracion con live action",
+  //     "Simulation / 3D / Matte Painting and integration with live action",
+  //   ],
+  //   year: "2023",
+  //   date: "21/09/2023",
+  //   // video: "src/assets/videos/reels/ESPERANCITA_REEL_2023_v12.mp4",
+  //   video: Pantallas,
+  // },
   {
     name: "RAM",
     id: 5,
@@ -119,23 +114,23 @@ const data = [
     year: "2023",
     date: "17/02/2023",
     // video: "src/assets/videos/reels/ESPERANCITA_REEL_2023_v12.mp4",
-    video: Pantallas,
+    video: RAM,
   },
-  {
-    name: "MG",
-    id: 6,
-    category: ["Simulación", "3D"],
-    // description:
-    //   "Simulacion / 3D / Motion graphics / Integracion con live action",
-    description: [
-      "Simulacion / 3D / Motion graphics / Integracion con live action",
-      "Simulation / 3D / Motion graphics / Integration with live action",
-    ],
-    year: "2023",
-    date: "21/09/2023",
-    // video: "src/assets/videos/reels/ESPERANCITA_REEL_2023_v12.mp4",
-    video: Pantallas,
-  },
+  // {
+  //   name: "MG",
+  //   id: 6,
+  //   category: ["Simulación", "3D"],
+  //   // description:
+  //   //   "Simulacion / 3D / Motion graphics / Integracion con live action",
+  //   description: [
+  //     "Simulacion / 3D / Motion graphics / Integracion con live action",
+  //     "Simulation / 3D / Motion graphics / Integration with live action",
+  //   ],
+  //   year: "2023",
+  //   date: "21/09/2023",
+  //   // video: "src/assets/videos/reels/ESPERANCITA_REEL_2023_v12.mp4",
+  //   video: Pantallas,
+  // },
   {
     name: "Total play",
     id: 7,
@@ -150,47 +145,47 @@ const data = [
     year: "2023",
     date: "21/09/2023",
     // video: "src/assets/videos/reels/ESPERANCITA_REEL_2023_v12.mp4",
-    video: Pantallas,
+    video: TOTALPLAY,
   },
-  {
-    name: "BBVA",
-    id: 8,
-    category: ["Compo"],
-    // description: "Cleanings / transiciones / motion graphics",
-    description: [
-      "Cleanings / transiciones / motion graphics",
-      "Cleanings / transitions / motion graphics",
-    ],
-    year: "2023",
-    date: "06/02/2023",
-    // video: "src/assets/videos/reels/ESPERANCITA_REEL_2023_v12.mp4",
-    video: Pantallas,
-  },
-  {
-    name: "SALADITAS",
-    id: 9,
-    category: ["Compo"],
-    // description: "Cleanings / transiciones / motion graphics",
-    description: [
-      "Cleanings / transiciones / motion graphics",
-      "Cleanings / transitions / motion graphics",
-    ],
-    year: "2023",
-    date: "16/08/2023",
-    // video: "src/assets/videos/reels/ESPERANCITA_REEL_2023_v12.mp4",
-    video: Pantallas,
-  },
-  {
-    name: "BANCO AZTECA",
-    id: 10,
-    category: ["Compo"],
-    // description: "Banco Azteca",
-    description: ["Banco Azteca", "Banco Azteca"],
-    year: "2022",
-    date: "09/06/2022",
-    // video: "src/assets/videos/reels/ESPERANCITA_REEL_2023_v12.mp4",
-    video: Pantallas,
-  },
+  // {
+  //   name: "BBVA",
+  //   id: 8,
+  //   category: ["Compo"],
+  //   // description: "Cleanings / transiciones / motion graphics",
+  //   description: [
+  //     "Cleanings / transiciones / motion graphics",
+  //     "Cleanings / transitions / motion graphics",
+  //   ],
+  //   year: "2023",
+  //   date: "06/02/2023",
+  //   // video: "src/assets/videos/reels/ESPERANCITA_REEL_2023_v12.mp4",
+  //   video: Pantallas,
+  // },
+  // {
+  //   name: "SALADITAS",
+  //   id: 9,
+  //   category: ["Compo"],
+  //   // description: "Cleanings / transiciones / motion graphics",
+  //   description: [
+  //     "Cleanings / transiciones / motion graphics",
+  //     "Cleanings / transitions / motion graphics",
+  //   ],
+  //   year: "2023",
+  //   date: "16/08/2023",
+  //   // video: "src/assets/videos/reels/ESPERANCITA_REEL_2023_v12.mp4",
+  //   video: Pantallas,
+  // },
+  // {
+  //   name: "BANCO AZTECA",
+  //   id: 10,
+  //   category: ["Compo"],
+  //   // description: "Banco Azteca",
+  //   description: ["Banco Azteca", "Banco Azteca"],
+  //   year: "2022",
+  //   date: "09/06/2022",
+  //   // video: "src/assets/videos/reels/ESPERANCITA_REEL_2023_v12.mp4",
+  //   video: Pantallas,
+  // },
   {
     name: "Mundet",
     id: 11,
@@ -203,7 +198,7 @@ const data = [
     year: "2022",
     date: "04/03/2022",
     // video: "src/assets/videos/reels/ESPERANCITA_REEL_2023_v12.mp4",
-    video: Pantallas,
+    video: Mundet,
   },
   {
     name: "Bancopel",
@@ -271,7 +266,7 @@ const data = [
     year: "2022",
     date: "22/09/2022",
     // video: "src/assets/videos/reels/ESPERANCITA_REEL_2023_v12.mp4",
-    video: Pantallas,
+    video: Fargo,
   },
   {
     name: "Runners Fuego",
@@ -282,7 +277,7 @@ const data = [
     year: "2022",
     date: "18/03/2022",
     // video: "src/assets/videos/reels/ESPERANCITA_REEL_2023_v12.mp4",
-    video: Pantallas,
+    video: Runners,
   },
   {
     name: "Secret limpiavidirios",
@@ -300,13 +295,13 @@ const data = [
   {
     name: "Whirpool",
     id: 19,
-    category: ["Compo"],
+    category: ["3D"],
     // description: "Whirpool",
     description: ["Whirpool", "Whirpool"],
     year: "2023",
     date: "13/09/2023",
     // video: "src/assets/videos/reels/ESPERANCITA_REEL_2023_v12.mp4",
-    video: Pantallas,
+    video: Whirpool,
   },
   {
     name: "Belight toranja",

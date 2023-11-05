@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { useEsperancitaContext } from "../../context/Context";
 import Esperancita from "../../assets/svg/Group 20.svg";
+import Main_video from "./Videos_components/Main_video";
 
 const Section_1 = () => {
   const { videoIsIntersecting, setVideoIsIntersecting, mainComercial,lenguage } =
@@ -12,7 +13,7 @@ const Section_1 = () => {
   useEffect(() => {
     const observer = new IntersectionObserver(([entry]) => {
       setVideoIsIntersecting(entry.isIntersecting),
-        { rootMargin: "10px 0px 0px 0px" };
+        { rootMargin: "-200px 0px 0px 0px" };
     });
     observer.observe(ref.current);
     return () => observer.disconnect();
@@ -29,7 +30,7 @@ const Section_1 = () => {
 
   return (
     <>
-      <video key={mainComercial.id} ref={videoRef} className={"section_1__video"} autoPlay muted loop>
+      <video key={mainComercial.video} ref={videoRef} className={"section_1__video"} autoPlay muted loop>
         <source src={mainComercial.video} />
       </video>
       <div className="section_1__info">

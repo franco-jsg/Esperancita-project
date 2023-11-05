@@ -1,37 +1,57 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useEsperancitaContext } from "../../../context/Context";
+import comerciales from "../../../data/comerciales.js";
 
 const Main_video = ({ Logo, Cube}) => {
+  const [activeVideo, setActiveVideo] = useState()
   const {
     categoryActive,
-    lenguage
+    listItemState,
+    lenguage,
+    setMainComercial
   } = useEsperancitaContext()
 
   useEffect(() => {
+    setActiveVideo(categoryActive[0])
+  },[listItemState])
 
-  },[categoryActive])
+  function handleClick() {
+    setMainComercial(comerciales.find(v => v.id == activeVideo.id));
+
+    window.scrollTo(0, 0);
+  }
 
   return (
-    <div className="main_video">
-      <div className="video-container">
-        <video autoPlay muted loop width="100%">
-          <source src={categoryActive[0].video} />
-        </video>
-      </div>
-      <div className="video_text_container">
-        <p className="video-clasification">{categoryActive[0].category}</p>
-        <img className="video-logo" src={Logo} alt="" />
-
-        <h3 className="main_video__text">
-          {/* {categoryActive[0].description} */}
-          {lenguage ==="ES" ? categoryActive[0].description[0] : categoryActive[0].description[1]}
-        </h3>
-
-        <div className="main_video__year">
-          <img src={Cube} alt="" />
-          <p>{categoryActive[0].year}</p>
+    <div className="main_video" onClick={handleClick}>
+      {
+        activeVideo && (
+          <>
+        <div className="video-container">
+          {
+            listItemState && activeVideo && (
+              <video key={`${listItemState}+${activeVideo.name}`}autoPlay muted loop width="100%">
+                <source src={activeVideo.video} />
+              </video>
+            )
+          }
         </div>
-      </div>
+        <div className="video_text_container">
+          <p className="video-clasification">{activeVideo.category}</p>
+          <img className="video-logo" src={Logo} alt="" />
+
+          <h3 className="main_video__text">
+            {/* {activeVideo.description} */}
+            {lenguage ==="ES" ? activeVideo.name : activeVideo.name}
+          </h3>
+
+          <div className="main_video__year">
+            <img src={Cube} alt="" />
+            <p>{activeVideo.year}</p>
+          </div>
+        </div>
+        </>
+        )
+      }
     </div>
   );
 };

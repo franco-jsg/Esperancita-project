@@ -61,13 +61,12 @@
 .section_1__text {
   font-family: var(--body-font-video);
   font-size: var(--big-font-size);
-  line-height: 96.88px;
-  max-height: 30vh;
-  overflow-y: scroll;
+  overflow-y: visible;
 
   //scroll snap first test
   scroll-snap-align: start;
   //scroll snap first test
+  line-height: 1.2;
 }
 
 .section_1__text::-webkit-scrollbar {

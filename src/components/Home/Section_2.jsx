@@ -47,11 +47,12 @@ const Section_2 = () => {
                 Cube={Cube}
               />
               <div className="other_videos ">
-                {categoryActive.map((video) => (
+                {categoryActive.slice(1).map((video) => (
                   <Secondary_video
                     key={video.id}
                     video_id={video.id}
                     secondary_category={video.category}
+                    name={video.name}
                     secondary_desc={video.description}
                     secondary_year={video.year}
                     secondary_video={video.video}
