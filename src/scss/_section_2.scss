@@ -10,6 +10,7 @@
   padding: 48px 5vw 12px;
   // margin-bottom: 50px;
   scroll-snap-align: start;
+  scroll-margin-top: 48px;
 }
 
 .section_2__list {
@@ -83,6 +84,8 @@
   display: flex;
   justify-content: space-between;
   position: relative;
+
+  scroll-snap-align: start;
 
   // &::after{
   //   content: "";
