@@ -158,7 +158,7 @@ const AboutSection = () => {
           <img src={clientes[4].logo} className="clients-grid-item" alt="" />
           <img src={clientes[0].logo} className="clients-grid-item" alt="" />
 
-          <img src={clientes[0].logo} className="clients-grid-item" alt="" />
+          {/* <img src={clientes[0].logo} className="clients-grid-item" alt="" />
           <img src={clientes[1].logo} className="clients-grid-item" alt="" />
           <img src={clientes[2].logo} className="clients-grid-item" alt="" />
           <img src={clientes[3].logo} className="clients-grid-item" alt="" />
@@ -170,7 +170,7 @@ const AboutSection = () => {
           <img src={clientes[2].logo} className="clients-grid-item" alt="" />
           <img src={clientes[3].logo} className="clients-grid-item" alt="" />
           <img src={clientes[4].logo} className="clients-grid-item" alt="" />
-          <img src={clientes[0].logo} className="clients-grid-item" alt="" />
+          <img src={clientes[0].logo} className="clients-grid-item" alt="" /> */}
         </div>
       </section>
     </>
