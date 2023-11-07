@@ -5,7 +5,7 @@ export const EsperancitaContext = createContext();
 
 export const ContextProvider = ({ children }) => {
   const [mainComercial, setMainComercial] = useState(comerciales[0]);
-  const listCategories = ["3D", "Simulación", "Compo", "All"];
+  const listCategories = ["3D", "Simulation", "Compo", "All"];
   const [listItemState, setListItemState] = useState(listCategories[0]);
   const [socialIncons, setSocialIcons] = useState(false);
   const [footerIsIntersecting, setFooterIsIntersecting] = useState(false);

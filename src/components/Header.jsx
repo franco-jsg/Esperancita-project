@@ -25,25 +25,13 @@ const Header = () => {
         </div>
         <div className={toggleMenu ? "navbar__menu show-menu" : "navbar__menu"}>
           <ul className="navbar__list">
-            {lenguage === "ES" ? (
-              <>
-                <Link to="/work" className="navbar__list__item">
-                  Trabajo
-                </Link>
-                <Link to="/about" className="navbar__list__item">
-                  Acerca
-                </Link>
-              </>
-            ) : (
-              <>
-                <Link to="/en/work" className="navbar__list__item">
-                  Work
-                </Link>
-                <Link to="/en/about" className="navbar__list__item">
-                  About
-                </Link>
-              </>
-            )}
+            <Link to="/en/work" className="navbar__list__item">
+              Work
+            </Link>
+            <Link to="/en/about" className="navbar__list__item">
+              About
+            </Link>
+
             <div className="navbar__list__lenguage">
               <Link to="/" className="navbar__list__item">
                 <button

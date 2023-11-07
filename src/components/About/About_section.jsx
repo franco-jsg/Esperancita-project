@@ -65,83 +65,41 @@ const AboutSection = () => {
       </section>
       <Separator_about_servicios />
       <section className="about__services">
-        {lenguage === "ES" ? (
-          <>
-            <div className="service">
-              <p>Motion Graphic 2D & 3D</p>
-              <img src={Sep_service} alt="separator" />
-              <div className="service__separator_final-line"></div>
-            </div>
-            <div className="service">
-              <p>Composite VFX</p>
-              <img src={Sep_service} alt="separator" />
-              <div className="service__separator_final-line"></div>
-            </div>
-            <div className="service">
-              <p>Modelado, Shading, Lightning, Rigging & Animación 3D</p>
-              <img src={Sep_service} alt="separator" />
-              <div className="service__separator_final-line"></div>
-            </div>
-            <div className="service">
-              <p>Simulación</p>
-              <img src={Sep_service} alt="separator" />
-              <div className="service__separator_final-line"></div>
-            </div>
-            <div className="service">
-              <p>Pintura Matte</p>
-              <img src={Sep_service} alt="separator" />
-              <div className="service__separator_final-line"></div>
-            </div>
-            <div className="service">
-              <p>Digital Clean / Digital Make-Up</p>
-              <img src={Sep_service} alt="separator" />
-              <div className="service__separator_final-line"></div>
-            </div>
-            <div className="service">
-              <p>Supervisión y Coordinación</p>
-              <img src={Sep_service} alt="separator" />
-              <div className="service__separator_final-line"></div>
-            </div>
-          </>
-        ) : (
-          <>
-            <div className="service">
-              <p>Motion Graphic 2D & 3D</p>
-              <img src={Sep_service} alt="separator" />
-              <div className="service__separator_final-line"></div>
-            </div>
-            <div className="service">
-              <p>Composite VFX</p>
-              <img src={Sep_service} alt="separator" />
-              <div className="service__separator_final-line"></div>
-            </div>
-            <div className="service">
-              <p>Modeling, Shading, Lightning, Rigging & Animation 3D</p>
-              <img src={Sep_service} alt="separator" />
-              <div className="service__separator_final-line"></div>
-            </div>
-            <div className="service">
-              <p>Simulation</p>
-              <img src={Sep_service} alt="separator" />
-              <div className="service__separator_final-line"></div>
-            </div>
-            <div className="service">
-              <p>Matte Painting</p>
-              <img src={Sep_service} alt="separator" />
-              <div className="service__separator_final-line"></div>
-            </div>
-            <div className="service">
-              <p>Digital Clean / Digital Make-Up</p>
-              <img src={Sep_service} alt="separator" />
-              <div className="service__separator_final-line"></div>
-            </div>
-            <div className="service">
-              <p>Supervision and Coordination</p>
-              <img src={Sep_service} alt="separator" />
-              <div className="service__separator_final-line"></div>
-            </div>
-          </>
-        )}
+        <div className="service">
+          <p>Motion Graphic 2D & 3D</p>
+          <img src={Sep_service} alt="separator" />
+          <div className="service__separator_final-line"></div>
+        </div>
+        <div className="service">
+          <p>Composite VFX</p>
+          <img src={Sep_service} alt="separator" />
+          <div className="service__separator_final-line"></div>
+        </div>
+        <div className="service">
+          <p>Modeling, Shading, Lightning, Rigging & Animation 3D</p>
+          <img src={Sep_service} alt="separator" />
+          <div className="service__separator_final-line"></div>
+        </div>
+        <div className="service">
+          <p>Simulation</p>
+          <img src={Sep_service} alt="separator" />
+          <div className="service__separator_final-line"></div>
+        </div>
+        <div className="service">
+          <p>Matte Painting</p>
+          <img src={Sep_service} alt="separator" />
+          <div className="service__separator_final-line"></div>
+        </div>
+        <div className="service">
+          <p>Digital Clean / Digital Make-Up</p>
+          <img src={Sep_service} alt="separator" />
+          <div className="service__separator_final-line"></div>
+        </div>
+        <div className="service">
+          <p>Supervision and Coordination</p>
+          <img src={Sep_service} alt="separator" />
+          <div className="service__separator_final-line"></div>
+        </div>
       </section>
       <Separator_about_clientes />
       <section className="about__clients">

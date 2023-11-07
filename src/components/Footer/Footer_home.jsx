@@ -6,7 +6,6 @@ import Separator from "../../assets/svg/footer/footer2.svg";
 import Instagram from "../../assets/svg/socials/instagram.svg";
 import Youtube2 from "../../assets/svg/socials/youtube2.svg";
 import LinkedIn from "../../assets/svg/socials/linkedin.svg";
-import Contact_formulario from "./Contact_formulario";
 
 const Footer_home = () => {
   const { footerIsIntersecting, setFooterIsIntersecting, lenguage } =
@@ -31,18 +30,18 @@ const Footer_home = () => {
           <ul className="footer__projects">
             <li>Work</li>
             <li>3D</li>
-            {lenguage === "ES" ? <li>Simulación</li> : <li>Simulation</li>}
+            <li>Simulation</li>
 
             <li>Compo</li>
           </ul>
 
-          {lenguage === "ES" ? <Contact_formulario /> : <Contact_form />}
+          <Contact_form />
 
           <div className="footer__social">
-            <h4>{lenguage === "ES" ? "Únetenos" : "Join us"}</h4>
+            <h4>Join us</h4>
             <img src={Separator} alt="separator" />
             <div className="social__links">
-              {lenguage === "ES" ? "Siguenos:" : "Follow us:"}
+              Follow us:
               <div className="social__icons">
                 <a
                   href="https://instagram.com"
