@@ -34,11 +34,10 @@ const Section_1 = () => {
       </video>
       <div className="section_1__info">
         <p className="section_1__text">
-          Somos un estudio de post-producción dedicado a la creación de efectos visuales. Nos especializamos en cleaning, mixed media y Vfx.
-          {/* {
+          {
             lenguage === "ES" ? (mainComercial.description[0]) :
           mainComercial.description[1]
-          } */}
+          }
         </p>
         <img src={Esperancita} alt="" className="section_1__img" ref={ref} />
       </div>

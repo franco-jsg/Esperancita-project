@@ -26,7 +26,7 @@ const data = [
     id: 23,
     category: [],
     // description: "Reels pantallas",
-    description: ["Reels pantallas", "Reels screens"],
+    description: ["Somos un estudio de post-producción dedicado a la creación de efectos visuales. Nos especializamos en cleaning, mixed media y Vfx.", "We are a post-production studio dedicated to the creation of visual effects. We specialize in cleaning, mixed media and Vfx."],
     year: "2023",
     date: "24/04/2022",
     // video: "src/assets/videos/reels/REEL_PANTALLAS_v03.mp4",
