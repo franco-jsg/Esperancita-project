@@ -66,39 +66,30 @@ const AboutSection = () => {
       <Separator_about_servicios />
       <section className="about__services">
         <div className="service">
-          <p>Motion Graphic 2D & 3D</p>
-          <img src={Sep_service} alt="separator" />
-          <div className="service__separator_final-line"></div>
+          <p className="service_text">Motion Graphic 2D & 3D</p>
+          {/* <img src={Sep_service} alt="separator" />
+          <div className="service__separator_final-line"></div> */}
         </div>
         <div className="service">
           <p>Composite VFX</p>
-          <img src={Sep_service} alt="separator" />
-          <div className="service__separator_final-line"></div>
         </div>
         <div className="service">
-          <p>Modeling, Shading, Lightning, Rigging & Animation 3D</p>
-          <img src={Sep_service} alt="separator" />
-          <div className="service__separator_final-line"></div>
+          <p>Modeling, Shading & Lightning</p>
+        </div>
+        <div className="service">
+          <p>Rigging & Animation 3D</p>
         </div>
         <div className="service">
           <p>Simulation</p>
-          <img src={Sep_service} alt="separator" />
-          <div className="service__separator_final-line"></div>
         </div>
         <div className="service">
           <p>Matte Painting</p>
-          <img src={Sep_service} alt="separator" />
-          <div className="service__separator_final-line"></div>
         </div>
         <div className="service">
           <p>Digital Clean / Digital Make-Up</p>
-          <img src={Sep_service} alt="separator" />
-          <div className="service__separator_final-line"></div>
         </div>
         <div className="service">
           <p>Supervision and Coordination</p>
-          <img src={Sep_service} alt="separator" />
-          <div className="service__separator_final-line"></div>
         </div>
       </section>
       <Separator_about_clientes />
