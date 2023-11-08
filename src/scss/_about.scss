@@ -211,8 +211,10 @@
     }
 
     img {
+      width: 150px;
       background-color: transparent;
       transform: scale(0.9);
+      filter: saturate(0) brightness(1);
     }
   }
 }
