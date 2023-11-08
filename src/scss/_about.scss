@@ -62,10 +62,12 @@
 //   }
 // }
 
+
+
 .about__services {
   width: 100%;
   scroll-margin-top: 48px;
-  padding: 16vh 0 16vh 5vw;
+  padding: 5vh 0 16vh 5vw;
   height: auto;
   background-color: #171717;
   display: flex;
@@ -74,6 +76,17 @@
   // position: absolute;
   // margin-top: 207vh;
   z-index: 2;
+  position: relative;
+
+  &::after {
+    content: "";
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgb(23, 23, 23) 80%);
+    width: 40vw;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
 
   .service {
     display: flex;
@@ -142,7 +155,6 @@
 }
 
 .separator_services {
-  position: absolute;
   // margin-top: 194vh;
   z-index: 2;
 
@@ -238,7 +250,7 @@
   }
 
   .about__services {
-    padding: 16vh 0 8vh 5vw;
+    padding: 5vh 0 8vh 5vw;
     .service {
       p {
         font-size: var(--normal-font-size);

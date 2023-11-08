@@ -1,18 +1,24 @@
 
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Logo from "../assets/svg/header/Group 2.svg";
 import { useEsperancitaContext } from "../context/Context";
 import comerciales from "../data/comerciales";
 
 const Header = () => {
+  const navigate = useNavigate()
   const { lenguage, setLenguage, setListItemState } = useEsperancitaContext();
   const [toggleMenu, setToggleMenu] = useState(false);
 
   const handleWork = () => {
     setListItemState("All")
     const el = document.getElementById("work")
-    window.scrollTo({top: el.clientHeight - 500, behavior: "smooth"})
+
+    if (el) {
+      window.scrollTo({top: el.clientHeight - 500, behavior: "smooth"})
+    } else {
+      navigate("/#work")
+    }
   }
 
   return (
