@@ -21,6 +21,34 @@ const Clients_home = () => {
             <img src={clientes[4].logo} alt="" />
           </div>
           <div className="slide">
+            <img src={clientes[5].logo} alt="" />
+          </div>
+          <div className="slide">
+            <img src={clientes[6].logo} alt="" />
+          </div>
+          <div className="slide">
+            <img src={clientes[7].logo} alt="" />
+          </div>
+          <div className="slide">
+            <img src={clientes[8].logo} alt="" />
+          </div>
+          <div className="slide">
+            <img src={clientes[9].logo} alt="" />
+          </div>
+          <div className="slide">
+            <img src={clientes[10].logo} alt="" />
+          </div>
+          <div className="slide">
+            <img src={clientes[11].logo} alt="" />
+          </div>
+          <div className="slide">
+            <img src={clientes[12].logo} alt="" />
+          </div>
+          <div className="slide">
+            <img src={clientes[13].logo} alt="" />
+          </div>
+          
+          <div className="slide">
             <img src={clientes[0].logo} alt="" />
           </div>
           <div className="slide">
@@ -32,8 +60,38 @@ const Clients_home = () => {
           <div className="slide">
             <img src={clientes[3].logo} alt="" />
           </div>
-
           <div className="slide">
+            <img src={clientes[4].logo} alt="" />
+          </div>
+          <div className="slide">
+            <img src={clientes[5].logo} alt="" />
+          </div>
+          <div className="slide">
+            <img src={clientes[6].logo} alt="" />
+          </div>
+          <div className="slide">
+            <img src={clientes[7].logo} alt="" />
+          </div>
+          <div className="slide">
+            <img src={clientes[8].logo} alt="" />
+          </div>
+          <div className="slide">
+            <img src={clientes[9].logo} alt="" />
+          </div>
+          <div className="slide">
+            <img src={clientes[10].logo} alt="" />
+          </div>
+          <div className="slide">
+            <img src={clientes[11].logo} alt="" />
+          </div>
+          <div className="slide">
+            <img src={clientes[12].logo} alt="" />
+          </div>
+          <div className="slide">
+            <img src={clientes[13].logo} alt="" />
+          </div>
+
+          {/* <div className="slide">
             <img src={clientes[0].logo} alt="" />
           </div>
           <div className="slide">
@@ -59,7 +117,7 @@ const Clients_home = () => {
           </div>
           <div className="slide">
             <img src={clientes[3].logo} alt="" />
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
