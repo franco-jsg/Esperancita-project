@@ -213,7 +213,7 @@
 
       video {
         max-height: 300px;
-        object-fit: fill;
+        object-fit: cover;
       }
 
       video:hover {
@@ -258,7 +258,7 @@
     bottom: 3vh;
     width: 31vw;
     height: 100px;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgb(23, 23, 23) 100%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgb(23, 23, 23) 90%);
     pointer-events: none;
     z-index: 200;
   }

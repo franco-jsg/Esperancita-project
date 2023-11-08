@@ -7,7 +7,7 @@ const Work_video = ({main_video, video_id, video_description}) => {
   useEsperancitaContext();
 
 function handleClick() {
-  setMainComercial(comerciales[video_id]);
+  setMainComercial(comerciales.find(v => v.id === video_id));
 
   window.scrollTo(0, 0);
 }
@@ -20,7 +20,7 @@ useEffect(() => {
       <video autoPlay muted loop width="100%">
         <source src={main_video}/>
       </video>
-      <p className="work__video-text">{ lenguage === "ES" ? (video_description[0]) : (video_description[1]) }</p>
+      <p className="work__video-text">{video_description}</p>
     </div>
   );
 };

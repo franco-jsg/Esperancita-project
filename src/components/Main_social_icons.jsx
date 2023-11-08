@@ -30,7 +30,7 @@ const Main_social_icons = () => {
         <a href="https://www.linkedin.com" target="_blank" className="social-link">
           <img src={LinkedIn} alt="LinkedIn link" />
         </a>
-        <a href="https://www.whatsapp.com" target="_blank" className="social-link">
+        <a href="https://wa.me/5491167393009?text=%C2%A1Hola!%20Gracias%20por%20visitar%20nuestro%20sitio%20web.%20%20Si%20tienes%20alguna%20consulta%20o%20necesitas%20un%20presupuesto%2C%20no%20dudes%20en%20contactarnos.%20Estamos%20a%20solo%20un%20mensaje%20de%20WhatsApp%20de%20distancia.%20%C2%A1Gracias%20%F0%9F%98%8E!" target="_blank" className="social-link">
           <img src={WhatsApp} alt="WhatsApp link" />
         </a>
       </div>

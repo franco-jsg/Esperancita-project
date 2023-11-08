@@ -27,7 +27,6 @@ const Section_1 = () => {
     }
   }, [videoIsIntersecting]);
 
-
   return (
     <>
       <video key={mainComercial.video} ref={videoRef} className={"section_1__video"} autoPlay muted loop>
