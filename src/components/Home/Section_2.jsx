@@ -22,7 +22,7 @@ const Section_2 = () => {
 
   return (
     <>
-      <div className="section_2">
+      <div id="work" className="section_2">
         <h1 className="section_2__title">Work</h1>
         <Separator_1 />
         <ul className="section_2__list" >

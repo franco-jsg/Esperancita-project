@@ -1,3 +1,4 @@
+
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Logo from "../assets/svg/header/Group 2.svg";
@@ -5,8 +6,14 @@ import { useEsperancitaContext } from "../context/Context";
 import comerciales from "../data/comerciales";
 
 const Header = () => {
-  const { lenguage, setLenguage } = useEsperancitaContext();
+  const { lenguage, setLenguage, setListItemState } = useEsperancitaContext();
   const [toggleMenu, setToggleMenu] = useState(false);
+
+  const handleWork = () => {
+    setListItemState("All")
+    const el = document.getElementById("work")
+    window.scrollTo({top: el.clientHeight - 500, behavior: "smooth"})
+  }
 
   return (
     <header className="header">
@@ -27,18 +34,18 @@ const Header = () => {
           <ul className="navbar__list">
             {lenguage === "ES" ? (
               <>
-                <Link to="/work" className="navbar__list__item">
+                <div onClick={handleWork} className="navbar__list__item">
                   Work
-                </Link>
+                </div>
                 <Link to="/about" className="navbar__list__item">
                   About
                 </Link>
               </>
             ) : (
               <>
-                <Link to="/en/work" className="navbar__list__item">
+                <div onClick={handleWork} className="navbar__list__item">
                   Work
-                </Link>
+                </div>
                 <Link to="/en/about" className="navbar__list__item">
                   About
                 </Link>
