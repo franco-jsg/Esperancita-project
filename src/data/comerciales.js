@@ -63,7 +63,7 @@ const data = [
   {
     name: "Nissan Kicks",
     id: 2,
-    category: ["Simulación"],
+    category: ["Simulation"],
     // description:
     //   "En este comercial, aplicamos la técnica de simulación de partículas para crear las llamativas estelas de luz de colores que emanan de las camionetas Nissan en movimiento. Mediante el uso de la técnica de -match move-, sincronizamos un modelo 3D idéntico a la camioneta, permitiéndole seguir su trayectoria y actuar como fuente de partículas, generando así las deslumbrantes estelas de luz cuando las camionetas están en movimiento.",
     description: [
@@ -135,7 +135,7 @@ const data = [
   {
     name: "Total play",
     id: 7,
-    category: ["Simulación", "3D"],
+    category: ["Simulation", "3D"],
     // description:
     //   "Simulacion de particulas / 3D / Motion graphics / e integracion con live action",
 
@@ -319,7 +319,7 @@ const data = [
   {
     name: "Water",
     id: 21,
-    category: ["Simulación", "3D"],
+    category: ["Simulation", "3D"],
     // description: "Simulacion de fluidos / 3D ",
     description: ["Simulacion de fluidos / 3D", "Fluid simulation / 3D"],
     year: "2023",
