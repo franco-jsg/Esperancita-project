@@ -12,15 +12,21 @@ export const ContextProvider = ({ children }) => {
   const [videoIsIntersecting, setVideoIsIntersecting] = useState(false);
   const [lenguage, setLenguage] = useState("EN");
 
+  const aboutVideo = comerciales.find((video) => video.name === "About")
+
+
+
   const categoryActive =
     listItemState === "All"
       ? comerciales.slice(1)
-      : comerciales.slice(1).filter(
-          (item) =>
-            item.category.find((i) => i === listItemState) === listItemState
-        );
+      : comerciales
+          .slice(1)
+          .filter(
+            (item) =>
+              item.category.find((i) => i === listItemState) === listItemState
+          );
 
-  useEffect(() => {}, [mainComercial, lenguage]);
+  useEffect(() => {}, [mainComercial, lenguage, aboutVideo]);
 
   return (
     <EsperancitaContext.Provider
@@ -38,7 +44,8 @@ export const ContextProvider = ({ children }) => {
         setFooterIsIntersecting,
         setVideoIsIntersecting,
         lenguage,
-        setLenguage
+        setLenguage,
+        aboutVideo
       }}
     >
       {children}

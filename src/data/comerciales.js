@@ -17,6 +17,7 @@ import Fargo from "../assets/videos/3d/MASTER FARGO 20s 16.9.mp4"
 import Whirpool from "../assets/videos/3d/Whirpool_60s_12012022_Inglés Master.mp4"
 import RAM from "../assets/videos/3d/RAM_DC_MASTER.mp4"
 import TOTALPLAY from "../assets/videos/3d/TOTAL_PLAY_UNIVERSO_MASTER_06_07_23.mp4"
+import About from "../assets/videos/about/Logo_Esperancitavfx_cierre_v03.mp4"
 
 
 const data = [
@@ -336,6 +337,17 @@ const data = [
     date: "24/04/2022",
     // video: "src/assets/videos/reels/REEL_PANTALLAS_v03.mp4",
     video: Pantallas,
+  },
+  {
+    name: "About",
+    id: 24,
+    category: [],
+    // description: "Reels pantallas",
+    description: [],
+    year: "",
+    date: "",
+    // video: "src/assets/videos/reels/REEL_PANTALLAS_v03.mp4",
+    video: About,
   },
 ];
 
