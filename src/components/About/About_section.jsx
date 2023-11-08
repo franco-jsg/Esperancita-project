@@ -94,11 +94,6 @@ const AboutSection = () => {
       </section>
       <Separator_about_clientes />
       <section className="about__clients">
-        {lenguage === "ES" ? (
-          <p>Confían en nosotros las siguientes marcas:</p>
-        ) : (
-          <p>The following brands trust us:</p>
-        )}
         <div className="clients__grid">
           <img src={clientes[0].logo} className="clients-grid-item" alt="" />
           <img src={clientes[1].logo} className="clients-grid-item" alt="" />
