@@ -89,7 +89,7 @@ const AboutSection = () => {
           <p>Digital Clean / Digital Make-Up</p>
         </div>
         <div className="service">
-          <p>Supervision and Coordination</p>
+          <p>Supervision & Coordination</p>
         </div>
       </section>
       <Separator_about_clientes />
