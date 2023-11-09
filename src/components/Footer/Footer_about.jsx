@@ -43,7 +43,7 @@ const Footer_about = () => {
               Follow us:
               <div className="social__icons">
                 <a
-                  href="https://instagram.com"
+                  href="https://www.instagram.com/esperancitavfx/"
                   target="_blank"
                   className="social-link"
                 >
@@ -57,7 +57,7 @@ const Footer_about = () => {
                   <img src={Youtube2} alt="" />
                 </a>
                 <a
-                  href="https://www.linkedin.com"
+                  href="https://www.linkedin.com/company/esperancitavfx/"
                   target="_blank"
                   className="social-link"
                 >
