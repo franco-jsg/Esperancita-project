@@ -5,12 +5,12 @@ import oxxo from "../assets/svg/clients/oxxo.svg";
 import ram from "../assets/svg/clients/ram.svg";
 import bbva from "../assets/svg/clients/BBVA_2019.svg";
 import diddi from "../assets/svg/clients/didi-chuxing.svg";
-import fargo from "../assets/svg/clients/fargo.svg";
-import bancoAzteca from "../assets/svg/clients/Logo_Banco_Azteca.svg";
+import fargo from "../assets/svg/clients/fargo2.svg";
+import bancoAzteca from "../assets/svg/clients/Logo_Banco_Azteca2.svg";
 import bancoCoppel from "../assets/svg/clients/Logo_de_BanCoppel.svg";
 import totalPlay from "../assets/svg/clients/Logo_TotalPlay.svg";
-import mg from "../assets/svg/clients/mg.svg";
-import secret from "../assets/svg/clients/Secret_logo.svg";
+import mg from "../assets/svg/clients/mg3.svg";
+import secret from "../assets/svg/clients/Secret_logo2.svg";
 import whirlpool from "../assets/svg/clients/Whirlpool_Corporation.svg";
 import saladitas from "../assets/svg/clients/logo-saladitas.svg";
 
