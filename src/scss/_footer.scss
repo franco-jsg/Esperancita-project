@@ -27,6 +27,16 @@
       gap: 10px;
     }
 
+    .contact__content {
+      width: 346px;
+      a {
+        text-decoration: none;
+        font-size: var(--smaller-font-size);
+        font-weight: var(--font-light);
+      color: white;
+      }
+    }
+
     .contact__form {
       width: 346px;
       min-width: 200px;
@@ -156,6 +166,12 @@
         h4{
           font-size: var(--small-font-size);
         }
+      }
+      .contact__content {
+        width: 280px;
+         a {
+          font-size: var(--tiny-font-size)
+         }
       }
       .contact__form {
         width: 280px;

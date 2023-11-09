@@ -20,8 +20,9 @@ const Contact_form = () => {
     <>
       <div className="contact__content">
         <h4 className="contact__title">Contact us</h4>
+        <a href="mailto:correo@ejemplo.com?subject=Asunto%20del%20correo&body=Cuerpo%20del%20mensaje" >¡Hola! Gracias por visitar nuestro sitio web.  Si tienes alguna consulta o necesitas un presupuesto, no dudes en contactarnos. Estamos a solo un mensaje de WhatsApp de distancia. ¡Gracias :)!</a>
 
-        <form onSubmit={sendEmail} className="contact__form">
+        {/* <form onSubmit={sendEmail} className="contact__form">
           <div className="contact__form-div">
             <input
               type="text"
@@ -46,7 +47,7 @@ const Contact_form = () => {
             ></textarea>
             <button className=""><img src={Arrow} alt="" /></button>
           </div>
-        </form>
+        </form> */}
       </div>
     </>
   );

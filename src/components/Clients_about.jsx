@@ -47,6 +47,9 @@ const Clients_about = () => {
           <div className="slide">
             <img src={clientes[13].logo} alt="" />
           </div>
+          <div className="slide">
+            <img src={clientes[14].logo} alt="" />
+          </div>
           
           <div className="slide">
             <img src={clientes[0].logo} alt="" />
@@ -89,6 +92,9 @@ const Clients_about = () => {
           </div>
           <div className="slide">
             <img src={clientes[13].logo} alt="" />
+          </div>
+          <div className="slide">
+            <img src={clientes[14].logo} alt="" />
           </div>
 
           {/* <div className="slide">

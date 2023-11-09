@@ -11,7 +11,8 @@ import bancoCoppel from "../assets/svg/clients/Logo_de_BanCoppel.svg";
 import totalPlay from "../assets/svg/clients/Logo_TotalPlay.svg";
 import mg from "../assets/svg/clients/mg.svg";
 import secret from "../assets/svg/clients/Secret_logo.svg";
-import whirlpool from "../assets/svg/clients//Whirlpool_Corporation.svg";
+import whirlpool from "../assets/svg/clients/Whirlpool_Corporation.svg";
+import saladitas from "../assets/svg/clients/logo-saladitas.svg";
 
 const clientes = [
   {
@@ -83,6 +84,11 @@ const clientes = [
     name: "Whirlpool",
     id: 13,
     logo: whirlpool,
+  },
+  {
+    name: "Saladitas",
+    id: 14,
+    logo: saladitas,
   },
 ];
 
