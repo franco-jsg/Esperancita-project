@@ -76,8 +76,13 @@
     }
 
     .footer__social {
+
       h4 {
         padding-bottom: 13.5px;
+        a {
+          text-decoration: none;
+          color: white;
+        }
       }
 
       img {

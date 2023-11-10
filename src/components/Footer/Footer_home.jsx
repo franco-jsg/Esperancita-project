@@ -38,7 +38,15 @@ const Footer_home = () => {
           <Contact_form />
 
           <div className="footer__social">
-            <h4>Join us</h4>
+            <h4>
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSdOiQbCiMk_zWd0XqBzRFvLUpuJ9_b2ZquqAlcVUVpwkjEvXQ/viewform?usp=pp_url"
+                target="_blank"
+                className="social-link"
+              >
+                Join us
+              </a>
+            </h4>
             <img src={Separator} alt="separator" />
             <div className="social__links">
               Follow us:
