@@ -16,6 +16,13 @@ const Contact_form = () => {
     lenguage === "ES" ? navigate('/') : navigate('/en')
   
   };
+
+  const handleSize = (el) => {
+    const { target } = el;
+    target.style.height = "";
+    target.style.height = target.scrollHeight + "px";
+  }
+
   return (
     <>
       <div className="contact__content">
@@ -38,6 +45,7 @@ const Contact_form = () => {
               name="message"
               placeholder="message"
               rows="1"
+              onKeyDown={handleSize}
             ></textarea>
             <button className="" onClick={sendEmail}>
               <img src={Arrow} alt="" />
