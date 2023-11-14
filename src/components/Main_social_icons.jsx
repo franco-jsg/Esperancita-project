@@ -24,7 +24,7 @@ const Main_social_icons = () => {
         <a href="https://www.instagram.com/esperancitavfx/" target="_blank" className="social-link">
           <img src={Instagram} alt="Instagram link" />
         </a>
-        <a href="https://www.youtube.com" target="_blank" className="social-link">
+        <a href="https://www.youtube.com/channel/UC4oxmSQzy90Ybl8AXFsC9ZQ" target="_blank" className="social-link">
           <img src={YouTube1} alt="YouTube link" />
         </a>
         <a href="https://www.linkedin.com/company/esperancitavfx/" target="_blank" className="social-link">

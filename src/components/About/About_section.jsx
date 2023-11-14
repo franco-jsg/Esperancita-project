@@ -110,6 +110,7 @@ const AboutSection = () => {
           <img src={clientes[12].logo} className="clients-grid-item" alt="" />
           <img src={clientes[13].logo} className="clients-grid-item" alt="" />
           <img src={clientes[14].logo} className="clients-grid-item" alt="" />
+          <img src={clientes[15].logo} className="clients-grid-item" alt="" />
 
           {/* <img src={clientes[0].logo} className="clients-grid-item" alt="" />
           <img src={clientes[1].logo} className="clients-grid-item" alt="" />

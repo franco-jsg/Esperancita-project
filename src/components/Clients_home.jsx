@@ -50,6 +50,9 @@ const Clients_home = () => {
           <div className="slide">
             <img src={clientes[14].logo} alt="" />
           </div>
+          <div className="slide">
+            <img src={clientes[15].logo} alt="" />
+          </div>
           
           <div className="slide">
             <img src={clientes[0].logo} alt="" />
@@ -95,6 +98,9 @@ const Clients_home = () => {
           </div>
           <div className="slide">
             <img src={clientes[14].logo} alt="" />
+          </div>
+          <div className="slide">
+            <img src={clientes[15].logo} alt="" />
           </div>
 
           {/* <div className="slide">

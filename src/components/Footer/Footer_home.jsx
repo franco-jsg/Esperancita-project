@@ -59,7 +59,7 @@ const Footer_home = () => {
                   <img src={Instagram} alt="" />
                 </a>
                 <a
-                  href="https://www.youtube.com"
+                  href="https://www.youtube.com/channel/UC4oxmSQzy90Ybl8AXFsC9ZQ"
                   target="_blank"
                   className="social-link"
                 >

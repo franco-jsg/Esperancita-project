@@ -13,6 +13,7 @@ import mg from "../assets/svg/clients/mg3.svg";
 import secret from "../assets/svg/clients/Secret_logo2.svg";
 import whirlpool from "../assets/svg/clients/Whirlpool_Corporation.svg";
 import saladitas from "../assets/svg/clients/logo-saladitas.svg";
+import audi from "../assets/svg/clients/audi.svg"
 
 const clientes = [
   {
@@ -90,6 +91,11 @@ const clientes = [
     id: 14,
     logo: saladitas,
   },
+  {
+    name: "Audi",
+    id: 15,
+    logo: audi,
+  }
 ];
 
 export default clientes;
