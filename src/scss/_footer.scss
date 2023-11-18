@@ -25,6 +25,11 @@
       display: flex;
       flex-direction: column;
       gap: 10px;
+
+      button {
+       color: white;
+       background-color: black;
+      }
     }
 
     .contact__content {

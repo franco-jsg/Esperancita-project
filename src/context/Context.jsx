@@ -1,4 +1,4 @@
-import { createContext, useContext, useEffect, useState } from "react";
+import { createContext, useContext, useEffect, useState, useRef } from "react";
 import comerciales from "../data/comerciales";
 
 export const EsperancitaContext = createContext();
@@ -11,6 +11,8 @@ export const ContextProvider = ({ children }) => {
   const [footerIsIntersecting, setFooterIsIntersecting] = useState(false);
   const [videoIsIntersecting, setVideoIsIntersecting] = useState(false);
   const [lenguage, setLenguage] = useState("EN");
+
+  const workRef = useRef(document.getElementById('work'))
 
   const aboutVideo = comerciales.find((video) => video.name === "About")
 
@@ -45,7 +47,8 @@ export const ContextProvider = ({ children }) => {
         setVideoIsIntersecting,
         lenguage,
         setLenguage,
-        aboutVideo
+        aboutVideo,
+        workRef
       }}
     >
       {children}

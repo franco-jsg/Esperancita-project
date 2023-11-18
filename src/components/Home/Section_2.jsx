@@ -14,7 +14,7 @@ import Work_section_1 from "../Work/Work_section_1";
 
 const Section_2 = () => {
   const {
-    listCategories, listItemState, categoryActive
+    listCategories, listItemState, categoryActive, workRef
   } = useEsperancitaContext()
 
   useEffect(() => {
@@ -22,7 +22,7 @@ const Section_2 = () => {
 
   return (
     <>
-      <div id="work"  className="section_2">
+      <div ref={workRef} id="work"  className="section_2">
         <h1 className="section_2__title">Work</h1>
         <Separator_1 />
         <ul className="section_2__list" >

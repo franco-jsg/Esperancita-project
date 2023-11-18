@@ -6,6 +6,7 @@ import Separator from "../../assets/svg/footer/footer2.svg";
 import Instagram from "../../assets/svg/socials/instagram.svg";
 import Youtube2 from "../../assets/svg/socials/youtube2.svg";
 import LinkedIn from "../../assets/svg/socials/linkedin.svg";
+import Categories_list_home from "./Categories_list_home";
 
 const Footer_home = () => {
   const { footerIsIntersecting, setFooterIsIntersecting, lenguage } =
@@ -27,13 +28,8 @@ const Footer_home = () => {
       <div className="section_footer">
         <img className="footer_logo" src={Logo} alt="logo" />
         <section className="footer__info">
-          <ul className="footer__projects">
-            <li>Work</li>
-            <li>3D</li>
-            <li>Simulation</li>
 
-            <li>Compo</li>
-          </ul>
+          <Categories_list_home />
 
           <Contact_form />
 
