@@ -90,6 +90,31 @@
 
   .service {
     display: flex;
+    position: relative;
+
+    &.animate {
+      p {
+        border-bottom: solid white 2px;
+
+        &::after {
+          content: "";
+          width: 100%;
+          background-color: black;
+          height: 2px;
+          position: absolute;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          animation: lines_spin_power_up_right 2s .2s ease forwards;
+        }
+
+        @keyframes lines_spin_power_up_right {
+          to {
+            width: 0;
+          }
+        }
+      }
+    }
 
     p {
       width: 100%;
@@ -133,6 +158,7 @@
   .separator-about-title {
     font-family: var(--body-font-video);
     font-size: var(--h3-font-size);
+    padding-bottom: 32px;
   }
 
   .separator-1 {
