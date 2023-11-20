@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react'
 import clientes from "../../data/clientes";
 import Picture from "../../assets/img/photo1698707185.jpeg";
 import Sep_service from "../../assets/svg/footer/footer2.svg";
@@ -7,6 +8,29 @@ import { useEsperancitaContext } from "../../context/Context";
 
 const AboutSection = () => {
   const { lenguage } = useEsperancitaContext();
+
+  // Intersection observer
+  const [isIntersecting, setIsIntersecting] = useState(false);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(([entry]) => {
+      console.log("---- lines ")
+      console.log("---- lines ")
+      console.log(entry.isIntersecting)
+      console.log(entry)
+      entry.target.classList.add("animate")
+      setIsIntersecting(entry.isIntersecting), { rootMargin: "0px 0px 200px 0px" };
+    });
+    
+    // Get lines elements and observe
+    const lines = [...(document.getElementsByClassName("service"))];
+    console.log(lines)
+    console.log(lines[0])
+    if (lines.length > 0) for (let line of lines) observer.observe(line)
+    
+
+    return () => observer.disconnect();
+  }, [isIntersecting]);
 
   return (
     <>
