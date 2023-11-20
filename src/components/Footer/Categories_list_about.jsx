@@ -1,16 +1,21 @@
+import { useEffect } from "react";
 import { useEsperancitaContext } from "../../context/Context";
 import { useNavigate } from "react-router-dom";
 
 const Categories_list_about = () => {
   const navigate = useNavigate();
-  const { setListItemState, lenguage, workRef } = useEsperancitaContext();
+  const { setListItemState, lenguage, workRef, setRenderListCategories } = useEsperancitaContext();
 
   const handleClick = (e) => {
 
     if (lenguage === "ES") {
-        navigate("/");
+        navigate("/#work");
+        // workRef.current?.scrollIntoView({ behavior: "smooth" })
+        setRenderListCategories(true)
       } else {
-        navigate("/en");
+        navigate("/en/#work");
+        // workRef.current?.scrollIntoView({ behavior: "smooth" })
+        setRenderListCategories(true)
       }
 
     if (e === "Work") {
@@ -23,8 +28,10 @@ const Categories_list_about = () => {
       setListItemState("Compo");
     }
 
+// useEffect(()=>{
+//     workRef.current?.scrollIntoView({ behavior: "smooth" })
 
-    setTimeout(workRef.current?.scrollIntoView({ behavior: "smooth" }), 500);
+// },[])
 
 };
 

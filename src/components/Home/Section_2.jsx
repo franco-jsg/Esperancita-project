@@ -14,11 +14,15 @@ import Work_section_1 from "../Work/Work_section_1";
 
 const Section_2 = () => {
   const {
-    listCategories, listItemState, categoryActive, workRef
+    listCategories, listItemState, categoryActive, workRef, renderListCategories, setRenderListCategories
   } = useEsperancitaContext()
 
   useEffect(() => {
-  }, [categoryActive]);
+    if(renderListCategories) {
+      (workRef.current?.scrollIntoView({behavior: 'smooth'}))
+      setRenderListCategories(false)
+    }  
+  }, [categoryActive, renderListCategories]);
 
   return (
     <>

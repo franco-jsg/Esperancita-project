@@ -2,7 +2,7 @@ import { useEsperancitaContext } from "../../context/Context";
 
 
 const Categories_list_home = () => {
-    const {setListItemState, workRef} = useEsperancitaContext()
+    const {setListItemState, workRef, setRenderListCategories} = useEsperancitaContext()
 
     const handleClick = (e) => {
     
@@ -15,8 +15,9 @@ const Categories_list_home = () => {
         } else if (e === 'Compo') {
           setListItemState('Compo')
         }
-    
-        workRef.current?.scrollIntoView({behavior: 'smooth'})  
+        
+        setRenderListCategories(true)
+        // workRef.current?.scrollIntoView({behavior: 'smooth'})  
       }
   return (
     <ul className="footer__projects">

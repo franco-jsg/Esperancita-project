@@ -9,7 +9,7 @@ import LinkedIn from "../../assets/svg/socials/linkedin.svg";
 import Categories_list_home from "./Categories_list_home";
 
 const Footer_home = () => {
-  const { footerIsIntersecting, setFooterIsIntersecting, lenguage } =
+  const { footerIsIntersecting, setFooterIsIntersecting, lenguage, renderListCategories, setRenderListCategories, workRef } =
     useEsperancitaContext();
 
   const ref = useRef(null);
@@ -22,6 +22,13 @@ const Footer_home = () => {
     observer.observe(ref.current);
     return () => observer.disconnect();
   }, [footerIsIntersecting]);
+
+  useEffect(() => {
+    if(renderListCategories) {
+      (workRef.current?.scrollIntoView({behavior: 'smooth'}))
+      setRenderListCategories(false)
+    }  
+  }, [renderListCategories]);
 
   return (
     <footer className="footer footer_home" ref={ref}>

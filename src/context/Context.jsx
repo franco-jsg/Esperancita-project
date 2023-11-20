@@ -6,17 +6,16 @@ export const EsperancitaContext = createContext();
 export const ContextProvider = ({ children }) => {
   const [mainComercial, setMainComercial] = useState(comerciales[0]);
   const listCategories = ["3D", "Simulation", "Compo", "All"];
+  const [renderListCategories, setRenderListCategories] = useState(false);
   const [listItemState, setListItemState] = useState(listCategories[0]);
   const [socialIncons, setSocialIcons] = useState(false);
   const [footerIsIntersecting, setFooterIsIntersecting] = useState(false);
   const [videoIsIntersecting, setVideoIsIntersecting] = useState(false);
   const [lenguage, setLenguage] = useState("EN");
 
-  const workRef = useRef(document.getElementById('work'))
+  const workRef = useRef(document.getElementById("work"));
 
-  const aboutVideo = comerciales.find((video) => video.name === "About")
-
-
+  const aboutVideo = comerciales.find((video) => video.name === "About");
 
   const categoryActive =
     listItemState === "All"
@@ -48,7 +47,9 @@ export const ContextProvider = ({ children }) => {
         lenguage,
         setLenguage,
         aboutVideo,
-        workRef
+        workRef,
+        renderListCategories,
+        setRenderListCategories,
       }}
     >
       {children}
