@@ -3,7 +3,6 @@ import { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import Logo from "../assets/svg/header/Group 2.svg";
 import { useEsperancitaContext } from "../context/Context";
-import comerciales from "../data/comerciales";
 
 const Header = () => {
   const navigate = useNavigate()

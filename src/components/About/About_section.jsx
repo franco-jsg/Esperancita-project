@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect } from "react";
 import clientes from "../../data/clientes";
 import Picture from "../../assets/img/photo1698707185.jpeg";
 import Sep_service from "../../assets/svg/footer/footer2.svg";
@@ -14,20 +14,20 @@ const AboutSection = () => {
 
   useEffect(() => {
     const observer = new IntersectionObserver(([entry]) => {
-      console.log("---- lines ")
-      console.log("---- lines ")
-      console.log(entry.isIntersecting)
-      console.log(entry)
-      entry.target.classList.add("animate")
-      setIsIntersecting(entry.isIntersecting), { rootMargin: "0px 0px 200px 0px" };
+      console.log("---- lines ");
+      console.log("---- lines ");
+      console.log(entry.isIntersecting);
+      console.log(entry);
+      entry.target.classList.add("animate");
+      setIsIntersecting(entry.isIntersecting),
+        { rootMargin: "0px 0px 200px 0px" };
     });
-    
+
     // Get lines elements and observe
-    const lines = [...(document.getElementsByClassName("service"))];
-    console.log(lines)
-    console.log(lines[0])
-    if (lines.length > 0) for (let line of lines) observer.observe(line)
-    
+    const lines = [...document.getElementsByClassName("service")];
+    console.log(lines);
+    console.log(lines[0]);
+    if (lines.length > 0) for (let line of lines) observer.observe(line);
 
     return () => observer.disconnect();
   }, [isIntersecting]);
@@ -91,8 +91,6 @@ const AboutSection = () => {
       <section className="about__services">
         <div className="service">
           <p className="service_text">Motion Graphic 2D & 3D</p>
-          {/* <img src={Sep_service} alt="separator" />
-          <div className="service__separator_final-line"></div> */}
         </div>
         <div className="service">
           <p>Composite VFX</p>
@@ -134,20 +132,9 @@ const AboutSection = () => {
           <img src={clientes[12].logo} className="clients-grid-item" alt="" />
           <img src={clientes[14].logo} className="clients-grid-item" alt="" />
           <img src={clientes[15].logo} className="clients-grid-item" alt="" />
-
-          {/* <img src={clientes[0].logo} className="clients-grid-item" alt="" />
-          <img src={clientes[1].logo} className="clients-grid-item" alt="" />
-          <img src={clientes[2].logo} className="clients-grid-item" alt="" />
-          <img src={clientes[3].logo} className="clients-grid-item" alt="" />
-          <img src={clientes[4].logo} className="clients-grid-item" alt="" />
-          <img src={clientes[0].logo} className="clients-grid-item" alt="" />
-
-          <img src={clientes[0].logo} className="clients-grid-item" alt="" />
-          <img src={clientes[1].logo} className="clients-grid-item" alt="" />
-          <img src={clientes[2].logo} className="clients-grid-item" alt="" />
-          <img src={clientes[3].logo} className="clients-grid-item" alt="" />
-          <img src={clientes[4].logo} className="clients-grid-item" alt="" />
-          <img src={clientes[0].logo} className="clients-grid-item" alt="" /> */}
+          <img src={clientes[16].logo} className="clients-grid-item" alt="" />
+          <img src={clientes[17].logo} className="clients-grid-item" alt="" />
+          <img src={clientes[18].logo} className="clients-grid-item" alt="" />
         </div>
       </section>
     </>

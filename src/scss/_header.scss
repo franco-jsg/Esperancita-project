@@ -27,7 +27,12 @@
 
     gap: 20px;
     font-size: var(--small-font-size);
+    .navbar__logo {
+      justify-content: center;
+      align-items: center;
+    }
   }
+
 
   .navbar__list {
     display: flex;

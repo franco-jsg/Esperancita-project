@@ -53,7 +53,16 @@ const Clients_home = () => {
           <div className="slide">
             <img src={clientes[15].logo} alt="" />
           </div>
-          
+          <div className="slide">
+            <img src={clientes[16].logo} alt="" />
+          </div>
+          <div className="slide">
+            <img src={clientes[17].logo} alt="" />
+          </div>
+          <div className="slide">
+            <img src={clientes[18].logo} alt="" />
+          </div>
+
           <div className="slide">
             <img src={clientes[0].logo} alt="" />
           </div>
@@ -101,6 +110,15 @@ const Clients_home = () => {
           </div>
           <div className="slide">
             <img src={clientes[15].logo} alt="" />
+          </div>
+          <div className="slide">
+            <img src={clientes[16].logo} alt="" />
+          </div>
+          <div className="slide">
+            <img src={clientes[17].logo} alt="" />
+          </div>
+          <div className="slide">
+            <img src={clientes[18].logo} alt="" />
           </div>
 
           {/* <div className="slide">

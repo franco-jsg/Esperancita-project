@@ -11,9 +11,12 @@ import bancoCoppel from "../assets/svg/clients/2.0/COPPEL BLANCO.svg";
 import totalPlay from "../assets/svg/clients/2.0/Logo_TotalPlay_BLANCO.svg";
 import mg from "../assets/svg/clients/mg3.svg";
 import secret from "../assets/svg/clients/2.0/Secret_logo_blanco.svg";
-import whirlpool from "../assets/svg/clients/Whirlpool_Corporation.svg";
+import whirlpool from "../assets/svg/clients//2.0/Whirlpool_blanco.svg";
 import saladitas from "../assets/svg/clients/logo-saladitas.svg";
-import audi from "../assets/svg/clients/2.0/Audi-Logo_BLANCO.svg"
+import audi from "../assets/svg/clients/2.0/Audi-Logo_BLANCO.svg";
+import chery from "../assets/svg/clients/2.0/Chery_BLANCO.svg"
+import corona from "../assets/svg/clients/2.0/corona-BLANCO.svg"
+import cocacola from "../assets/svg/clients/2.0/Coca-Cola_logo_blanco.svg"
 
 const clientes = [
   {
@@ -47,53 +50,68 @@ const clientes = [
     logo: ram,
   },
   {
-    name: "BBVA",
+    name: "Corona",
     id: 6,
+    logo: corona,
+  },
+  {
+    name: "Cocacola",
+    id: 7,
+    logo: cocacola,
+  },
+  {
+    name: "BBVA",
+    id: 8,
     logo: bbva,
   },
   {
     name: "Diddi",
-    id: 7,
+    id: 9,
     logo: diddi,
   },
   {
     name: "Fargo",
-    id: 8,
+    id: 10,
     logo: fargo,
   },
   {
+    name: "Chery",
+    id: 11,
+    logo: chery,
+  },
+  {
     name: "Banco Azteca",
-    id: 9,
+    id: 12,
     logo: bancoAzteca,
   },
   {
     name: "Banco Coppel",
-    id: 10,
+    id: 13,
     logo: bancoCoppel,
   },
   {
     name: "Total Play",
-    id: 11,
+    id: 14,
     logo: totalPlay,
   },
   {
     name: "MG",
-    id: 12,
+    id: 15,
     logo: mg,
   },
   {
     name: "Secret",
-    id: 13,
+    id: 16,
     logo: secret,
   },
   {
     name: "Whirlpool",
-    id: 14,
+    id: 17,
     logo: whirlpool,
   },
   {
     name: "Saladitas",
-    id: 15,
+    id: 18,
     logo: saladitas,
   }
 ];
