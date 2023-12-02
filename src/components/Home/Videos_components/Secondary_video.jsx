@@ -11,6 +11,8 @@ const Secondary_video = ({
   secondary_video,
   LogoSecondary,
   CubeSecondary,
+  mainComercialMuted,
+  setMainComercialMuted
 
 }) => {
   const { mainComercial, setMainComercial, listItemState,  lenguage } =
@@ -20,6 +22,8 @@ const Secondary_video = ({
     setMainComercial(comerciales.find(v => v.id == video_id));
 
     window.scrollTo(0, 0);
+
+    setMainComercialMuted(!mainComercialMuted)
   }
   const categoryFiltered = secondary_category.find((i) => i === listItemState);
 

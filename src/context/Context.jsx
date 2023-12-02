@@ -12,6 +12,7 @@ export const ContextProvider = ({ children }) => {
   const [footerIsIntersecting, setFooterIsIntersecting] = useState(false);
   const [videoIsIntersecting, setVideoIsIntersecting] = useState(false);
   const [lenguage, setLenguage] = useState("EN");
+  const [mainComercialMuted, setMainComercialMuted] = useState(true)
 
   const workRef = useRef(document.getElementById("work"));
 
@@ -50,6 +51,8 @@ export const ContextProvider = ({ children }) => {
         workRef,
         renderListCategories,
         setRenderListCategories,
+        mainComercialMuted,
+        setMainComercialMuted
       }}
     >
       {children}

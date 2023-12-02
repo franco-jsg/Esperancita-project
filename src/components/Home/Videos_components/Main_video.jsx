@@ -3,12 +3,15 @@ import { useEsperancitaContext } from "../../../context/Context";
 import comerciales from "../../../data/comerciales.js";
 
 const Main_video = ({ Logo, Cube}) => {
+
   const [activeVideo, setActiveVideo] = useState()
   const {
     categoryActive,
     listItemState,
     lenguage,
-    setMainComercial
+    setMainComercial,
+    mainComercialMuted,
+    setMainComercialMuted
   } = useEsperancitaContext()
 
   useEffect(() => {
@@ -19,6 +22,9 @@ const Main_video = ({ Logo, Cube}) => {
     setMainComercial(comerciales.find(v => v.id == activeVideo.id));
 
     window.scrollTo(0, 0);
+
+    setMainComercialMuted(!mainComercialMuted)
+    
   }
 
   return (

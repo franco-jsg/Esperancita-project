@@ -3,13 +3,15 @@ import { useEsperancitaContext } from "../../context/Context";
 import comerciales from '../../data/comerciales'
 
 const Work_video = ({main_video, video_id, video_description}) => {
-  const { mainComercial, setMainComercial, lenguage } =
+  const { mainComercial, setMainComercial, lenguage, setMainComercialMuted, mainComercialMuted } =
   useEsperancitaContext();
 
 function handleClick() {
   setMainComercial(comerciales.find(v => v.id === video_id));
 
   window.scrollTo(0, 0);
+
+  setMainComercialMuted(!mainComercialMuted)
 }
 
 useEffect(() => {
