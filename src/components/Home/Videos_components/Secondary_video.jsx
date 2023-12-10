@@ -11,33 +11,35 @@ const Secondary_video = ({
   secondary_video,
   LogoSecondary,
   CubeSecondary,
-  mainComercialMuted,
-  setMainComercialMuted
-
 }) => {
-  const { mainComercial, setMainComercial, listItemState,  lenguage } =
-    useEsperancitaContext();
+  const {
+    mainComercial,
+    setMainComercial,
+    listItemState,
+    lenguage,
+    mainComercialMuted,
+    setMainComercialMuted,
+  } = useEsperancitaContext();
 
   function handleClick() {
-    setMainComercial(comerciales.find(v => v.id == video_id));
+    setMainComercial(comerciales.find((v) => v.id == video_id));
 
     window.scrollTo(0, 0);
 
-    setMainComercialMuted(!mainComercialMuted)
+    setMainComercialMuted(!mainComercialMuted);
+    console.log(mainComercial);
   }
   const categoryFiltered = secondary_category.find((i) => i === listItemState);
 
-  useEffect(() => {}, [mainComercial, lenguage]);
+  useEffect(() => {}, [mainComercial, lenguage, mainComercialMuted]);
 
   return (
     <div className="secondary_video">
-      {
-        secondary_video && (
-          <video autoPlay muted loop width="100%" onClick={handleClick}>
-            <source src={secondary_video} />
-          </video>
-        )
-      }
+      {secondary_video && (
+        <video autoPlay muted loop width="100%" onClick={handleClick}>
+          <source src={secondary_video} />
+        </video>
+      )}
       <div className="secondary-video_text_container">
         <p className="video-clasification">{categoryFiltered}</p>
         <img src={LogoSecondary} className="secondary_video__logo" alt="" />
