@@ -15,6 +15,7 @@
   top: 0;
   z-index: -1;
   object-fit: cover;
+  cursor: pointer;
 
   // scroll snap first test
   scroll-snap-type: x mandatory;
@@ -130,6 +131,5 @@
   .section_1__text {
     font-size: var(--small-font-size);
   }
-  .section_1__img {
-  }
+
 }

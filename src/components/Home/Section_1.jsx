@@ -9,6 +9,7 @@ const Section_1 = () => {
     mainComercial,
     lenguage,
     mainComercialMuted,
+    setMainComercialMuted
   } = useEsperancitaContext();
 
   const videoRef = useRef(null);
@@ -26,8 +27,10 @@ const Section_1 = () => {
   useEffect(() => {
     if (videoIsIntersecting) {
       videoRef.current.classList.add("blur");
+      setMainComercialMuted(!mainComercialMuted)
     } else {
       videoRef.current.classList.remove("blur");
+      setMainComercialMuted(!mainComercialMuted)
     }
   }, [videoIsIntersecting]);
 
@@ -49,6 +52,7 @@ const Section_1 = () => {
         autoPlay
         muted
         loop
+        onClick={ () => setMainComercialMuted(!mainComercialMuted)}
       >
         <source src={mainComercial.video} />
       </video>

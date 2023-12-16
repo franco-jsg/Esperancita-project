@@ -13,11 +13,7 @@ const Main_video = ({ Logo, Cube}) => {
     mainComercialMuted,
     setMainComercialMuted
   } = useEsperancitaContext()
-
-  useEffect(() => {
-    setActiveVideo(categoryActive[0])
-  },[listItemState])
-
+  
   function handleClick() {
     setMainComercial(comerciales.find(v => v.id == activeVideo.id));
 
@@ -26,6 +22,11 @@ const Main_video = ({ Logo, Cube}) => {
     setMainComercialMuted(!mainComercialMuted)
     
   }
+  
+  useEffect(() => {
+    setActiveVideo(categoryActive[0])
+  },[listItemState])
+
 
   return (
     <div className="main_video" onClick={handleClick}>
