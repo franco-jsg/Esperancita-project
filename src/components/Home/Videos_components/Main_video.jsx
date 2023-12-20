@@ -15,8 +15,12 @@ const Main_video = ({ Logo, Cube}) => {
   } = useEsperancitaContext()
   
   function handleClick() {    
-    setMainComercial(comerciales.find(v => v.id == activeVideo.id));
     setMainComercialMuted(false)
+    setMainComercialMuted(true)
+    setMainComercial(comerciales.find(v => v.id == activeVideo.id));
+    setTimeout(() => {
+      setMainComercialMuted(false)
+    }, 300)
   }
   
   useEffect(() => {

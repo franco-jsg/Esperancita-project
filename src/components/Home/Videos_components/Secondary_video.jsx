@@ -23,8 +23,11 @@ const Secondary_video = ({
 
   function handleClick() {
     let selectedVideo = comerciales.find((v) => v.id == video_id)
+    setMainComercialMuted(true)
     setMainComercial(selectedVideo);
-    setMainComercialMuted(false)
+    setTimeout(() => {
+      setMainComercialMuted(false)
+    }, 300)
   }
   const categoryFiltered = secondary_category.find((i) => i === listItemState);
 
