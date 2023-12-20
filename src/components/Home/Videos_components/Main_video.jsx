@@ -14,13 +14,9 @@ const Main_video = ({ Logo, Cube}) => {
     setMainComercialMuted
   } = useEsperancitaContext()
   
-  function handleClick() {
+  function handleClick() {    
     setMainComercial(comerciales.find(v => v.id == activeVideo.id));
-
-    window.scrollTo(0, 0);
-
-    setMainComercialMuted(!mainComercialMuted)
-    
+    setMainComercialMuted(false)
   }
   
   useEffect(() => {
@@ -36,7 +32,7 @@ const Main_video = ({ Logo, Cube}) => {
         <div className="video-container">
           {
             listItemState && activeVideo && (
-              <video key={`${listItemState}+${activeVideo.name}`}autoPlay muted loop width="100%">
+              <video key={`${listItemState}+${activeVideo.name}`} preload="none" autoPlay muted loop width="100%">
                 <source src={activeVideo.video} />
               </video>
             )

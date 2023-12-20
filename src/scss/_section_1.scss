@@ -3,6 +3,10 @@
   position: absolute;
   background: transparent;
 }
+
+.video-container {
+  position: relative;
+}
 .section_1__video {
   background-color: black;
   width: 100%;
@@ -78,6 +82,17 @@
   max-width: 534.89px;
   display: flex;
   align-self: self-end;
+}
+
+.audio-icon {
+  position: absolute;
+  bottom: 24px;
+  right: 24px;
+  fill: rgba(255,255,255,.8);
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  pointer-events: none;
 }
 
 

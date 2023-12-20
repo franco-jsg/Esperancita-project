@@ -22,12 +22,9 @@ const Secondary_video = ({
   } = useEsperancitaContext();
 
   function handleClick() {
-    setMainComercial(comerciales.find((v) => v.id == video_id));
-
-    window.scrollTo(0, 0);
-
-    setMainComercialMuted(!mainComercialMuted);
-    console.log(mainComercial);
+    let selectedVideo = comerciales.find((v) => v.id == video_id)
+    setMainComercial(selectedVideo);
+    setMainComercialMuted(false)
   }
   const categoryFiltered = secondary_category.find((i) => i === listItemState);
 
@@ -36,7 +33,7 @@ const Secondary_video = ({
   return (
     <div className="secondary_video">
       {secondary_video && (
-        <video autoPlay muted loop width="100%" onClick={handleClick}>
+        <video preload="none" autoPlay muted loop width="100%" onClick={handleClick}>
           <source src={secondary_video} />
         </video>
       )}

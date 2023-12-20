@@ -14,9 +14,6 @@ function handleClick() {
   setMainComercialMuted(!mainComercialMuted)
 }
 
-useEffect(() => {
-
-},[mainComercial])
   return (
     <div className="work__video" onClick={handleClick}>
       <video autoPlay muted loop width="100%">
