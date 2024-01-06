@@ -260,8 +260,9 @@
 }
 
 @media screen and (max-width: 1300px) {
-  // .section_2__title {
-  // }
+  .section_2__title {
+    font-size: var(--medium-font-size);
+  }
 
   // .section_2__list {
   // }
