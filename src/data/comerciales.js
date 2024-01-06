@@ -12,7 +12,7 @@ import Nissan from "../assets/videos/simulacion/Nissan.mp4";
 import WaterSpring from "../assets/videos/simulacion/water-spring.mp4";
 import Mundet from "../assets/videos/compo/04 - Sidral Mundet Director's Cut_1.mp4";
 import OXXO from "../assets/videos/3d/Oxxo_TARJETAS _M.mp4"
-import Runners from "../assets/videos/3d/Runners_Fuego_20.mov"
+import Runners from "../assets/videos/3d/Runners_Fuego_20.mp4"
 import Fargo from "../assets/videos/3d/MASTER FARGO 20s 16.9.mp4"
 import Whirpool from "../assets/videos/3d/Whirpool_60s_12012022_Inglés Master.mp4"
 import RAM from "../assets/videos/3d/RAM_DC_MASTER.mp4"

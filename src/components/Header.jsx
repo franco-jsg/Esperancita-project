@@ -78,7 +78,7 @@ const Header = () => {
             </div>
           </ul>
           <i
-            class="bx bxs-x-circle bx-md navbar__close"
+            className="bx bxs-x-circle bx-md navbar__close"
             onClick={() => setToggleMenu(!toggleMenu)}
           ></i>
         </div>
@@ -86,7 +86,7 @@ const Header = () => {
           className="navbar__toggle"
           onClick={() => setToggleMenu(!toggleMenu)}
         >
-          <i class="bx bx-menu bx-lg"></i>
+          <i className="bx bx-menu bx-lg"></i>
         </div>
       </nav>
     </header>
