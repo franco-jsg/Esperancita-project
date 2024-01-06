@@ -25,13 +25,13 @@ const Header = () => {
       <nav className="navbar">
         <div className="navbar__brand">
           {lenguage === "ES" ? (
-            <Link to="/">
+            <a href="/">
               <img src={Logo} alt="" className="navbar__logo" />
-            </Link>
+            </a>
           ) : (
-            <Link to="/en">
+            <a href="/en">
               <img src={Logo} alt="" className="navbar__logo" />
-            </Link>
+            </a>
           )}
           <p>Fix it in post</p>
         </div>
