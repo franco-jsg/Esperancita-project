@@ -70,7 +70,6 @@
 
 .about__services {
   width: 100%;
-  scroll-margin-top: 48px;
   padding: 5vh 0 16vh 5vw;
   height: auto;
   background-color: #171717;
@@ -188,10 +187,6 @@
   // margin-top: 194vh;
   z-index: 2;
 
-  //scroll snap first test
-  scroll-snap-type: x mandatory;
-  scroll-snap-align: start;
-  //scroll snap first test
 }
 
 .separator_clientes {
@@ -199,10 +194,6 @@
   // margin-top: 285vh;
   z-index: 2;
 
-  //scroll snap first test
-  scroll-snap-type: x mandatory;
-  scroll-snap-align: start;
-  //scroll snap first test
 }
 
 .about__clients {

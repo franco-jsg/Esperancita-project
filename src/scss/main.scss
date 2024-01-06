@@ -62,8 +62,6 @@
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
-  scroll-snap-type: y proximity;
-  scroll-padding-top: 72px; // stops the navbar to cover the sections titles
   overflow-x: hidden;
 }
 
@@ -79,10 +77,6 @@ textarea {
 body {
   background-color: black;
   color: var(--text-color);
-}
-
-section {
-  scroll-snap-align: start;
 }
 
 // h1,
@@ -125,11 +119,6 @@ button {
   position: relative;
   background: #171717;
 
-  section {
-    scroll-snap-type: y mandatory;
-    scroll-margin-top: 40px;
-    scroll-snap-align: start;
-  }
 }
 
 .video_text_container {

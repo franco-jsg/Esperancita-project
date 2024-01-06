@@ -21,13 +21,9 @@
   object-fit: cover;
   cursor: pointer;
 
-  // scroll snap first test
-  scroll-snap-type: x mandatory;
   // max-height: 100vh;
   overflow-y: scroll;
   overflow-x: hidden;
-  scroll-snap-align: start;
-  scroll-margin-top: 10px;
   transition: filter 0.5s ease-in-out;
   // scroll snap first test
 
@@ -49,12 +45,10 @@
   gap: 64px;
 
   //scroll snap first test
-  scroll-snap-type: x mandatory;
   // height: 100vh;
   // min-height: 70vh;
   overflow-y: scroll;
   overflow-x: hidden;
-  scroll-snap-align: end;
   box-shadow: 0 0 24px rgba(0,0,0,1);
   //scroll snap first test
 }
@@ -69,7 +63,6 @@
   overflow-y: visible;
 
   //scroll snap first test
-  scroll-snap-align: start;
   //scroll snap first test
   line-height: 1.2;
 }
