@@ -35,7 +35,7 @@ const data = [
   {
     name: "Aeromexico Beso",
     id: 0,
-    category: ["3D"],
+    category: ["Simulation"],
     description: ["Comercial Aeromex", "Aeromex commercial"],
     // description:
     //   "lorem",
@@ -78,7 +78,7 @@ const data = [
   {
     name: "Honda",
     id: 3,
-    category: ["3D"],
+    category: ["Simulation"],
     // description:
     //   "En el comercial de Honda, creamos los portales por donde ingresan el nuevo Honda Accord y C-RV utilizando simulación de partículas. Posteriormente, desarrollamos un entorno en 3D que presenta los vehículos Honda con un aspecto holográfico, permitiendo así demostrar el funcionamiento del motor híbrido.",
 
@@ -135,7 +135,8 @@ const data = [
   {
     name: "Total play",
     id: 7,
-    category: ["Simulation", "3D"],
+    category: ["3D"],
+    // category: ["Simulation", "3D"],
     // description:
     //   "Simulacion de particulas / 3D / Motion graphics / e integracion con live action",
 
@@ -244,7 +245,7 @@ const data = [
   {
     name: "Belight coco",
     id: 15,
-    category: ["Compo"],
+    category: ["Simulation"],
     description: "Belight coco",
     description: ["Belight coco", "Belight coco"],
     year: "2022",
@@ -272,7 +273,8 @@ const data = [
   {
     name: "Runners Fuego",
     id: 17,
-    category: ["3D", "Compo"],
+    category: ["3D"],
+    // category: ["3D", "Compo"],
     // description: "3D / motion graphics",
     description: ["3D / motion graphics", "3D/motion graphics"],
     year: "2022",
@@ -307,7 +309,7 @@ const data = [
   {
     name: "Belight toranja",
     id: 20,
-    category: ["Compo"],
+    category: ["Simulation"],
     // description: "Belight toranja",
     description: ["Belight toranja", "Belight toranja"],
     year: "2023",
@@ -319,7 +321,7 @@ const data = [
   {
     name: "Water",
     id: 21,
-    category: ["Simulation", "3D"],
+    category: ["Simulation"],
     // description: "Simulacion de fluidos / 3D ",
     description: ["Simulacion de fluidos / 3D", "Fluid simulation / 3D"],
     year: "2023",
@@ -330,7 +332,8 @@ const data = [
   {
     name: "Reels pantallas",
     id: 22,
-    category: ["3D", "Compo"],
+    category: ["Compo"],
+    // category: ["3D", "Compo"],
     // description: "Reels pantallas",
     description: ["Reels pantallas", "Reels screens"],
     year: "2023",
