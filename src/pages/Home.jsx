@@ -7,11 +7,9 @@ import Clients_home from "../components/Clients_home";
 import Separator_2_home from "../components/Home/Separator_2_home";
 
 const Home = () => {
-
   return (
     <>
-      <Section_1
-      />
+      <Section_1/>
       <Main_social_icons />
       <div className="home_container">
         <Section_2  

@@ -114,6 +114,23 @@ button {
 
 /*LAYOUT*/
 
+.home-loader {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2000;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  video {
+    max-width: 200px;
+  }
+}
 
 .home_container, .work_container {
   position: relative;

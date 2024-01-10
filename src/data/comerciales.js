@@ -34,13 +34,13 @@ const data = [
     video: Esperancita,
   },
   {
-    name: "Lancomer",
+    name: "La Comer",
     id: 33,
-    category: ["3D"],
+    category: ["Simulation"],
     // description:
     //   "A traves de 3d generamos la continuacion del edificio para generar  mas altura y distancia.",
 
-    description: ["Lancomer"],
+    description: ["La Comer"],
     year: "2023",
     date: "24/04/2023",
     // video: "src/assets/videos/reels/ESPERANCITA_REEL_2023_v12.mp4",

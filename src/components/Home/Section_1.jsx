@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { useEsperancitaContext } from "../../context/Context";
 import Esperancita from "../../assets/svg/Group 20.svg";
+import animated_logo from '../../assets/videos/logo_animado.mp4'
 
 const Section_1 = () => {
   const {
@@ -11,6 +12,8 @@ const Section_1 = () => {
     mainComercialMuted,
     setMainComercialMuted
   } = useEsperancitaContext();
+
+  const [loader, setLoader] = useState(true)
 
   const videoRef = useRef(null);
   const ref = useRef(null);
@@ -48,15 +51,39 @@ const Section_1 = () => {
     }, 100)
   }, [mainComercial])
 
+  useEffect(() => {
+    if (!loader)
+      videoRef.current.play()
+  }, [loader])
+
+  useEffect(() => {
+    videoRef.current.addEventListener('loadeddata', (e) => {
+   
+      if(videoRef.current.readyState >= 3){
+          setLoader(false)
+      }
+   });
+   videoRef.current.load()
+  }, [])
+
   const toggleAudio = () => setMainComercialMuted(!mainComercialMuted)
   return (
     <>
+      {
+        loader && (
+          <div className="home-loader">
+            <video autoPlay muted loop className="animated-logo" >
+              <source src={animated_logo} />
+            </video>
+          </div>
+        )
+      }
       <video
         key={mainComercial.video}
         ref={videoRef}
         id="mainComercialId"
         className="section_1__video"
-        autoPlay
+        preload="none"
         muted
         loop
         onClick={toggleAudio}
