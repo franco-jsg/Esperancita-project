@@ -1,7 +1,7 @@
 import Tvc from "../assets/videos/3d/1.SECRET_TVC_20_LIMPIAVIDRIOS_M.mp4";
-import Secret from "../assets/videos/compo/secret.mp4";
+import Secret from "../assets/videos/compo/SECRET_TVC_PATEADORA_M_1.mp4";
 import Bancoppel from "../assets/videos/compo/Bancoppel_30s_V1_R1_Luciernagas_Aprobada_23052022.mp4";
-import Diddi from "../assets/videos/compo/DIDI.mp4";
+import Diddi from "../assets/videos/compo/DIDI CO RELANZAMIENTO DIDIMÁS LOOP RATCHET 16X9 V02.mp4";
 import Esperancita from "../assets/videos/reels/ESPERANCITA_REEL_2023_v12.mp4";
 import Pantallas from "../assets/videos/reels/REEL_PANTALLAS_v03.mp4";
 import Aeromex from "../assets/videos/simulacion/Aeromexico_Beso_Master_40s_120523.mp4";
@@ -10,7 +10,7 @@ import BelightToronja from "../assets/videos/simulacion/BELIGHT_020322_MASTER_20
 import Honda from "../assets/videos/simulacion/El_legado_Honda.mp4";
 import Nissan from "../assets/videos/simulacion/Nissan.mp4";
 import WaterSpring from "../assets/videos/simulacion/water-spring.mp4";
-import Mundet from "../assets/videos/compo/04 - Sidral Mundet Director's Cut_1.mp4";
+import Mundet from "../assets/videos/compo/Sidral Mundet Director's Cut_1.mp4";
 import OXXO from "../assets/videos/3d/Oxxo_TARJETAS _M.mp4"
 import Runners from "../assets/videos/3d/Runners_Fuego_20.mp4"
 import Fargo from "../assets/videos/3d/MASTER FARGO 20s 16.9.mp4"
@@ -18,6 +18,7 @@ import Whirpool from "../assets/videos/3d/Whirpool_60s_12012022_Inglés Master.m
 import RAM from "../assets/videos/3d/RAM_DC_MASTER.mp4"
 import TOTALPLAY from "../assets/videos/3d/TOTAL_PLAY_UNIVERSO_MASTER_06_07_23.mp4"
 import About from "../assets/videos/about/Logo_Esperancitavfx_cierre_v03.mp4"
+import Lancomer from "../assets/videos/3d/¡Ya llegó nuestra Temporada Naranja! 🧡 _ La Comer_1.mp4"
 
 
 const data = [
@@ -31,6 +32,19 @@ const data = [
     date: "24/04/2022",
     // video: "src/assets/videos/reels/REEL_PANTALLAS_v03.mp4",
     video: Esperancita,
+  },
+  {
+    name: "Lancomer",
+    id: 33,
+    category: ["3D"],
+    // description:
+    //   "A traves de 3d generamos la continuacion del edificio para generar  mas altura y distancia.",
+
+    description: ["Lancomer"],
+    year: "2023",
+    date: "24/04/2023",
+    // video: "src/assets/videos/reels/ESPERANCITA_REEL_2023_v12.mp4",
+    video: Lancomer,
   },
   {
     name: "Secret limpiavidirios",
