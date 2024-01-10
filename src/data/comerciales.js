@@ -1,7 +1,7 @@
 import Tvc from "../assets/videos/3d/1.SECRET_TVC_20_LIMPIAVIDRIOS_M.mp4";
 import Secret from "../assets/videos/compo/SECRET_TVC_PATEADORA_M_1.mp4";
 import Bancoppel from "../assets/videos/compo/Bancoppel_30s_V1_R1_Luciernagas_Aprobada_23052022.mp4";
-import Diddi from "../assets/videos/compo/DIDI CO RELANZAMIENTO DIDIMÁS LOOP RATCHET 16X9 V02.mp4";
+import Diddi from "../assets/videos/compo/DIDI.mp4";
 import Esperancita from "../assets/videos/reels/ESPERANCITA_REEL_2023_v12.mp4";
 import Pantallas from "../assets/videos/reels/REEL_PANTALLAS_v03.mp4";
 import Aeromex from "../assets/videos/simulacion/Aeromexico_Beso_Master_40s_120523.mp4";
