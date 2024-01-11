@@ -57,9 +57,15 @@ const Section_1 = () => {
   }, [loader])
 
   useEffect(() => {
-    setTimeout(() => {
-      setLoader(false)
-    }, 5000)
+    videoRef.current.addEventListener('loadeddata', (e) => {
+      //Video should now be loaded but we can add a second check
+   
+      if(videoRef.current.readyState >= 3){
+          setLoader(false)
+      }
+   });
+   console.log('start loading')
+   videoRef.current.load()
   }, [])
 
   const toggleAudio = () => setMainComercialMuted(!mainComercialMuted)
