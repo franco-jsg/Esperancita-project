@@ -85,6 +85,7 @@ const Section_1 = () => {
         ref={videoRef}
         id="mainComercialId"
         className="section_1__video"
+        autoPlay
         preload="none"
         muted
         loop
