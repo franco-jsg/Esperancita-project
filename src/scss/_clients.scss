@@ -33,6 +33,10 @@
     animation-play-state: paused;
   }
 
+  .slide.big img {
+    transform: scale(1.4);
+  }
+
   @keyframes scroll {
     from {
       transform: translateX(0);
@@ -55,10 +59,6 @@
     align-items: center;
     padding: 15px;
     perspective: 100px;
-  }
-
-  .slide.big img {
-    transform: scale(1.4);
   }
 
   img {
