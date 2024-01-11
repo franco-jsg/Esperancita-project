@@ -47,7 +47,7 @@ const data = [
     video: Lancomer,
   },
   {
-    name: "Secret limpiavidrios",
+    name: "Secret Limpiavidrios",
     id: 18,
     category: ["3D"],
     // description:
@@ -60,7 +60,7 @@ const data = [
     video: Tvc,
   },
   {
-    name: "Total play",
+    name: "Total Play",
     id: 7,
     category: ["3D"],
     // category: ["Simulation", "3D"],
@@ -197,7 +197,7 @@ const data = [
     video: WaterSpring,
   },
   {
-    name: "Belight toranja",
+    name: "Belight Toranja",
     id: 20,
     category: ["Simulation"],
     // description: "Belight toranja",
@@ -209,7 +209,7 @@ const data = [
     video: BelightToronja,
   },
   {
-    name: "Belight coco",
+    name: "Belight Coco",
     id: 15,
     category: ["Simulation"],
     description: "Belight coco",
@@ -235,7 +235,7 @@ const data = [
     video: Diddi,
   },
   {
-    name: "Secret pateadora",
+    name: "Secret Pateadora",
     id: 14,
     category: ["Compo"],
     // description: "Cleanings / completiva de crowds ",
@@ -262,7 +262,44 @@ const data = [
     // video: "src/assets/videos/reels/ESPERANCITA_REEL_2023_v12.mp4",
     video: Mundet,
   },
-  // {
+
+  {
+    name: "Reels Pantallas",
+    id: 22,
+    category: ["Compo"],
+    // category: ["3D", "Compo"],
+    // description: "Reels pantallas",
+    description: ["Reels pantallas", "Reels screens"],
+    year: "2023",
+    date: "24/04/2022",
+    // video: "src/assets/videos/reels/REEL_PANTALLAS_v03.mp4",
+    video: Pantallas,
+  },
+  {
+    name: "Bancopel",
+    id: 12,
+    category: ["Compo"],
+    // description: "Cleanings / transiciones",
+    description: ["Cleanings / transiciones", "Cleanings / transitions"],
+    year: "2022",
+    date: "12/04/2022",
+    // video:
+    //   "src/assets/videos/compo/Bancoppel_30s_V1_R1_Luciernagas_Aprobada_23052022.mp4",
+    video: Bancoppel,
+  },
+
+  {
+    name: "About",
+    id: 24,
+    category: [],
+    // description: "Reels pantallas",
+    description: [],
+    year: "",
+    date: "",
+    // video: "src/assets/videos/reels/REEL_PANTALLAS_v03.mp4",
+    video: About,
+  },
+    // {
   //   name: "CHIREY",
   //   id: 4,
   //   category: ["Simulación", "3D"],
@@ -331,42 +368,6 @@ const data = [
   //   // video: "src/assets/videos/reels/ESPERANCITA_REEL_2023_v12.mp4",
   //   video: Pantallas,
   // },
-  {
-    name: "Reels pantallas",
-    id: 22,
-    category: ["Compo"],
-    // category: ["3D", "Compo"],
-    // description: "Reels pantallas",
-    description: ["Reels pantallas", "Reels screens"],
-    year: "2023",
-    date: "24/04/2022",
-    // video: "src/assets/videos/reels/REEL_PANTALLAS_v03.mp4",
-    video: Pantallas,
-  },
-  {
-    name: "Bancopel",
-    id: 12,
-    category: ["Compo"],
-    // description: "Cleanings / transiciones",
-    description: ["Cleanings / transiciones", "Cleanings / transitions"],
-    year: "2022",
-    date: "12/04/2022",
-    // video:
-    //   "src/assets/videos/compo/Bancoppel_30s_V1_R1_Luciernagas_Aprobada_23052022.mp4",
-    video: Bancoppel,
-  },
-
-  {
-    name: "About",
-    id: 24,
-    category: [],
-    // description: "Reels pantallas",
-    description: [],
-    year: "",
-    date: "",
-    // video: "src/assets/videos/reels/REEL_PANTALLAS_v03.mp4",
-    video: About,
-  },
 ];
 
 export default data;
