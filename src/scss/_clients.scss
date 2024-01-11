@@ -57,6 +57,10 @@
     perspective: 100px;
   }
 
+  .slide.big img {
+    transform: scale(1.4);
+  }
+
   img {
     width: inherit;
     transition: 1s;

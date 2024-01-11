@@ -47,7 +47,7 @@ const data = [
     video: Lancomer,
   },
   {
-    name: "Secret limpiavidirios",
+    name: "Secret limpiavidrios",
     id: 18,
     category: ["3D"],
     // description:
@@ -77,7 +77,7 @@ const data = [
     video: TOTALPLAY,
   },
   {
-    name: "RAM",
+    name: "Ram",
     id: 5,
     category: ["3D"],
     // description: "Background 3D",
@@ -88,7 +88,7 @@ const data = [
     video: RAM,
   },
   {
-    name: "FARGO",
+    name: "Fargo",
     id: 16,
     category: ["3D"],
     // description:
@@ -104,7 +104,7 @@ const data = [
     video: Fargo,
   },
   {
-    name: "OXXO",
+    name: "Oxxo",
     id: 1,
     category: ["3D"],
     // description:
@@ -120,11 +120,11 @@ const data = [
     video: OXXO,
   },
   {
-    name: "Whirpool",
+    name: "Whirlpool",
     id: 19,
     category: ["3D"],
     // description: "Whirpool",
-    description: ["Whirpool", "Whirpool"],
+    description: ["Whirlpool", "Whirlpool"],
     year: "2023",
     date: "13/09/2023",
     // video: "src/assets/videos/reels/ESPERANCITA_REEL_2023_v12.mp4",

@@ -5,10 +5,10 @@ const Clients_home = () => {
     <section className="clients clients_home">
       <div className="slider">
         <div className="slide-track">
-          <div className="slide">
+          <div className="slide ">
             <img src={clientes[0].logo} alt="" />
           </div>
-          <div className="slide">
+          <div className="slide big">
             <img src={clientes[1].logo} alt="" />
           </div>
           <div className="slide">
@@ -23,7 +23,7 @@ const Clients_home = () => {
           <div className="slide">
             <img src={clientes[5].logo} alt="" />
           </div>
-          <div className="slide">
+          <div className="slide big">
             <img src={clientes[6].logo} alt="" />
           </div>
           <div className="slide">
@@ -41,10 +41,10 @@ const Clients_home = () => {
           <div className="slide">
             <img src={clientes[11].logo} alt="" />
           </div>
-          <div className="slide">
+          <div className="slide big">
             <img src={clientes[12].logo} alt="" />
           </div>
-          <div className="slide">
+          <div className="slide big">
             <img src={clientes[13].logo} alt="" />
           </div>
           <div className="slide">
