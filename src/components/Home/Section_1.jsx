@@ -57,13 +57,9 @@ const Section_1 = () => {
   }, [loader])
 
   useEffect(() => {
-    videoRef.current.addEventListener('loadeddata', (e) => {
-   
-      if(videoRef.current.readyState >= 3){
-          setLoader(false)
-      }
-   });
-   videoRef.current.load()
+    setTimeout(() => {
+      setLoader(false)
+    }, 5000)
   }, [])
 
   const toggleAudio = () => setMainComercialMuted(!mainComercialMuted)
