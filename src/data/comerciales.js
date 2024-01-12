@@ -276,7 +276,7 @@ const data = [
     video: Pantallas,
   },
   {
-    name: "Bancopel",
+    name: "Bancoppel",
     id: 12,
     category: ["Compo"],
     // description: "Cleanings / transiciones",
