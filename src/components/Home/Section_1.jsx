@@ -69,10 +69,14 @@ const Section_1 = () => {
 
    setTimeout(() => {
     setLoader(false)
-   }, 6000)
+   }, 10000)
   }, [])
 
-  const toggleAudio = () => setMainComercialMuted(!mainComercialMuted)
+  const toggleAudio = (e) => {
+    e.target.play()
+    setMainComercialMuted(!mainComercialMuted)
+  }
+
   return (
     <>
       {
