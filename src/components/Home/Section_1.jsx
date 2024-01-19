@@ -66,6 +66,10 @@ const Section_1 = () => {
    });
    console.log('start loading')
    videoRef.current.load()
+
+   setTimeout(() => {
+    setLoader(false)
+   }, 6000)
   }, [])
 
   const toggleAudio = () => setMainComercialMuted(!mainComercialMuted)
