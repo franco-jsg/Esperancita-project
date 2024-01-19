@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import { useEsperancitaContext } from "../../context/Context";
 import Esperancita from "../../assets/svg/Group 20.svg";
-import animated_logo from '../../assets/videos/logo_animado.mp4'
+import animated_logo from '../../assets/videos/logo_animado.gif'
 
 const Section_1 = () => {
   const {
@@ -82,9 +82,7 @@ const Section_1 = () => {
       {
         loader && (
           <div className="home-loader">
-            <video autoPlay muted loop className="animated-logo" >
-              <source src={animated_logo} />
-            </video>
+            <img className="animated-logo" src={animated_logo} />
           </div>
         )
       }
