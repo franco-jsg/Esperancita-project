@@ -19,7 +19,7 @@ import RAM from "../assets/videos/3d/RAM_DC_MASTER.mp4"
 import TOTALPLAY from "../assets/videos/3d/TOTAL_PLAY_UNIVERSO_MASTER_06_07_23.mp4"
 import About from "../assets/videos/about/Logo_Esperancitavfx_cierre_v03.mp4"
 import Lancomer from "../assets/videos/3d/¡Ya llegó nuestra Temporada Naranja! 🧡 _ La Comer_1.mp4"
-import Audi from "../assets/videos/3d/Audi R8. Un legado inolvidable..mp4"
+import Audi from "../assets/videos/3d/Audi R8. Un legado inolvidable.mp4"
 
 const data = [
   {
@@ -308,7 +308,7 @@ const data = [
     description: ["3D / motion graphics", "3D/motion graphics"],
     year: "2024",
     date: "18/03/2023",
-    // video: "src/assets/videos/3d/Audi R8. Un legado inolvidable..mp4",
+    // video: "src/assets/videos/3d/Audi R8. Un legado inolvidable.mp4",
     video: Audi,
   },
     // {
