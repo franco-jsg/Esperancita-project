@@ -212,7 +212,7 @@ const data = [
     name: "Belight Coco",
     id: 15,
     category: ["Simulation"],
- 
+
     description: ["Belight coco", "Belight coco"],
     year: "2022",
     date: "24/04/2022",
@@ -308,7 +308,7 @@ const data = [
     description: ["3D / motion graphics", "3D/motion graphics"],
     year: "2024",
     date: "18/03/2023",
-    // video: "src/assets/videos/reels/ESPERANCITA_REEL_2023_v12.mp4",
+    // video: "src/assets/videos/3d/Audi R8. Un legado inolvidable..mp4",
     video: Audi,
   },
     // {
