@@ -22,6 +22,9 @@ const Work_section_1 = () => {
         <Work_video main_video={comerciales[13].video} video_id={comerciales[13].id} video_description={comerciales[13].name}/>
         <Work_video main_video={comerciales[14].video} video_id={comerciales[14].id} video_description={comerciales[14].name}/>
         <Work_video main_video={comerciales[15].video} video_id={comerciales[15].id} video_description={comerciales[15].name}/>
+        <Work_video main_video={comerciales[16].video} video_id={comerciales[16].id} video_description={comerciales[16].name}/>
+        <Work_video main_video={comerciales[17].video} video_id={comerciales[17].id} video_description={comerciales[17].name}/>
+        <Work_video main_video={comerciales[18].video} video_id={comerciales[18].id} video_description={comerciales[18].name}/>
         <Work_video main_video={comerciales[21].video} video_id={comerciales[21].id} video_description={comerciales[21].name}/>
       </section>
     </>
