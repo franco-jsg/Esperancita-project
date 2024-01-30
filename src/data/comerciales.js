@@ -22,18 +22,6 @@ import Lancomer from "../assets/videos/3d/¡Ya llegó nuestra Temporada Naranja
 import Audi from "../assets/videos/3d/Audi R8. Un legado inolvidable.mp4"
 
 const data = [
-   {
-    name: "Audi R8 Das Finale",
-    id: 32,
-    category: ["3D"],
-    // category: ["3D", "Compo"],
-    // description: "3D / motion graphics",
-    description: ["3D / motion graphics", "3D/motion graphics"],
-    year: "2023",
-    date: "18/03/2023",
-    // video: "src/assets/videos/3d/Audi R8. Un legado inolvidable.mp4",
-    video: Audi,
-  },
   {
     name: "Reel",
     id: 23,
@@ -44,6 +32,18 @@ const data = [
     date: "24/04/2022",
     // video: "src/assets/videos/reels/REEL_PANTALLAS_v03.mp4",
     video: Esperancita,
+  },
+  {
+    name: "Audi R8 Das Finale",
+    id: 32,
+    category: ["3D"],
+    // category: ["3D", "Compo"],
+    // description: "3D / motion graphics",
+    description: ["3D / motion graphics", "3D/motion graphics"],
+    year: "2023",
+    date: "18/03/2023",
+    // video: "src/assets/videos/3d/Audi R8. Un legado inolvidable.mp4",
+    video: Audi,
   },
   {
     name: "La Comer",
