@@ -311,18 +311,6 @@ const data = [
     // video: "src/assets/videos/reels/REEL_PANTALLAS_v03.mp4",
     video: About,
   },
-  {
-    name: "Audi",
-    id: 32,
-    category: ["3D"],
-    // category: ["3D", "Compo"],
-    // description: "3D / motion graphics",
-    description: ["3D / motion graphics", "3D/motion graphics"],
-    year: "2023",
-    date: "18/03/2023",
-    // video: "src/assets/videos/3d/Audi R8. Un legado inolvidable.mp4",
-    video: Audi,
-  },
     // {
   //   name: "CHIREY",
   //   id: 4,
