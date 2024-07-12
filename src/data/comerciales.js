@@ -21,6 +21,8 @@ import About from "../assets/videos/about/Logo_Esperancitavfx_cierre_v03.mp4"
 import Lancomer from "../assets/videos/3d/¡Ya llegó nuestra Temporada Naranja! 🧡 _ La Comer_1.mp4"
 import Audi from "../assets/videos/3d/Audi R8. Un legado inolvidable.mp4"
 import Samsung from "../assets/videos/3d/SAMSUNG_BESPOKEIA.mp4"
+import Penafield from "../assets/videos/3d/PEÑAFIEL_LIMONYSAL_MASTER.mp4"
+import Honda2 from "../assets/videos/3d/Honda.mov"
 
 const data = [
   {
@@ -45,6 +47,30 @@ const data = [
     date: "18/03/2023",
     // video: "src/assets/videos/3d/Audi R8. Un legado inolvidable.mp4",
     video: Audi,
+  },
+  {
+    name: "Peñafield Limón y Sal",
+    id: 34,
+    category: ["3D"],
+    // category: ["3D", "Compo"],
+    // description: "3D / motion graphics",
+    description: ["3D / motion graphics", "3D/motion graphics"],
+    year: "2024",
+    date: "18/03/2024",
+    // video: "src/assets/videos/3d/PEÑAFIEL_LIMONYSAL_MASTER.mp4"",
+    video: Penafield,
+  },
+  {
+    name: "Honda Soñar Es Evolucionar",
+    id: 35,
+    category: ["3D"],
+    // category: ["3D", "Compo"],
+    // description: "3D / motion graphics",
+    description: ["3D / motion graphics", "3D/motion graphics"],
+    year: "2024",
+    date: "18/03/2024",
+    // video: "src/assets/videos/3d/Honda.mov",
+    video: Honda2,
   },
   {
     name: "Samsung Bespoke IA",
