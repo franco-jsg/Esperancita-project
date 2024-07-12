@@ -22,7 +22,7 @@ import Lancomer from "../assets/videos/3d/¡Ya llegó nuestra Temporada Naranja
 import Audi from "../assets/videos/3d/Audi R8. Un legado inolvidable.mp4"
 import Samsung from "../assets/videos/3d/SAMSUNG_BESPOKEIA.mp4"
 import Penafield from "../assets/videos/3d/PEÑAFIEL_LIMONYSAL_MASTER.mp4"
-import Honda2 from "../assets/videos/3d/Honda.mov"
+import Honda2 from "../assets/videos/3d/Honda- Soñar es evolucionar.mp4"
 
 const data = [
   {
@@ -69,7 +69,7 @@ const data = [
     description: ["3D / motion graphics", "3D/motion graphics"],
     year: "2024",
     date: "18/03/2024",
-    // video: "src/assets/videos/3d/Honda.mov",
+    // video: "src/assets/videos/3d/Honda- Soñar es evolucionar.mp4",
     video: Honda2,
   },
   {
