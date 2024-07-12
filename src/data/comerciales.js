@@ -49,7 +49,7 @@ const data = [
     video: Audi,
   },
   {
-    name: "Peñafield Limón y Sal",
+    name: "Peñafiel Limón y Sal",
     id: 34,
     category: ["3D"],
     // category: ["3D", "Compo"],
