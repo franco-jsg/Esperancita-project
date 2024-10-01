@@ -26,6 +26,8 @@ const Categories_list_about = () => {
       setListItemState("Simulation");
     } else if (e === "Compo") {
       setListItemState("Compo");
+    } else if (e === "Matte") {
+      setListItemState("Matte");
     }
 
 // useEffect(()=>{
@@ -49,6 +51,9 @@ const Categories_list_about = () => {
       </li>
       <li>
         <button onClick={() => handleClick("Compo")}>Compo</button>
+      </li>
+      <li>
+        <button onClick={() => handleClick("Matte")}>Matte</button>
       </li>
     </ul>
   );

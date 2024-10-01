@@ -14,6 +14,8 @@ const Categories_list_home = () => {
           setListItemState('Simulation')
         } else if (e === 'Compo') {
           setListItemState('Compo')
+        } else if (e === 'Matte') {
+          setListItemState('Matte')
         }
         
         setRenderListCategories(true)
@@ -32,6 +34,9 @@ const Categories_list_home = () => {
       </li>
       <li>
         <button onClick={() => handleClick("Compo")}>Compo</button>
+      </li>
+      <li>
+        <button onClick={() => handleClick("Matte")}>Compo</button>
       </li>
     </ul>
   );
