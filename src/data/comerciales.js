@@ -61,6 +61,18 @@ const data = [
     video: Penafield,
   },
   {
+    name: "Test Matte",
+    id: 99,
+    category: ["Matte"],
+    // category: ["Matte", "Matte"],
+    // description: "Matte",
+    description: ["Matte"],
+    year: "2024",
+    date: "18/03/2024",
+    // video: "src/assets/videos/3d/PEÑAFIEL_LIMONYSAL_MASTER.mp4"",
+    video: Penafield,
+  },
+  {
     name: "Honda Soñar Es Evolucionar",
     id: 35,
     category: ["3D"],
