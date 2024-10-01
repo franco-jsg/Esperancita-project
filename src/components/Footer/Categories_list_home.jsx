@@ -36,7 +36,7 @@ const Categories_list_home = () => {
         <button onClick={() => handleClick("Compo")}>Compo</button>
       </li>
       <li>
-        <button onClick={() => handleClick("Matte")}>Compo</button>
+        <button onClick={() => handleClick("Matte")}>Matte</button>
       </li>
     </ul>
   );
