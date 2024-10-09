@@ -52,10 +52,10 @@ const data = [
   {
     name: "BanCoppel Super Poderes",
     id: 98,
-    category: ["3D", "Simulacion"],
+    category: ["3D", "Simulation"],
     // category: ["3D", "Compo"],
     // description: "3D / motion graphics",
-    description: ["3D / Simulacion"],
+    description: ["3D / Simulation"],
     year: "2024",
     date: "14/06/2024",
     // video: "src/assets/videos/3d/BanCoppel_Super_Poderes.mp4"",
