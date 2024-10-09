@@ -23,6 +23,7 @@ import Audi from "../assets/videos/3d/Audi R8. Un legado inolvidable.mp4"
 import Samsung from "../assets/videos/3d/SAMSUNG_BESPOKEIA.mp4"
 import Penafield from "../assets/videos/3d/PEÑAFIEL_LIMONYSAL_MASTER.mp4"
 import Honda2 from "../assets/videos/3d/Honda- Soñar es evolucionar.mp4"
+import BanCoppel_Super_Poderes from "../assets/videos/3d/BanCoppel_Super_Poderes.mp4"
 
 const data = [
   {
@@ -49,6 +50,18 @@ const data = [
     video: Audi,
   },
   {
+    name: "BanCoppel Super Poderes",
+    id: 98,
+    category: ["3D", "Simulacion"],
+    // category: ["3D", "Compo"],
+    // description: "3D / motion graphics",
+    description: ["3D / Simulacion"],
+    year: "2024",
+    date: "14/06/2024",
+    // video: "src/assets/videos/3d/BanCoppel_Super_Poderes.mp4"",
+    video: BanCoppel_Super_Poderes,
+  },
+  {
     name: "Peñafiel Limón y Sal",
     id: 34,
     category: ["3D"],
@@ -72,6 +85,7 @@ const data = [
   //   // video: "src/assets/videos/3d/PEÑAFIEL_LIMONYSAL_MASTER.mp4"",
   //   video: Penafield,
   // },
+
    {
     name: "Honda Soñar Es Evolucionar",
     id: 35,
