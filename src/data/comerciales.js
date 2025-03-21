@@ -2,7 +2,7 @@ import Tvc from "../assets/videos/3d/1.SECRET_TVC_20_LIMPIAVIDRIOS_M.mp4";
 import Secret from "../assets/videos/compo/SECRET_TVC_PATEADORA_M_1.mp4";
 import Bancoppel from "../assets/videos/compo/Bancoppel_30s_V1_R1_Luciernagas_Aprobada_23052022.mp4";
 import Diddi from "../assets/videos/compo/DIDI.mp4";
-import Esperancita from "../assets/videos/reels/ESPERANCITA_REEL_2024.mp4";
+import Esperancita from "../assets/videos/reels/ESPERANCITA_REEL_2025_v26.mp4";
 import Pantallas from "../assets/videos/reels/REEL_PANTALLAS_v03.mp4";
 import Aeromex from "../assets/videos/simulacion/Aeromexico_Beso_Master_40s_120523.mp4";
 import BelightCoco from "../assets/videos/simulacion/BELIGHT_020322_MASTER_20_COCO_CUADRADO.mp4";
@@ -32,9 +32,9 @@ const data = [
     category: [],
     // description: "Reels pantallas",
     description: ["Somos un estudio de post-producción dedicado a la creación de efectos visuales. Nos especializamos en cleaning, mixed media y Vfx.", "We are a post-production studio dedicated to the creation of visual effects. We specialize in cleaning, mixed media and Vfx."],
-    year: "2023",
-    date: "24/04/2022",
-    // video: "src/assets/videos/reels/REEL_PANTALLAS_v03.mp4",
+    year: "2025",
+    date: "21/03/2025",
+    // video: "src/assets/videos/reels/ESPERANCITA_REEL_2025_v26.mp4",
     video: Esperancita,
   },
   {
