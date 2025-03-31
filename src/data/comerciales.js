@@ -12,19 +12,19 @@ import Nissan from "../assets/videos/simulacion/Nissan.mp4";
 import WaterSpring from "../assets/videos/simulacion/water-spring.mp4";
 import Mundet from "../assets/videos/compo/Sidral Mundet Director's Cut_1.mp4";
 import MASTER_NISSAN_QASHQAI from "../assets/videos/compo/MASTER_NISSAN_QASHQAI.mp4";
-import OXXO from "../assets/videos/3d/Oxxo_TARJETAS _M.mp4"
-import Runners from "../assets/videos/3d/Runners_Fuego_20.mp4"
-import Fargo from "../assets/videos/3d/MASTER FARGO 20s 16.9.mp4"
-import Whirpool from "../assets/videos/3d/Whirpool_60s_12012022_Inglés Master.mp4"
-import RAM from "../assets/videos/3d/RAM_DC_MASTER.mp4"
-import TOTALPLAY from "../assets/videos/3d/TOTAL_PLAY_UNIVERSO_MASTER_06_07_23.mp4"
-import About from "../assets/videos/about/Logo_Esperancitavfx_cierre_v03.mp4"
-import Lancomer from "../assets/videos/3d/¡Ya llegó nuestra Temporada Naranja! 🧡 _ La Comer_1.mp4"
-import Audi from "../assets/videos/3d/Audi R8. Un legado inolvidable.mp4"
-import Samsung from "../assets/videos/3d/SAMSUNG_BESPOKEIA.mp4"
-import Penafield from "../assets/videos/3d/PEÑAFIEL_LIMONYSAL_MASTER.mp4"
-import Honda2 from "../assets/videos/3d/Honda- Soñar es evolucionar.mp4"
-import BanCoppel_Super_Poderes from "../assets/videos/3d/BanCoppel_Super_Poderes.mp4"
+import OXXO from "../assets/videos/3d/Oxxo_TARJETAS _M.mp4";
+import Runners from "../assets/videos/3d/Runners_Fuego_20.mp4";
+import Fargo from "../assets/videos/3d/MASTER FARGO 20s 16.9.mp4";
+import Whirpool from "../assets/videos/3d/Whirpool_60s_12012022_Inglés Master.mp4";
+import RAM from "../assets/videos/3d/RAM_DC_MASTER.mp4";
+import TOTALPLAY from "../assets/videos/3d/TOTAL_PLAY_UNIVERSO_MASTER_06_07_23.mp4";
+import About from "../assets/videos/about/Logo_Esperancitavfx_cierre_v03.mp4";
+import Lancomer from "../assets/videos/3d/¡Ya llegó nuestra Temporada Naranja! 🧡 _ La Comer_1.mp4";
+import Audi from "../assets/videos/3d/Audi R8. Un legado inolvidable.mp4";
+import Samsung from "../assets/videos/3d/SAMSUNG_BESPOKEIA.mp4";
+import Penafield from "../assets/videos/3d/PEÑAFIEL_LIMONYSAL_MASTER.mp4";
+import Honda2 from "../assets/videos/3d/Honda- Soñar es evolucionar.mp4";
+import BanCoppel_Super_Poderes from "../assets/videos/3d/BanCoppel_Super_Poderes.mp4";
 
 const data = [
   {
