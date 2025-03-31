@@ -11,6 +11,7 @@ import Honda from "../assets/videos/simulacion/El_legado_Honda.mp4";
 import Nissan from "../assets/videos/simulacion/Nissan.mp4";
 import WaterSpring from "../assets/videos/simulacion/water-spring.mp4";
 import Mundet from "../assets/videos/compo/Sidral Mundet Director's Cut_1.mp4";
+import MASTER_NISSAN_QASHQAI from "../assets/videos/compo/MASTER_NISSAN_QASHQAI.mp4";
 import OXXO from "../assets/videos/3d/Oxxo_TARJETAS _M.mp4"
 import Runners from "../assets/videos/3d/Runners_Fuego_20.mp4"
 import Fargo from "../assets/videos/3d/MASTER FARGO 20s 16.9.mp4"
@@ -48,6 +49,20 @@ const data = [
     date: "18/03/2023",
     // video: "src/assets/videos/3d/Audi R8. Un legado inolvidable.mp4",
     video: Audi,
+  },
+  {
+    name: "MASTER_NISSAN_QASHQAI",
+    id: 99,
+    category: ["Compo"],
+    // description: "Cleanings / transiciones / integracion de pantallas",
+    description: [
+      "Cleanings / transiciones / integracion de pantallas",
+      "Cleanings / transitions / screen integration",
+    ],
+    year: "2025",
+    date: "29/11/2024",
+    // video: "src/assets/videos/compo/MASTER_NISSAN_QASHQAI.mp4",
+    video: MASTER_NISSAN_QASHQAI,
   },
   {
     name: "BanCoppel Super Poderes",
