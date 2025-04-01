@@ -51,20 +51,6 @@ const data = [
     video: Audi,
   },
   {
-    name: "MASTER_NISSAN_QASHQAI",
-    id: 99,
-    category: ["Compo"],
-    // description: "Cleanings / transiciones / integracion de pantallas",
-    description: [
-      "Cleanings / transiciones / integracion de pantallas",
-      "Cleanings / transitions / screen integration",
-    ],
-    year: "2025",
-    date: "29/11/2024",
-    // video: "src/assets/videos/compo/MASTER_NISSAN_QASHQAI.mp4",
-    video: MASTER_NISSAN_QASHQAI,
-  },
-  {
     name: "BanCoppel Super Poderes",
     id: 98,
     category: ["3D", "Simulation"],
