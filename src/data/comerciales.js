@@ -11,7 +11,6 @@ import Honda from "../assets/videos/simulacion/El_legado_Honda.mp4";
 import Nissan from "../assets/videos/simulacion/Nissan.mp4";
 import WaterSpring from "../assets/videos/simulacion/water-spring.mp4";
 import Mundet from "../assets/videos/compo/Sidral Mundet Director's Cut_1.mp4";
-import MASTER_NISSAN_QASHQAI from "../assets/videos/compo/MASTER_NISSAN_QASHQAI.mp4";
 import OXXO from "../assets/videos/3d/Oxxo_TARJETAS _M.mp4";
 import Runners from "../assets/videos/3d/Runners_Fuego_20.mp4";
 import Fargo from "../assets/videos/3d/MASTER FARGO 20s 16.9.mp4";
