@@ -46,7 +46,7 @@ const data = [
     description: ["3D / motion graphics", "3D/motion graphics"],
     year: "2023",
     date: "18/03/2023",
-    // video: "src/assets/videos/3d/Audi R8. Un legado inolvidable.mp4",
+    // video: "src/assets/videos/3d/Audi R8. Un legado iolvidable.mp4",
     video: Audi,
   },
   {
