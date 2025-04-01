@@ -435,16 +435,6 @@ const data = [
   //   video: Pantallas,
   // },
   // {
-  //   name: "BANCO AZTECA",
-  //   id: 10,
-  //   category: ["Compo"],
-  //   // description: "Banco Azteca",
-  //   description: ["Banco Azteca", "Banco Azteca"],
-  //   year: "2022",
-  //   date: "09/06/2022",
-  //   // video: "src/assets/videos/reels/ESPERANCITA_REEL_2023_v12.mp4",
-  //   video: Pantallas,
-  // },
 ];
 
 export default data;
