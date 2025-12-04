@@ -24,6 +24,10 @@ import Samsung from "../assets/videos/3d/SAMSUNG_BESPOKEIA.mp4";
 import Penafield from "../assets/videos/3d/PEÑAFIEL_LIMONYSAL_MASTER.mp4";
 import Honda2 from "../assets/videos/3d/Honda- Soñar es evolucionar.mp4";
 import BanCoppel_Super_Poderes from "../assets/videos/3d/BanCoppel_Super_Poderes.mp4";
+import TONAL from "../assets/videos/3d/TONAL.mp4";
+import BAVARIA from "../assets/videos/3d/BAVARIA.mp4";
+import CANELO from "../assets/videos/compo/CANELO.mp4";
+import MERLINA from "../assets/videos/compo/MERLINA.mp4";
 
 const data = [
   {
@@ -36,6 +40,58 @@ const data = [
     date: "21/03/2025",
     // video: "src/assets/videos/reels/ESPERANCITA_REEL_2025_v26.mp4",
     video: Esperancita,
+  },
+  {
+    name: "TONAL",
+    id: 200,
+    category: ["3D"],
+    // category: ["3D", "Compo"],
+    // description: "3D / motion graphics",
+    description: ["3D / motion graphics", "3D/motion graphics"],
+    year: "2025",
+    date: "04/12/2025",
+    // video: "src/assets/videos/3d/TONAL.mp4",
+    video: TONAL,
+  },
+  {
+    name: "BAVARIA",
+    id: 201,
+    category: ["3D"],
+    // category: ["3D", "Compo"],
+    // description: "3D / motion graphics",
+    description: ["3D / motion graphics", "3D/motion graphics"],
+    year: "2025",
+    date: "04/12/2025",
+    // video: "src/assets/videos/3d/BAVARIA.mp4",
+    video: BAVARIA,
+  },
+  {
+    name: "MERLINA",
+    id: 202,
+    category: ["Compo"],
+    // description: "Cleanings / transiciones / integracion de pantallas",
+    description: [
+      "Cleanings / transiciones / integracion de pantallas",
+      "Cleanings / transitions / screen integration",
+    ],
+    year: "2025",
+    date: "04/12/2025",
+    // video: "src/assets/videos/compo/MERLINA.mp4",
+    video: MERLINA,
+  },
+  {
+    name: "CANELO",
+    id: 203,
+    category: ["Compo"],
+    // description: "Cleanings / transiciones / integracion de pantallas",
+    description: [
+      "Cleanings / transiciones / integracion de pantallas",
+      "Cleanings / transitions / screen integration",
+    ],
+    year: "2025",
+    date: "04/12/2025",
+    // video: "src/assets/videos/compo/CANELO.mp4",
+    video: CANELO,
   },
   {
     name: "Audi R8 Das Finale",
