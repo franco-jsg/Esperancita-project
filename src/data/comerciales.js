@@ -43,6 +43,15 @@ const data = [
     video: Esperancita,
   },
   {
+    name: "NETFLIX",
+    id: 301,
+    category: ["3D"],
+    description: ["3D / motion graphics", "3D/motion graphics"],
+    year: "2025",
+    date: "04/12/2025",
+    video: NETFLIX,
+  },
+  {
     name: "TONAL",
     id: 200,
     category: ["3D"],
@@ -65,15 +74,6 @@ const data = [
     date: "04/12/2025",
     // video: "src/assets/videos/3d/BAVARIA.mp4",
     video: BAVARIA,
-  },
-  {
-    name: "NETFLIX",
-    id: 301,
-    category: ["3D"],
-    description: ["3D / motion graphics", "3D/motion graphics"],
-    year: "2025",
-    date: "04/12/2025",
-    video: NETFLIX,
   },
   {
     name: "MERLINA",
