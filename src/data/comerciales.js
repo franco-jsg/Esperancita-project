@@ -18,7 +18,6 @@ import Whirpool from "../assets/videos/3d/Whirpool_60s_12012022_Inglés Master.m
 import RAM from "../assets/videos/3d/RAM_DC_MASTER.mp4";
 import TOTALPLAY from "../assets/videos/3d/TOTAL_PLAY_UNIVERSO_MASTER_06_07_23.mp4";
 import About from "../assets/videos/about/Logo_Esperancitavfx_cierre_v03.mp4";
-import NETFLIX from "../assets/videos/3D/Netflix-lo-vale.mp4";
 import Audi from "../assets/videos/3d/Audi R8. Un legado inolvidable.mp4";
 import Samsung from "../assets/videos/3d/SAMSUNG_BESPOKEIA.mp4";
 import Penafield from "../assets/videos/3d/PEÑAFIEL_LIMONYSAL_MASTER.mp4";
@@ -28,6 +27,7 @@ import TONAL from "../assets/videos/3d/TONAL.mp4";
 import BAVARIA from "../assets/videos/3d/BAVARIA.mp4";
 import CANELO from "../assets/videos/compo/CANELO.mp4";
 import MERLINA from "../assets/videos/compo/MERLINA.mp4";
+import NETFLIX from "../assets/videos/3d/Netflix.mp4";
 
 
 const data = [
