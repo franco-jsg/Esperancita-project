@@ -28,6 +28,7 @@ import TONAL from "../assets/videos/3d/TONAL.mp4";
 import BAVARIA from "../assets/videos/3d/BAVARIA.mp4";
 import CANELO from "../assets/videos/compo/CANELO.mp4";
 import MERLINA from "../assets/videos/compo/MERLINA.mp4";
+import NETFLIX from "../assets/videos/3D/Netflix-lo-vale.mp4";
 
 const data = [
   {
@@ -64,6 +65,18 @@ const data = [
     date: "04/12/2025",
     // video: "src/assets/videos/3d/BAVARIA.mp4",
     video: BAVARIA,
+  },
+    {
+    name: "NETFLIX",
+    id: 301,
+    category: ["3D"],
+    // category: ["3D", "Compo"],
+    // description: "3D / motion graphics",
+    description: ["3D / motion graphics", "3D/motion graphics"],
+    year: "2025",
+    date: "04/12/2025",
+    // video: "src/assets/videos/3d/Netflix-lo-vale.mp4",
+    video: NETFLIX,
   },
   {
     name: "MERLINA",
