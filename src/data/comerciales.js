@@ -66,7 +66,7 @@ const data = [
     // video: "src/assets/videos/3d/BAVARIA.mp4",
     video: BAVARIA,
   },
-    {
+  {
     name: "NETFLIX",
     id: 301,
     category: ["3D"],
