@@ -28,6 +28,7 @@ import BAVARIA from "../assets/videos/3d/BAVARIA.mp4";
 import CANELO from "../assets/videos/compo/CANELO.mp4";
 import MERLINA from "../assets/videos/compo/MERLINA.mp4";
 import NETFLIX from "../assets/videos/3d/Netflix.mp4";
+import MELI from "../assets/videos/compo/MELI.mp4";
 
 
 const data = [
@@ -74,6 +75,19 @@ const data = [
     date: "04/12/2025",
     // video: "src/assets/videos/3d/BAVARIA.mp4",
     video: BAVARIA,
+  },
+  {
+    name: "MELI",
+    id: 202,
+    category: ["Compo"],
+    // description: "Cleanings / transiciones / integracion de pantallas",
+    description: [
+      "Cleanings / transiciones / integracion de pantallas",
+      "Cleanings / transitions / screen integration",
+    ],
+    year: "2026",
+    date: "04/12/2025",
+    video: MELI,
   },
   {
     name: "MERLINA",
