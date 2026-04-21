@@ -86,7 +86,7 @@ const data = [
       "Cleanings / transitions / screen integration",
     ],
     year: "2026",
-    date: "04/12/2025",
+    date: "04/12/2026",
     video: MELI,
   },
   {
