@@ -29,7 +29,10 @@ import CANELO from "../assets/videos/compo/CANELO.mp4";
 import MERLINA from "../assets/videos/compo/MERLINA.mp4";
 import NETFLIX from "../assets/videos/3d/Netflix.mp4";
 import MELI from "../assets/videos/compo/MELI.mp4";
-
+import CHIMPANCE from "../assets/videos/3d/Chimpance.mp4";
+import CHIMPANCEBDN from "../assets/videos/3d/ChimpanceBreakDown.mp4";
+import MELI77 from "../assets/videos/compo/MELI_77.mp4";
+import MELI55 from "../assets/videos/compo/MELI_55_HERO.mp4";
 
 const data = [
   {
@@ -42,6 +45,24 @@ const data = [
     date: "21/03/2025",
     // video: "src/assets/videos/reels/ESPERANCITA_REEL_2025_v26.mp4",
     video: Esperancita,
+  },
+  {
+    name: "CHIMPANCE",
+    id: 302,
+    category: ["3D"],
+    description: ["3D"],
+    year: "2026",
+    date: "04/7/2026",
+    video: CHIMPANCE,
+  },
+  {
+    name: "CHIMPANCE BREAKDOWN",
+    id: 303,
+    category: ["3D"],
+    description: ["3D"],
+    year: "2026",
+    date: "04/7/2026",
+    video: CHIMPANCEBDN,
   },
   {
     name: "NETFLIX",
@@ -86,12 +107,38 @@ const data = [
       "Cleanings / transitions / screen integration",
     ],
     year: "2026",
+    date: "04/07/2026",
+    video: MELI55,
+  },
+  {
+    name: "MELI",
+    id: 203,
+    category: ["Compo"],
+    // description: "Cleanings / transiciones / integracion de pantallas",
+    description: [
+      "Cleanings / transiciones / integracion de pantallas",
+      "Cleanings / transitions / screen integration",
+    ],
+    year: "2026",
+    date: "04/07/2026",
+    video: MELI77,
+  },
+  {
+    name: "MELI",
+    id: 204,
+    category: ["Compo"],
+    // description: "Cleanings / transiciones / integracion de pantallas",
+    description: [
+      "Cleanings / transiciones / integracion de pantallas",
+      "Cleanings / transitions / screen integration",
+    ],
+    year: "2026",
     date: "04/12/2026",
     video: MELI,
   },
   {
     name: "MERLINA",
-    id: 202,
+    id: 205,
     category: ["Compo"],
     // description: "Cleanings / transiciones / integracion de pantallas",
     description: [
@@ -105,7 +152,7 @@ const data = [
   },
   {
     name: "CANELO",
-    id: 203,
+    id: 206,
     category: ["Compo"],
     // description: "Cleanings / transiciones / integracion de pantallas",
     description: [
